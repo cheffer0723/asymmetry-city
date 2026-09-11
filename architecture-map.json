@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "2615f7e208abfdd658fb1a9088600ae0d394eda6",
-  "generatedAt": "2026-09-11T22:35:37.964Z",
+  "commit": "86063f7cb3f42eb23d4d4b324e99002aebeed20b",
+  "generatedAt": "2026-09-11T22:56:18.629Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 477,
     "directories": 119,
-    "symbols": 2205,
+    "symbols": 2208,
     "headings": 97,
-    "nodes": 2898,
-    "edges": 11710
+    "nodes": 2901,
+    "edges": 11713
   },
   "nodes": [
     {
@@ -1094,8 +1094,8 @@
       "group": "ci",
       "kind": "configuration",
       "status": "source",
-      "size": 2503,
-      "lines": 63,
+      "size": 2712,
+      "lines": 64,
       "symbols": [],
       "headings": []
     },
@@ -38924,8 +38924,8 @@
       "group": "tooling",
       "kind": "application",
       "status": "source",
-      "size": 3070,
-      "lines": 86,
+      "size": 6537,
+      "lines": 171,
       "symbols": [
         {
           "name": "protectedText",
@@ -38945,6 +38945,18 @@
         },
         {
           "name": "publicNode",
+          "type": "function"
+        },
+        {
+          "name": "hash",
+          "type": "function"
+        },
+        {
+          "name": "nodeWeight",
+          "type": "function"
+        },
+        {
+          "name": "buildSummary",
           "type": "function"
         },
         {
@@ -39002,6 +39014,39 @@
       "id": "symbol:scripts/generate-public-architecture-city-map.mjs#publicNode",
       "type": "symbol",
       "label": "publicNode",
+      "path": "scripts/generate-public-architecture-city-map.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/generate-public-architecture-city-map.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/generate-public-architecture-city-map.mjs#hash",
+      "type": "symbol",
+      "label": "hash",
+      "path": "scripts/generate-public-architecture-city-map.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/generate-public-architecture-city-map.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/generate-public-architecture-city-map.mjs#nodeWeight",
+      "type": "symbol",
+      "label": "nodeWeight",
+      "path": "scripts/generate-public-architecture-city-map.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/generate-public-architecture-city-map.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/generate-public-architecture-city-map.mjs#buildSummary",
+      "type": "symbol",
+      "label": "buildSummary",
       "path": "scripts/generate-public-architecture-city-map.mjs",
       "symbolType": "function",
       "group": "tooling",
@@ -106741,6 +106786,24 @@
     {
       "from": "file:scripts/generate-public-architecture-city-map.mjs",
       "to": "symbol:scripts/generate-public-architecture-city-map.mjs#publicNode",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/generate-public-architecture-city-map.mjs",
+      "to": "symbol:scripts/generate-public-architecture-city-map.mjs#hash",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/generate-public-architecture-city-map.mjs",
+      "to": "symbol:scripts/generate-public-architecture-city-map.mjs#nodeWeight",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/generate-public-architecture-city-map.mjs",
+      "to": "symbol:scripts/generate-public-architecture-city-map.mjs#buildSummary",
       "type": "defines",
       "confidence": "parser-derived"
     },
