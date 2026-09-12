@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "1700c3aad9e423e12147f908896d32c0d7531465",
-  "generatedAt": "2026-09-12T02:35:35.564Z",
+  "commit": "67161cde130f1d2ab50e40def4ef5a41b04ed02f",
+  "generatedAt": "2026-09-12T03:15:16.011Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,9 +11,9 @@
   "stats": {
     "files": 476,
     "directories": 119,
-    "symbols": 2201,
+    "symbols": 2204,
     "headings": 97,
-    "nodes": 2893,
+    "nodes": 2896,
     "edges": 11699
   },
   "nodes": [
@@ -13228,6 +13228,17 @@
       "headings": []
     },
     {
+      "id": "symbol:apps/web/src/PublicSite.tsx#MagneticLink",
+      "type": "symbol",
+      "label": "MagneticLink",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:apps/web/src/PublicSite.tsx#ChamberTeaser",
       "type": "symbol",
       "label": "ChamberTeaser",
@@ -13275,6 +13286,28 @@
       "id": "symbol:apps/web/src/PublicSite.tsx#settleFrame",
       "type": "symbol",
       "label": "settleFrame",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#handleMove",
+      "type": "symbol",
+      "label": "handleMove",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#reset",
+      "type": "symbol",
+      "label": "reset",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "const",
       "group": "product",
@@ -14441,8 +14474,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 93561,
-      "lines": 3299,
+      "size": 96306,
+      "lines": 3333,
       "symbols": [],
       "headings": []
     },
@@ -109389,5 +109422,5 @@
       "confidence": "path-derived"
     }
   ],
-  "protectedNodesOmitted": 557
+  "protectedNodesOmitted": 558
 }
