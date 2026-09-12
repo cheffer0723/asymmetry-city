@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "20615ba3711b3da21be60d5a60f549c585801dac",
-  "generatedAt": "2026-09-12T01:14:01.395Z",
+  "commit": "1700c3aad9e423e12147f908896d32c0d7531465",
+  "generatedAt": "2026-09-12T02:35:35.564Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,9 +11,9 @@
   "stats": {
     "files": 476,
     "directories": 119,
-    "symbols": 2200,
+    "symbols": 2201,
     "headings": 97,
-    "nodes": 2892,
+    "nodes": 2893,
     "edges": 11699
   },
   "nodes": [
@@ -13228,6 +13228,17 @@
       "headings": []
     },
     {
+      "id": "symbol:apps/web/src/PublicSite.tsx#ChamberTeaser",
+      "type": "symbol",
+      "label": "ChamberTeaser",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:apps/web/src/PublicSite.tsx#GalacticBackdrop",
       "type": "symbol",
       "label": "GalacticBackdrop",
@@ -14430,8 +14441,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 91548,
-      "lines": 3227,
+      "size": 93561,
+      "lines": 3299,
       "symbols": [],
       "headings": []
     },
