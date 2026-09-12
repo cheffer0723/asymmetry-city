@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "9d583aa34b040fd1e2a84ce41b702b33efd39383",
-  "generatedAt": "2026-09-12T19:28:01.989Z",
+  "commit": "c4dafe74128c2006d74ce2062830046b5ff4c0ed",
+  "generatedAt": "2026-09-12T20:27:05.981Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,9 +11,9 @@
   "stats": {
     "files": 476,
     "directories": 119,
-    "symbols": 2206,
+    "symbols": 2208,
     "headings": 97,
-    "nodes": 2898,
+    "nodes": 2900,
     "edges": 11698
   },
   "nodes": [
@@ -12050,8 +12050,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 85187,
-      "lines": 1455,
+      "size": 86190,
+      "lines": 1472,
       "symbols": [
         {
           "name": "BrandMark",
@@ -13250,6 +13250,28 @@
       "id": "symbol:apps/web/src/PublicSite.tsx#EnterArrow",
       "type": "symbol",
       "label": "EnterArrow",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#angleForPosition",
+      "type": "symbol",
+      "label": "angleForPosition",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#turnTo",
+      "type": "symbol",
+      "label": "turnTo",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "function",
       "group": "product",
@@ -14504,8 +14526,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 100087,
-      "lines": 3402,
+      "size": 101023,
+      "lines": 3413,
       "symbols": [],
       "headings": []
     },
@@ -14905,8 +14927,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 113970,
-      "lines": 1891,
+      "size": 116244,
+      "lines": 1928,
       "symbols": [],
       "headings": []
     },

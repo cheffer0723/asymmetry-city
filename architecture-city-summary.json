@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "9d583aa34b040fd1e2a84ce41b702b33efd39383",
-  "generatedAt": "2026-09-12T19:28:01.989Z",
+  "commit": "c4dafe74128c2006d74ce2062830046b5ff4c0ed",
+  "generatedAt": "2026-09-12T20:27:05.981Z",
   "fidelity": "city-summary",
   "stats": {
     "files": 0,
@@ -13,9 +13,9 @@
     "edges": 0,
     "fullFiles": 476,
     "fullDirectories": 119,
-    "fullSymbols": 2206,
+    "fullSymbols": 2208,
     "fullHeadings": 97,
-    "fullNodes": 2898,
+    "fullNodes": 2900,
     "fullEdges": 11698
   },
   "nodes": [
@@ -100,12 +100,12 @@
       "systems": 1,
       "files": 131,
       "directories": 8,
-      "symbols": 809,
+      "symbols": 811,
       "headings": 0,
-      "nodes": 949,
-      "lines": 17585,
-      "bytes": 2282160,
-      "weight": 302994.2116430871,
+      "nodes": 951,
+      "lines": 17650,
+      "bytes": 2286373,
+      "weight": 303178.6551934914,
       "maxFileWeight": 34222.57777777778
     },
     "evidence": {
@@ -182,7 +182,7 @@
     }
   },
   "sizeModel": {
-    "districtWeightMax": 302994.2116430871,
+    "districtWeightMax": 303178.6551934914,
     "fileWeightMax": 34222.57777777778,
     "sizing": "District footprint reflects per-domain repository weight; building footprint/height reflect file lines, bytes, and safe symbol/headings where available."
   }
