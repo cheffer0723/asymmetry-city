@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "86063f7cb3f42eb23d4d4b324e99002aebeed20b",
-  "generatedAt": "2026-09-11T22:56:18.629Z",
+  "commit": "ef5fd55fc40192c336beec5bf15c0f89464bdb0c",
+  "generatedAt": "2026-09-12T00:04:12.344Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 477,
+    "files": 476,
     "directories": 119,
-    "symbols": 2208,
+    "symbols": 2198,
     "headings": 97,
-    "nodes": 2901,
-    "edges": 11713
+    "nodes": 2890,
+    "edges": 11699
   },
   "nodes": [
     {
@@ -13118,170 +13118,6 @@
       "headings": []
     },
     {
-      "id": "file:apps/web/src/InteractiveEmblem.tsx",
-      "type": "file",
-      "label": "InteractiveEmblem.tsx",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "group": "product",
-      "kind": "application",
-      "status": "source",
-      "size": 9788,
-      "lines": 261,
-      "symbols": [
-        {
-          "name": "faceNormal",
-          "type": "function"
-        },
-        {
-          "name": "faceBasis",
-          "type": "function"
-        },
-        {
-          "name": "toLocal",
-          "type": "function"
-        },
-        {
-          "name": "signedArea2D",
-          "type": "function"
-        },
-        {
-          "name": "buildFrameGeometry",
-          "type": "function"
-        },
-        {
-          "name": "insetVertex",
-          "type": "function"
-        },
-        {
-          "name": "triangleMesh",
-          "type": "function"
-        },
-        {
-          "name": "InteractiveEmblem",
-          "type": "function"
-        },
-        {
-          "name": "animate",
-          "type": "const"
-        },
-        {
-          "name": "resize",
-          "type": "const"
-        }
-      ],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#faceNormal",
-      "type": "symbol",
-      "label": "faceNormal",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#faceBasis",
-      "type": "symbol",
-      "label": "faceBasis",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#toLocal",
-      "type": "symbol",
-      "label": "toLocal",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#signedArea2D",
-      "type": "symbol",
-      "label": "signedArea2D",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#buildFrameGeometry",
-      "type": "symbol",
-      "label": "buildFrameGeometry",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#insetVertex",
-      "type": "symbol",
-      "label": "insetVertex",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#triangleMesh",
-      "type": "symbol",
-      "label": "triangleMesh",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#InteractiveEmblem",
-      "type": "symbol",
-      "label": "InteractiveEmblem",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#animate",
-      "type": "symbol",
-      "label": "animate",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "const",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/InteractiveEmblem.tsx#resize",
-      "type": "symbol",
-      "label": "resize",
-      "path": "apps/web/src/InteractiveEmblem.tsx",
-      "symbolType": "const",
-      "group": "product",
-      "parent": "file:apps/web/src/InteractiveEmblem.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
       "id": "symbol:apps/web/src/PublicSite.tsx#Emblem",
       "type": "symbol",
       "label": "Emblem",
@@ -13655,8 +13491,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 39661,
-      "lines": 1058,
+      "size": 40304,
+      "lines": 1067,
       "symbols": [
         {
           "name": "newSequence",
@@ -14572,8 +14408,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 92744,
-      "lines": 3238,
+      "size": 91548,
+      "lines": 3227,
       "symbols": [],
       "headings": []
     },
@@ -40004,12 +39840,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/src/InteractiveEmblem.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:.github/workflows/dead-drop.yml",
       "to": "dir:.github/workflows",
       "type": "contained-in",
@@ -55684,78 +55514,6 @@
     {
       "from": "file:apps/web/src/HeroLogo.tsx",
       "to": "symbol:apps/web/src/HeroLogo.tsx#HeroLogoVariant",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "dir:apps/web/src",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#faceNormal",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#faceBasis",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#toLocal",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#signedArea2D",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#buildFrameGeometry",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#insetVertex",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#triangleMesh",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#InteractiveEmblem",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#animate",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/InteractiveEmblem.tsx",
-      "to": "symbol:apps/web/src/InteractiveEmblem.tsx#resize",
       "type": "defines",
       "confidence": "parser-derived"
     },
@@ -107578,12 +107336,6 @@
     {
       "from": "system:product",
       "to": "file:apps/web/src/HeroLogo.tsx",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
-      "to": "file:apps/web/src/InteractiveEmblem.tsx",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
