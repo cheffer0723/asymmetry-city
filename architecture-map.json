@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "ef5fd55fc40192c336beec5bf15c0f89464bdb0c",
-  "generatedAt": "2026-09-12T00:04:12.344Z",
+  "commit": "20615ba3711b3da21be60d5a60f549c585801dac",
+  "generatedAt": "2026-09-12T01:14:01.395Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,9 +11,9 @@
   "stats": {
     "files": 476,
     "directories": 119,
-    "symbols": 2198,
+    "symbols": 2200,
     "headings": 97,
-    "nodes": 2890,
+    "nodes": 2892,
     "edges": 11699
   },
   "nodes": [
@@ -13206,6 +13206,17 @@
       "headings": []
     },
     {
+      "id": "symbol:apps/web/src/PublicSite.tsx#scramble",
+      "type": "symbol",
+      "label": "scramble",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:apps/web/src/PublicSite.tsx#EnterArrow",
       "type": "symbol",
       "label": "EnterArrow",
@@ -13242,6 +13253,17 @@
       "id": "symbol:apps/web/src/PublicSite.tsx#follow",
       "type": "symbol",
       "label": "follow",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#settleFrame",
+      "type": "symbol",
+      "label": "settleFrame",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "const",
       "group": "product",
@@ -109356,5 +109378,5 @@
       "confidence": "path-derived"
     }
   ],
-  "protectedNodesOmitted": 556
+  "protectedNodesOmitted": 557
 }
