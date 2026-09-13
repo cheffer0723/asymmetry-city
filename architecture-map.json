@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "c4dafe74128c2006d74ce2062830046b5ff4c0ed",
-  "generatedAt": "2026-09-12T20:27:05.981Z",
+  "commit": "57f62a4e57093ea256b7e7443a60d7af487d10af",
+  "generatedAt": "2026-09-13T00:18:16.453Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -1094,8 +1094,8 @@
       "group": "ci",
       "kind": "configuration",
       "status": "source",
-      "size": 2712,
-      "lines": 64,
+      "size": 2592,
+      "lines": 63,
       "symbols": [],
       "headings": []
     },
@@ -1198,8 +1198,8 @@
       "group": "root",
       "kind": "document",
       "status": "attention",
-      "size": 15495,
-      "lines": 266,
+      "size": 15968,
+      "lines": 272,
       "symbols": [],
       "headings": [
         "Asymmetry Agent Rules",
