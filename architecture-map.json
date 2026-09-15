@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "0a8787e12f1cb1eaf95f5eeca1b1fd52e6cf5abb",
-  "generatedAt": "2026-09-15T21:29:58.706Z",
+  "commit": "16c811a6d070f85cb4567b6ac9229205a0c79213",
+  "generatedAt": "2026-09-15T21:44:14.083Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 476,
     "directories": 119,
-    "symbols": 2212,
+    "symbols": 2213,
     "headings": 97,
-    "nodes": 2904,
-    "edges": 11703
+    "nodes": 2905,
+    "edges": 11704
   },
   "nodes": [
     {
@@ -12050,8 +12050,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 88567,
-      "lines": 1508,
+      "size": 90643,
+      "lines": 1544,
       "symbols": [
         {
           "name": "BrandMark",
@@ -12175,6 +12175,10 @@
         },
         {
           "name": "connectViaWalletConnect",
+          "type": "const"
+        },
+        {
+          "name": "cancelWalletConnect",
           "type": "const"
         },
         {
@@ -12582,6 +12586,17 @@
       "id": "symbol:apps/web/src/App.tsx#connectViaWalletConnect",
       "type": "symbol",
       "label": "connectViaWalletConnect",
+      "path": "apps/web/src/App.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/App.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/App.tsx#cancelWalletConnect",
+      "type": "symbol",
+      "label": "cancelWalletConnect",
       "path": "apps/web/src/App.tsx",
       "symbolType": "const",
       "group": "product",
@@ -14942,8 +14957,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 115750,
-      "lines": 1920,
+      "size": 116318,
+      "lines": 1925,
       "symbols": [],
       "headings": []
     },
@@ -14955,8 +14970,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 6099,
-      "lines": 124,
+      "size": 7339,
+      "lines": 151,
       "symbols": [
         {
           "name": "hasInjectedProvider",
@@ -54078,6 +54093,12 @@
     {
       "from": "file:apps/web/src/App.tsx",
       "to": "symbol:apps/web/src/App.tsx#connectViaWalletConnect",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/App.tsx",
+      "to": "symbol:apps/web/src/App.tsx#cancelWalletConnect",
       "type": "defines",
       "confidence": "parser-derived"
     },
