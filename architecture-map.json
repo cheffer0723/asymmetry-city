@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "2bf26eb685fa23f8120da2e46588e364dcd48d38",
-  "generatedAt": "2026-09-15T19:07:13.601Z",
+  "commit": "0a8787e12f1cb1eaf95f5eeca1b1fd52e6cf5abb",
+  "generatedAt": "2026-09-15T21:29:58.706Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -14,7 +14,7 @@
     "symbols": 2212,
     "headings": 97,
     "nodes": 2904,
-    "edges": 11702
+    "edges": 11703
   },
   "nodes": [
     {
@@ -12050,8 +12050,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 87968,
-      "lines": 1507,
+      "size": 88567,
+      "lines": 1508,
       "symbols": [
         {
           "name": "BrandMark",
@@ -14955,8 +14955,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 6658,
-      "lines": 136,
+      "size": 6099,
+      "lines": 124,
       "symbols": [
         {
           "name": "hasInjectedProvider",
@@ -15566,8 +15566,8 @@
       "group": "root",
       "kind": "configuration",
       "status": "source",
-      "size": 215039,
-      "lines": 5986,
+      "size": 216768,
+      "lines": 6039,
       "symbols": [],
       "headings": []
     },
@@ -60830,6 +60830,12 @@
       "to": "dir:apps/web/src",
       "type": "contained-in",
       "confidence": "path-derived"
+    },
+    {
+      "from": "file:apps/web/src/wallet.ts",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
     },
     {
       "from": "file:apps/web/src/wallet.ts",

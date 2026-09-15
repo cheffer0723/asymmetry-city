@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "2bf26eb685fa23f8120da2e46588e364dcd48d38",
-  "generatedAt": "2026-09-15T19:07:13.601Z",
+  "commit": "0a8787e12f1cb1eaf95f5eeca1b1fd52e6cf5abb",
+  "generatedAt": "2026-09-15T21:29:58.706Z",
   "fidelity": "city-summary",
   "stats": {
     "files": 0,
@@ -16,7 +16,7 @@
     "fullSymbols": 2212,
     "fullHeadings": 97,
     "fullNodes": 2904,
-    "fullEdges": 11702
+    "fullEdges": 11703
   },
   "nodes": [
     {
@@ -79,10 +79,10 @@
       "symbols": 0,
       "headings": 47,
       "nodes": 64,
-      "lines": 7313,
-      "bytes": 281486,
-      "weight": 11712.622222222222,
-      "maxFileWeight": 8376.322222222221
+      "lines": 7366,
+      "bytes": 283215,
+      "weight": 11784.833333333334,
+      "maxFileWeight": 8448.533333333333
     },
     "ci": {
       "systems": 1,
@@ -103,9 +103,9 @@
       "symbols": 815,
       "headings": 0,
       "nodes": 955,
-      "lines": 21495,
-      "bytes": 2429910,
-      "weight": 309223.1304476592,
+      "lines": 21484,
+      "bytes": 2429950,
+      "weight": 309212.18502838357,
       "maxFileWeight": 34222.57777777778
     },
     "evidence": {
@@ -182,7 +182,7 @@
     }
   },
   "sizeModel": {
-    "districtWeightMax": 309223.1304476592,
+    "districtWeightMax": 309212.18502838357,
     "fileWeightMax": 34222.57777777778,
     "sizing": "District footprint reflects per-domain repository weight; building footprint/height reflect file lines, bytes, and safe symbol/headings where available."
   }
