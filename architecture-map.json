@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "16c811a6d070f85cb4567b6ac9229205a0c79213",
-  "generatedAt": "2026-09-15T21:44:14.083Z",
+  "commit": "8e962b2012275dcaee4d559fe1ff4086aafc18c5",
+  "generatedAt": "2026-09-15T22:09:23.864Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 476,
     "directories": 119,
-    "symbols": 2213,
+    "symbols": 2214,
     "headings": 97,
-    "nodes": 2905,
-    "edges": 11704
+    "nodes": 2906,
+    "edges": 11705
   },
   "nodes": [
     {
@@ -14970,8 +14970,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 7339,
-      "lines": 151,
+      "size": 8672,
+      "lines": 178,
       "symbols": [
         {
           "name": "hasInjectedProvider",
@@ -14991,6 +14991,10 @@
         },
         {
           "name": "connectWalletConnect",
+          "type": "function"
+        },
+        {
+          "name": "answerChainIdLocally",
           "type": "function"
         },
         {
@@ -15052,6 +15056,17 @@
       "id": "symbol:apps/web/src/wallet.ts#connectWalletConnect",
       "type": "symbol",
       "label": "connectWalletConnect",
+      "path": "apps/web/src/wallet.ts",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/wallet.ts",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/wallet.ts#answerChainIdLocally",
+      "type": "symbol",
+      "label": "answerChainIdLocally",
       "path": "apps/web/src/wallet.ts",
       "symbolType": "function",
       "group": "product",
@@ -60885,6 +60900,12 @@
     {
       "from": "file:apps/web/src/wallet.ts",
       "to": "symbol:apps/web/src/wallet.ts#connectWalletConnect",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/wallet.ts",
+      "to": "symbol:apps/web/src/wallet.ts#answerChainIdLocally",
       "type": "defines",
       "confidence": "parser-derived"
     },
