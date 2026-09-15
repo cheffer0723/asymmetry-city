@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "54c4081a426f612190c6f69dab03054763d2b43e",
-  "generatedAt": "2026-09-14T01:27:42.506Z",
+  "commit": "2bf26eb685fa23f8120da2e46588e364dcd48d38",
+  "generatedAt": "2026-09-15T19:07:13.601Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 476,
     "directories": 119,
-    "symbols": 2208,
+    "symbols": 2212,
     "headings": 97,
-    "nodes": 2900,
-    "edges": 11698
+    "nodes": 2904,
+    "edges": 11702
   },
   "nodes": [
     {
@@ -1985,8 +1985,8 @@
       "group": "product",
       "kind": "configuration",
       "status": "source",
-      "size": 78041,
-      "lines": 2267,
+      "size": 216117,
+      "lines": 6005,
       "symbols": [],
       "headings": []
     },
@@ -1998,8 +1998,8 @@
       "group": "product",
       "kind": "configuration",
       "status": "source",
-      "size": 1081,
-      "lines": 35,
+      "size": 1132,
+      "lines": 36,
       "symbols": [],
       "headings": []
     },
@@ -11886,8 +11886,8 @@
       "group": "product",
       "kind": "application",
       "status": "tested",
-      "size": 43150,
-      "lines": 968,
+      "size": 44016,
+      "lines": 979,
       "symbols": [
         {
           "name": "freePort",
@@ -12050,8 +12050,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 86190,
-      "lines": 1472,
+      "size": 87968,
+      "lines": 1507,
       "symbols": [
         {
           "name": "BrandMark",
@@ -12171,6 +12171,10 @@
         },
         {
           "name": "verifyWallet",
+          "type": "const"
+        },
+        {
+          "name": "connectViaWalletConnect",
           "type": "const"
         },
         {
@@ -12567,6 +12571,17 @@
       "id": "symbol:apps/web/src/App.tsx#verifyWallet",
       "type": "symbol",
       "label": "verifyWallet",
+      "path": "apps/web/src/App.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/App.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/App.tsx#connectViaWalletConnect",
+      "type": "symbol",
+      "label": "connectViaWalletConnect",
       "path": "apps/web/src/App.tsx",
       "symbolType": "const",
       "group": "product",
@@ -14940,8 +14955,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 3398,
-      "lines": 68,
+      "size": 6658,
+      "lines": 136,
       "symbols": [
         {
           "name": "hasInjectedProvider",
@@ -14956,7 +14971,19 @@
           "type": "function"
         },
         {
+          "name": "walletConnectConfigured",
+          "type": "function"
+        },
+        {
+          "name": "connectWalletConnect",
+          "type": "function"
+        },
+        {
           "name": "WalletOpenLink",
+          "type": "type"
+        },
+        {
+          "name": "Eip1193Provider",
           "type": "type"
         }
       ],
@@ -14996,9 +15023,42 @@
       "headings": []
     },
     {
+      "id": "symbol:apps/web/src/wallet.ts#walletConnectConfigured",
+      "type": "symbol",
+      "label": "walletConnectConfigured",
+      "path": "apps/web/src/wallet.ts",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/wallet.ts",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/wallet.ts#connectWalletConnect",
+      "type": "symbol",
+      "label": "connectWalletConnect",
+      "path": "apps/web/src/wallet.ts",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/wallet.ts",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:apps/web/src/wallet.ts#WalletOpenLink",
       "type": "symbol",
       "label": "WalletOpenLink",
+      "path": "apps/web/src/wallet.ts",
+      "symbolType": "type",
+      "group": "product",
+      "parent": "file:apps/web/src/wallet.ts",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/wallet.ts#Eip1193Provider",
+      "type": "symbol",
+      "label": "Eip1193Provider",
       "path": "apps/web/src/wallet.ts",
       "symbolType": "type",
       "group": "product",
@@ -15506,8 +15566,8 @@
       "group": "root",
       "kind": "configuration",
       "status": "source",
-      "size": 78312,
-      "lines": 2281,
+      "size": 215039,
+      "lines": 5986,
       "symbols": [],
       "headings": []
     },
@@ -54017,6 +54077,12 @@
     },
     {
       "from": "file:apps/web/src/App.tsx",
+      "to": "symbol:apps/web/src/App.tsx#connectViaWalletConnect",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/App.tsx",
       "to": "symbol:apps/web/src/App.tsx#continueWithPasskey",
       "type": "defines",
       "confidence": "parser-derived"
@@ -60785,7 +60851,25 @@
     },
     {
       "from": "file:apps/web/src/wallet.ts",
+      "to": "symbol:apps/web/src/wallet.ts#walletConnectConfigured",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/wallet.ts",
+      "to": "symbol:apps/web/src/wallet.ts#connectWalletConnect",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/wallet.ts",
       "to": "symbol:apps/web/src/wallet.ts#WalletOpenLink",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/wallet.ts",
+      "to": "symbol:apps/web/src/wallet.ts#Eip1193Provider",
       "type": "defines",
       "confidence": "parser-derived"
     },
