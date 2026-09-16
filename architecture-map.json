@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "19fbe374122e253f28400aef59bfc99307878a08",
-  "generatedAt": "2026-09-16T17:12:52.102Z",
+  "commit": "3ab3b39cc2e6ff352087d014828298031228c691",
+  "generatedAt": "2026-09-16T17:31:20.569Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -939,8 +939,8 @@
       "group": "root",
       "kind": "document",
       "status": "source",
-      "size": 2802,
-      "lines": 56,
+      "size": 2186,
+      "lines": 48,
       "symbols": [],
       "headings": [
         "What Asymmetry Is — the owner's intent",
