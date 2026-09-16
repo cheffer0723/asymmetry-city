@@ -1,22 +1,22 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "225a9b4283b28d08e5c154c8bbc72d75ddc67ca0",
-  "generatedAt": "2026-09-16T12:47:45.639Z",
+  "commit": "19fbe374122e253f28400aef59bfc99307878a08",
+  "generatedAt": "2026-09-16T17:12:52.102Z",
   "fidelity": "city-summary",
   "stats": {
     "files": 0,
     "directories": 0,
     "symbols": 0,
     "headings": 0,
-    "nodes": 6,
+    "nodes": 5,
     "edges": 0,
-    "fullFiles": 478,
-    "fullDirectories": 119,
-    "fullSymbols": 2226,
-    "fullHeadings": 97,
-    "fullNodes": 2920,
-    "fullEdges": 11962
+    "fullFiles": 228,
+    "fullDirectories": 72,
+    "fullSymbols": 1057,
+    "fullHeadings": 77,
+    "fullNodes": 1435,
+    "fullEdges": 5310
   },
   "nodes": [
     {
@@ -32,14 +32,6 @@
       "type": "system",
       "label": "Dead Drop Capability Core",
       "group": "dead-drop",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "system:zero-dark",
-      "type": "system",
-      "label": "Zero-Dark Capability Core",
-      "group": "zero-dark",
       "symbols": [],
       "headings": []
     },
@@ -69,7 +61,7 @@
     }
   ],
   "edges": [],
-  "protectedNodesOmitted": 558,
+  "protectedNodesOmitted": 179,
   "summaryOf": "architecture-map.json",
   "groupMetrics": {
     "root": {
@@ -79,10 +71,10 @@
       "symbols": 0,
       "headings": 47,
       "nodes": 64,
-      "lines": 7366,
-      "bytes": 283215,
-      "weight": 11784.833333333334,
-      "maxFileWeight": 8448.533333333333
+      "lines": 3407,
+      "bytes": 138137,
+      "weight": 6213.855555555554,
+      "maxFileWeight": 2872.3888888888887
     },
     "ci": {
       "systems": 1,
@@ -91,22 +83,22 @@
       "symbols": 0,
       "headings": 0,
       "nodes": 10,
-      "lines": 667,
-      "bytes": 26026,
-      "weight": 1167.1777777777777,
-      "maxFileWeight": 269.05555555555554
+      "lines": 623,
+      "bytes": 23974,
+      "weight": 1100.3777777777777,
+      "maxFileWeight": 202.25555555555556
     },
     "product": {
       "systems": 1,
-      "files": 132,
-      "directories": 8,
-      "symbols": 823,
+      "files": 58,
+      "directories": 6,
+      "symbols": 248,
       "headings": 0,
-      "nodes": 964,
-      "lines": 21820,
-      "bytes": 2447991,
-      "weight": 310903.1846057347,
-      "maxFileWeight": 34238.322222222225
+      "nodes": 313,
+      "lines": 14333,
+      "bytes": 554204,
+      "weight": 45912.79191499583,
+      "maxFileWeight": 4536.477777777778
     },
     "evidence": {
       "systems": 1,
@@ -144,29 +136,17 @@
       "weight": 2753.342657305372,
       "maxFileWeight": 1023.5333333333333
     },
-    "zero-dark": {
-      "systems": 1,
-      "files": 175,
-      "directories": 43,
-      "symbols": 594,
-      "headings": 20,
-      "nodes": 833,
-      "lines": 22258,
-      "bytes": 848562,
-      "weight": 79921.95417397906,
-      "maxFileWeight": 6609.988888888889
-    },
     "tooling": {
       "systems": 0,
-      "files": 9,
+      "files": 8,
       "directories": 1,
       "symbols": 65,
       "headings": 0,
-      "nodes": 75,
-      "lines": 1204,
-      "bytes": 49496,
-      "weight": 6728.8070819879085,
-      "maxFileWeight": 594.0777777777778
+      "nodes": 74,
+      "lines": 1129,
+      "bytes": 45395,
+      "weight": 6596.006707778696,
+      "maxFileWeight": 591.8555555555556
     },
     "integration": {
       "systems": 1,
@@ -182,8 +162,8 @@
     }
   },
   "sizeModel": {
-    "districtWeightMax": 310903.1846057347,
-    "fileWeightMax": 34238.322222222225,
+    "districtWeightMax": 70152.92993978068,
+    "fileWeightMax": 4536.477777777778,
     "sizing": "District footprint reflects per-domain repository weight; building footprint/height reflect file lines, bytes, and safe symbol/headings where available."
   }
 }
