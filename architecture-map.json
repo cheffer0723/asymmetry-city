@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "2633b6cf5bc48762e5a70be093f509a5bb304dbe",
-  "generatedAt": "2026-09-16T02:42:06.017Z",
+  "commit": "225a9b4283b28d08e5c154c8bbc72d75ddc67ca0",
+  "generatedAt": "2026-09-16T12:47:45.639Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -12050,8 +12050,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 92003,
-      "lines": 1566,
+      "size": 91299,
+      "lines": 1560,
       "symbols": [
         {
           "name": "BrandMark",
@@ -14043,8 +14043,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 7502,
-      "lines": 208,
+      "size": 7089,
+      "lines": 201,
       "symbols": [
         {
           "name": "shouldAutoOpenTour",
