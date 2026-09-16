@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "c3b1905d3dcda1b2dfff3ca038798f783c016360",
-  "generatedAt": "2026-09-15T23:24:48.689Z",
+  "commit": "3d0139c10fc236021d5256defdec6cdf7674f339",
+  "generatedAt": "2026-09-16T00:18:57.666Z",
   "fidelity": "city-summary",
   "stats": {
     "files": 0,
@@ -11,12 +11,12 @@
     "headings": 0,
     "nodes": 6,
     "edges": 0,
-    "fullFiles": 476,
+    "fullFiles": 478,
     "fullDirectories": 119,
-    "fullSymbols": 2214,
+    "fullSymbols": 2226,
     "fullHeadings": 97,
-    "fullNodes": 2906,
-    "fullEdges": 11705
+    "fullNodes": 2920,
+    "fullEdges": 11962
   },
   "nodes": [
     {
@@ -98,15 +98,15 @@
     },
     "product": {
       "systems": 1,
-      "files": 131,
+      "files": 132,
       "directories": 8,
-      "symbols": 817,
+      "symbols": 823,
       "headings": 0,
-      "nodes": 957,
-      "lines": 21584,
-      "bytes": 2435496,
-      "weight": 309784.14656232187,
-      "maxFileWeight": 34222.57777777778
+      "nodes": 964,
+      "lines": 21780,
+      "bytes": 2446547,
+      "weight": 310850.45754820027,
+      "maxFileWeight": 34238.322222222225
     },
     "evidence": {
       "systems": 1,
@@ -146,14 +146,14 @@
     },
     "zero-dark": {
       "systems": 1,
-      "files": 174,
+      "files": 175,
       "directories": 43,
-      "symbols": 588,
+      "symbols": 594,
       "headings": 20,
-      "nodes": 826,
-      "lines": 22106,
-      "bytes": 840494,
-      "weight": 78912.96695114509,
+      "nodes": 833,
+      "lines": 22258,
+      "bytes": 848562,
+      "weight": 79921.95417397906,
       "maxFileWeight": 6609.988888888889
     },
     "tooling": {
@@ -182,8 +182,8 @@
     }
   },
   "sizeModel": {
-    "districtWeightMax": 309784.14656232187,
-    "fileWeightMax": 34222.57777777778,
+    "districtWeightMax": 310850.45754820027,
+    "fileWeightMax": 34238.322222222225,
     "sizing": "District footprint reflects per-domain repository weight; building footprint/height reflect file lines, bytes, and safe symbol/headings where available."
   }
 }
