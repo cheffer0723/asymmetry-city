@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "17899406afac954cde228d99f9f2bb09db04d138",
-  "generatedAt": "2026-09-17T11:00:00.460Z",
+  "commit": "62e5422139d1ce35c6f7529f133d98c8aab768ac",
+  "generatedAt": "2026-09-17T11:58:58.513Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 229,
+    "files": 230,
     "directories": 72,
-    "symbols": 1069,
+    "symbols": 1078,
     "headings": 77,
-    "nodes": 1448,
-    "edges": 5404
+    "nodes": 1458,
+    "edges": 5430
   },
   "nodes": [
     {
@@ -6634,8 +6634,8 @@
       "group": "dead-drop",
       "kind": "configuration",
       "status": "source",
-      "size": 1336,
-      "lines": 41,
+      "size": 1428,
+      "lines": 43,
       "symbols": [],
       "headings": []
     },
@@ -6841,8 +6841,8 @@
       "group": "dead-drop",
       "kind": "rust",
       "status": "source",
-      "size": 15258,
-      "lines": 386,
+      "size": 15536,
+      "lines": 392,
       "symbols": [
         {
           "name": "into_signed",
@@ -7189,6 +7189,155 @@
       "symbolType": "struct",
       "group": "dead-drop",
       "parent": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "file",
+      "label": "mobile_ffi.rs",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "group": "dead-drop",
+      "kind": "rust",
+      "status": "source",
+      "size": 3327,
+      "lines": 93,
+      "symbols": [
+        {
+          "name": "failure",
+          "type": "function"
+        },
+        {
+          "name": "trusted_authorities",
+          "type": "function"
+        },
+        {
+          "name": "seal_store",
+          "type": "function"
+        },
+        {
+          "name": "seal_poll",
+          "type": "function"
+        },
+        {
+          "name": "open_delivery",
+          "type": "function"
+        },
+        {
+          "name": "binding_api_version",
+          "type": "function"
+        },
+        {
+          "name": "preserves_opaque_delivery_bytes",
+          "type": "function"
+        },
+        {
+          "name": "labels_the_bridge_surface_without_claiming_delivery",
+          "type": "function"
+        },
+        {
+          "name": "MobileCoreError",
+          "type": "enum"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#failure",
+      "type": "symbol",
+      "label": "failure",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#trusted_authorities",
+      "type": "symbol",
+      "label": "trusted_authorities",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#seal_store",
+      "type": "symbol",
+      "label": "seal_store",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#seal_poll",
+      "type": "symbol",
+      "label": "seal_poll",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#open_delivery",
+      "type": "symbol",
+      "label": "open_delivery",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#binding_api_version",
+      "type": "symbol",
+      "label": "binding_api_version",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#preserves_opaque_delivery_bytes",
+      "type": "symbol",
+      "label": "preserves_opaque_delivery_bytes",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#labels_the_bridge_surface_without_claiming_delivery",
+      "type": "symbol",
+      "label": "labels_the_bridge_surface_without_claiming_delivery",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#MobileCoreError",
+      "type": "symbol",
+      "label": "MobileCoreError",
+      "path": "packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "symbolType": "enum",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "symbols": [],
       "headings": []
     },
@@ -19935,6 +20084,12 @@
     },
     {
       "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -20014,12 +20169,6 @@
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -20613,6 +20762,12 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -20692,12 +20847,6 @@
     {
       "from": "file:.github/workflows/security.yml",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -21603,6 +21752,12 @@
     },
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -21682,12 +21837,6 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -22341,6 +22490,12 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -22420,12 +22575,6 @@
     {
       "from": "file:OWNER_INTENT.md",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -23043,6 +23192,12 @@
     },
     {
       "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -23122,12 +23277,6 @@
     {
       "from": "file:README.md",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -23583,6 +23732,12 @@
     },
     {
       "from": "file:SECURITY.md",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -23866,12 +24021,6 @@
     {
       "from": "file:SECURITY.md",
       "to": "file:packages/dead-drop/reference/test-surface/static/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/test-surface/static/owner-beta-v2.html",
       "type": "references",
       "confidence": "inferred"
     },
@@ -26673,6 +26822,12 @@
     },
     {
       "from": "file:apps/web/src/App.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/App.tsx",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -26758,12 +26913,6 @@
     {
       "from": "file:apps/web/src/App.tsx",
       "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -27597,6 +27746,12 @@
     },
     {
       "from": "file:apps/web/src/BoundaryLab.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/BoundaryLab.tsx",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -27670,12 +27825,6 @@
     {
       "from": "file:apps/web/src/BoundaryLab.tsx",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/BoundaryLab.tsx",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -27934,6 +28083,12 @@
     {
       "from": "file:apps/web/src/HeroLogo.tsx",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/HeroLogo.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28875,6 +29030,12 @@
     },
     {
       "from": "file:apps/web/src/SealedPacketMesh.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SealedPacketMesh.tsx",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -28936,12 +29097,6 @@
     {
       "from": "file:apps/web/src/SealedPacketMesh.tsx",
       "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SealedPacketMesh.tsx",
-      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29595,6 +29750,12 @@
     },
     {
       "from": "file:apps/web/src/SignalChamberLock.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SignalChamberLock.tsx",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -29668,12 +29829,6 @@
     {
       "from": "file:apps/web/src/SignalChamberLock.tsx",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SignalChamberLock.tsx",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -30579,6 +30734,12 @@
     },
     {
       "from": "file:apps/web/src/mobilePasskeyGate.ts",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/mobilePasskeyGate.ts",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -30658,12 +30819,6 @@
     {
       "from": "file:apps/web/src/mobilePasskeyGate.ts",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/mobilePasskeyGate.ts",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -31563,6 +31718,12 @@
     },
     {
       "from": "file:apps/web/src/routing.ts",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/routing.ts",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -31648,12 +31809,6 @@
     {
       "from": "file:apps/web/src/routing.ts",
       "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -32289,6 +32444,12 @@
     },
     {
       "from": "file:apps/web/src/sealedPacketSim.ts",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/sealedPacketSim.ts",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -32368,12 +32529,6 @@
     {
       "from": "file:apps/web/src/sealedPacketSim.ts",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/sealedPacketSim.ts",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -32907,6 +33062,12 @@
     },
     {
       "from": "file:apps/web/src/styles.css",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/styles.css",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -33106,12 +33267,6 @@
     {
       "from": "file:apps/web/src/styles.css",
       "to": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -34629,6 +34784,12 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -34714,12 +34875,6 @@
     {
       "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -36201,6 +36356,12 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -36280,12 +36441,6 @@
     {
       "from": "file:packages/dead-drop/deny.toml",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37023,6 +37178,12 @@
     },
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -37108,12 +37269,6 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38259,6 +38414,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -38344,12 +38505,6 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38488,6 +38643,150 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "symbol:packages/dead-drop/reference/client-core/src/lib.rs#VerifiedRoute",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "dir:packages/dead-drop/reference/client-core/src",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/adversarial/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/adversarial/test_failures.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/privacy/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/privacy/test_privacy_properties.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/protocol/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/protocol/test_envelope.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/unit/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/unit/test_client_boundary.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#failure",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#trusted_authorities",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#seal_store",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#seal_poll",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#open_delivery",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#binding_api_version",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#preserves_opaque_delivery_bytes",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#labels_the_bridge_surface_without_claiming_delivery",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "symbol:packages/dead-drop/reference/client-core/src/mobile_ffi.rs#MobileCoreError",
       "type": "defines",
       "confidence": "parser-derived"
     },
@@ -39759,6 +40058,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -39838,12 +40143,6 @@
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -40539,6 +40838,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -40618,12 +40923,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -41439,6 +41738,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -41518,12 +41823,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -42159,6 +42458,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -42238,12 +42543,6 @@
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -45525,6 +45824,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -45604,12 +45909,6 @@
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -46815,6 +47114,12 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -46894,12 +47199,6 @@
     {
       "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -47865,6 +48164,12 @@
     },
     {
       "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -48369,12 +48674,6 @@
     },
     {
       "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:scripts/generate-public-architecture-city-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
       "to": "symbol:packages/dead-drop/tests/unit/test_container_hardening.py#test_base_images_are_digest_pinned",
       "type": "defines",
       "confidence": "parser-derived"
@@ -48747,6 +49046,12 @@
     },
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
@@ -49012,12 +49317,6 @@
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:packages/dead-drop/reference/test-surface/static/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:packages/dead-drop/reference/test-surface/static/owner-beta-v2.html",
       "type": "references",
       "confidence": "inferred"
     },
@@ -50722,6 +51021,12 @@
     {
       "from": "system:dead-drop",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
