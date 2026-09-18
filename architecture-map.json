@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "62e5422139d1ce35c6f7529f133d98c8aab768ac",
-  "generatedAt": "2026-09-17T11:58:58.513Z",
+  "commit": "2e298a6e9cc29889aa209dc3141b7f6cfedc5816",
+  "generatedAt": "2026-09-18T01:10:36.971Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 230,
+    "files": 232,
     "directories": 72,
-    "symbols": 1078,
+    "symbols": 1072,
     "headings": 77,
-    "nodes": 1458,
-    "edges": 5430
+    "nodes": 1454,
+    "edges": 5245
   },
   "nodes": [
     {
@@ -1436,8 +1436,8 @@
       "group": "product",
       "kind": "application",
       "status": "tested",
-      "size": 1819,
-      "lines": 42,
+      "size": 1740,
+      "lines": 41,
       "symbols": [],
       "headings": []
     },
@@ -1449,8 +1449,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 1324,
-      "lines": 30,
+      "size": 829,
+      "lines": 24,
       "symbols": [],
       "headings": []
     },
@@ -1650,8 +1650,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 11508,
-      "lines": 548,
+      "size": 12415,
+      "lines": 571,
       "symbols": [],
       "headings": []
     },
@@ -1663,7 +1663,7 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 4946,
+      "size": 4960,
       "lines": 93,
       "symbols": [],
       "headings": []
@@ -2424,6 +2424,32 @@
       "headings": []
     },
     {
+      "id": "file:apps/web/public/unbounded-800.woff",
+      "type": "file",
+      "label": "unbounded-800.woff",
+      "path": "apps/web/public/unbounded-800.woff",
+      "group": "product",
+      "kind": "artifact",
+      "status": "source",
+      "size": 0,
+      "lines": 0,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:apps/web/public/unbounded-800.woff2",
+      "type": "file",
+      "label": "unbounded-800.woff2",
+      "path": "apps/web/public/unbounded-800.woff2",
+      "group": "product",
+      "kind": "artifact",
+      "status": "source",
+      "size": 0,
+      "lines": 0,
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "file:apps/web/routing.test.mjs",
       "type": "file",
       "label": "routing.test.mjs",
@@ -2431,24 +2457,8 @@
       "group": "product",
       "kind": "application",
       "status": "tested",
-      "size": 4500,
-      "lines": 101,
-      "symbols": [
-        {
-          "name": "view",
-          "type": "const"
-        }
-      ],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/routing.test.mjs#view",
-      "type": "symbol",
-      "label": "view",
-      "path": "apps/web/routing.test.mjs",
-      "symbolType": "const",
-      "group": "product",
-      "parent": "file:apps/web/routing.test.mjs",
+      "size": 2120,
+      "lines": 44,
       "symbols": [],
       "headings": []
     },
@@ -2943,8 +2953,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 61404,
-      "lines": 1001,
+      "size": 58980,
+      "lines": 976,
       "symbols": [
         {
           "name": "BrandMark",
@@ -4990,8 +5000,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 2612,
-      "lines": 42,
+      "size": 2102,
+      "lines": 34,
       "symbols": [],
       "headings": []
     },
@@ -5016,8 +5026,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 2549,
-      "lines": 59,
+      "size": 2426,
+      "lines": 58,
       "symbols": [
         {
           "name": "initialGateState",
@@ -5105,8 +5115,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 3827,
-      "lines": 99,
+      "size": 2633,
+      "lines": 80,
       "symbols": [
         {
           "name": "passkeySupported",
@@ -5117,16 +5127,8 @@
           "type": "function"
         },
         {
-          "name": "prfSalt",
-          "type": "function"
-        },
-        {
           "name": "signInWithPasskey",
           "type": "function"
-        },
-        {
-          "name": "PrfExtension",
-          "type": "type"
         }
       ],
       "headings": []
@@ -5154,33 +5156,11 @@
       "headings": []
     },
     {
-      "id": "symbol:apps/web/src/passkeyEntry.ts#prfSalt",
-      "type": "symbol",
-      "label": "prfSalt",
-      "path": "apps/web/src/passkeyEntry.ts",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/passkeyEntry.ts",
-      "symbols": [],
-      "headings": []
-    },
-    {
       "id": "symbol:apps/web/src/passkeyEntry.ts#signInWithPasskey",
       "type": "symbol",
       "label": "signInWithPasskey",
       "path": "apps/web/src/passkeyEntry.ts",
       "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/passkeyEntry.ts",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/passkeyEntry.ts#PrfExtension",
-      "type": "symbol",
-      "label": "PrfExtension",
-      "path": "apps/web/src/passkeyEntry.ts",
-      "symbolType": "type",
       "group": "product",
       "parent": "file:apps/web/src/passkeyEntry.ts",
       "symbols": [],
@@ -5194,8 +5174,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 101023,
-      "lines": 3413,
+      "size": 100989,
+      "lines": 3412,
       "symbols": [],
       "headings": []
     },
@@ -5207,17 +5187,9 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 4184,
-      "lines": 98,
+      "size": 1752,
+      "lines": 42,
       "symbols": [
-        {
-          "name": "resolveLocalEnginePreview",
-          "type": "function"
-        },
-        {
-          "name": "navigationTarget",
-          "type": "function"
-        },
         {
           "name": "resolveView",
           "type": "function"
@@ -5235,36 +5207,10 @@
           "type": "type"
         },
         {
-          "name": "LocalEnginePreviewInput",
-          "type": "type"
-        },
-        {
           "name": "ViewInput",
           "type": "type"
         }
       ],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/routing.ts#resolveLocalEnginePreview",
-      "type": "symbol",
-      "label": "resolveLocalEnginePreview",
-      "path": "apps/web/src/routing.ts",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/routing.ts",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/routing.ts#navigationTarget",
-      "type": "symbol",
-      "label": "navigationTarget",
-      "path": "apps/web/src/routing.ts",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/routing.ts",
-      "symbols": [],
       "headings": []
     },
     {
@@ -5312,17 +5258,6 @@
       "headings": []
     },
     {
-      "id": "symbol:apps/web/src/routing.ts#LocalEnginePreviewInput",
-      "type": "symbol",
-      "label": "LocalEnginePreviewInput",
-      "path": "apps/web/src/routing.ts",
-      "symbolType": "type",
-      "group": "product",
-      "parent": "file:apps/web/src/routing.ts",
-      "symbols": [],
-      "headings": []
-    },
-    {
       "id": "symbol:apps/web/src/routing.ts#ViewInput",
       "type": "symbol",
       "label": "ViewInput",
@@ -5341,7 +5276,7 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 20016,
+      "size": 19990,
       "lines": 578,
       "symbols": [
         {
@@ -19346,6 +19281,18 @@
     },
     {
       "from": "file:.github/workflows/build.yml",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/build.yml",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/build.yml",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -19748,6 +19695,18 @@
     },
     {
       "from": "file:.github/workflows/monitor.yml",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -20157,18 +20116,6 @@
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -20426,6 +20373,18 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -20835,18 +20794,6 @@
     {
       "from": "file:.github/workflows/security.yml",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -21416,6 +21363,18 @@
     },
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -21825,18 +21784,6 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -22154,6 +22101,18 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -22563,18 +22522,6 @@
     {
       "from": "file:OWNER_INTENT.md",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -22856,6 +22803,18 @@
     },
     {
       "from": "file:README.md",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -23270,18 +23229,6 @@
     },
     {
       "from": "file:README.md",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
       "to": "heading:README.md#Asymmetry",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -23547,6 +23494,18 @@
     {
       "from": "file:SECURITY.md",
       "to": "file:apps/web/public/passkey-check.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:apps/web/public/unbounded-800.woff2",
       "type": "references",
       "confidence": "inferred"
     },
@@ -24009,18 +23968,6 @@
     {
       "from": "file:SECURITY.md",
       "to": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/test-surface/static/index.html",
       "type": "references",
       "confidence": "inferred"
     },
@@ -25345,6 +25292,18 @@
       "confidence": "parser-derived"
     },
     {
+      "from": "file:apps/web/public/unbounded-800.woff",
+      "to": "dir:apps/web/public",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:apps/web/public/unbounded-800.woff2",
+      "to": "dir:apps/web/public",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
       "from": "file:apps/web/routing.test.mjs",
       "to": "dir:apps/web",
       "type": "contained-in",
@@ -25532,465 +25491,9 @@
     },
     {
       "from": "file:apps/web/routing.test.mjs",
-      "to": "file:.claude/settings.json",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
       "type": "references",
       "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:.docguard-allow.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:.github/dependabot.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:.github/workflows/architecture-city-sync.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:.github/workflows/dead-drop.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:.github/workflows/release.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:.gitleaks.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/package-lock.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/package.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/blackhole.glb",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/brand/asymmetry-emblem.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/brand/asymmetry-wordmark-centered.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/brand/icon-192.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/brand/icon-512.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/brand/icon-maskable-512.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/coming-soon-signup.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/coming-soon.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/coming-soon.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/dead-drop-client/spn_client_core.d.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/dead-drop-client/spn_client_core.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/dead-drop-client/spn_client_core_bg.wasm",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/dead-drop-client/spn_client_core_bg.wasm.d.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/hero-orbit.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/manifest.webmanifest",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/App.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/BlackHoleHero.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/BoundaryLab.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/DeviceProof.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/HeroLogo.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/SealedPacketMesh.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/SignalChamberLock.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/WorkspaceTour.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/blackHoleFraming.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/blackHoleMotion.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/boundaryLab.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/deadDropMixnet.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/disclosureContent.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/mobilePasskeyGate.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/passkeyEntry.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/publicSite.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/routing.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/sealedPacketSim.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/src/styles.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/tsconfig.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/vite.config.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:docs/audit/README.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:package-lock.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:package.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/.dockerignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/.gitattributes",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/AGENTS.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/apps/end-user-beta/assets/asymmetry-emblem-v1-2048.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/apps/end-user-beta/client-api.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/apps/end-user-beta/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/apps/end-user-beta/preview-server.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/conformance/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:packages/dead-drop/conformance/validator.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "symbol:apps/web/routing.test.mjs#view",
-      "type": "defines",
-      "confidence": "parser-derived"
     },
     {
       "from": "file:apps/web/server.test.mjs",
@@ -26492,6 +25995,18 @@
     },
     {
       "from": "file:apps/web/src/App.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/App.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/App.tsx",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -26901,18 +26416,6 @@
     {
       "from": "file:apps/web/src/App.tsx",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -27416,6 +26919,18 @@
     },
     {
       "from": "file:apps/web/src/BoundaryLab.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/BoundaryLab.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/BoundaryLab.tsx",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -27813,18 +27328,6 @@
     {
       "from": "file:apps/web/src/BoundaryLab.tsx",
       "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/BoundaryLab.tsx",
-      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/BoundaryLab.tsx",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28712,6 +28215,18 @@
     },
     {
       "from": "file:apps/web/src/SealedPacketMesh.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SealedPacketMesh.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SealedPacketMesh.tsx",
       "to": "file:apps/web/server.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -29096,12 +28611,6 @@
     },
     {
       "from": "file:apps/web/src/SealedPacketMesh.tsx",
-      "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SealedPacketMesh.tsx",
       "to": "symbol:apps/web/src/SealedPacketMesh.tsx#pointMaterial",
       "type": "defines",
       "confidence": "parser-derived"
@@ -29415,6 +28924,18 @@
     {
       "from": "file:apps/web/src/SignalChamberLock.tsx",
       "to": "file:apps/web/public/passkey-check.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SignalChamberLock.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SignalChamberLock.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff2",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29817,18 +29338,6 @@
     {
       "from": "file:apps/web/src/SignalChamberLock.tsx",
       "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SignalChamberLock.tsx",
-      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SignalChamberLock.tsx",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -30404,6 +29913,18 @@
     },
     {
       "from": "file:apps/web/src/mobilePasskeyGate.ts",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/mobilePasskeyGate.ts",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/mobilePasskeyGate.ts",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -30812,18 +30333,6 @@
     },
     {
       "from": "file:apps/web/src/mobilePasskeyGate.ts",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/mobilePasskeyGate.ts",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/mobilePasskeyGate.ts",
       "to": "symbol:apps/web/src/mobilePasskeyGate.ts#initialGateState",
       "type": "defines",
       "confidence": "parser-derived"
@@ -30872,19 +30381,7 @@
     },
     {
       "from": "file:apps/web/src/passkeyEntry.ts",
-      "to": "symbol:apps/web/src/passkeyEntry.ts#prfSalt",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/passkeyEntry.ts",
       "to": "symbol:apps/web/src/passkeyEntry.ts#signInWithPasskey",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/passkeyEntry.ts",
-      "to": "symbol:apps/web/src/passkeyEntry.ts#PrfExtension",
       "type": "defines",
       "confidence": "parser-derived"
     },
@@ -31148,684 +30645,6 @@
     },
     {
       "from": "file:apps/web/src/routing.ts",
-      "to": "file:.claude/settings.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:.docguard-allow.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:.github/dependabot.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:.github/workflows/architecture-city-sync.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:.github/workflows/dead-drop.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:.github/workflows/release.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:.gitleaks.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/blackHoleHero.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/mobilePasskeyGate.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/package-lock.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/package.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/blackhole.glb",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/brand/asymmetry-emblem.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/brand/asymmetry-wordmark-centered.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/brand/icon-192.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/brand/icon-512.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/brand/icon-maskable-512.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/coming-soon-signup.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/coming-soon.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/coming-soon.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/dead-drop-client/spn_client_core.d.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/dead-drop-client/spn_client_core.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/dead-drop-client/spn_client_core_bg.wasm",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/dead-drop-client/spn_client_core_bg.wasm.d.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/hero-orbit.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/manifest.webmanifest",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/routing.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/server.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/App.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/BlackHoleHero.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/BoundaryLab.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/DeviceProof.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/HeroLogo.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/SealedPacketMesh.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/SignalChamberLock.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/WorkspaceTour.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/blackHoleFraming.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/blackHoleMotion.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/boundaryLab.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/deadDropMixnet.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/disclosureContent.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/mobilePasskeyGate.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/passkeyEntry.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/publicSite.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/sealedPacketSim.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/src/styles.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/tsconfig.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/vite.config.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:apps/web/wasm-client.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:docs/audit/README.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:package-lock.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:package.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/.dockerignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/.gitattributes",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/AGENTS.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/apps/end-user-beta/assets/asymmetry-emblem-v1-2048.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/apps/end-user-beta/client-api.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/apps/end-user-beta/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/apps/end-user-beta/preview-server.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/conformance/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/conformance/validator.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/deny.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/docker-entrypoint.sh",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/examples/baseline-config.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/fuzz/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/fuzz/fuzz_targets/directory_parse.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/pyproject.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/courier/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/directory-publisher/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/directory-publisher/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/directory-publisher/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/directory/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "symbol:apps/web/src/routing.ts#resolveLocalEnginePreview",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "symbol:apps/web/src/routing.ts#navigationTarget",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
       "to": "symbol:apps/web/src/routing.ts#resolveView",
       "type": "defines",
       "confidence": "parser-derived"
@@ -31845,12 +30664,6 @@
     {
       "from": "file:apps/web/src/routing.ts",
       "to": "symbol:apps/web/src/routing.ts#AppView",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/routing.ts",
-      "to": "symbol:apps/web/src/routing.ts#LocalEnginePreviewInput",
       "type": "defines",
       "confidence": "parser-derived"
     },
@@ -32109,6 +30922,18 @@
     {
       "from": "file:apps/web/src/sealedPacketSim.ts",
       "to": "file:apps/web/public/passkey-check.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/sealedPacketSim.ts",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/sealedPacketSim.ts",
+      "to": "file:apps/web/public/unbounded-800.woff2",
       "type": "references",
       "confidence": "inferred"
     },
@@ -32517,18 +31342,6 @@
     {
       "from": "file:apps/web/src/sealedPacketSim.ts",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/sealedPacketSim.ts",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/sealedPacketSim.ts",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -34454,6 +33267,18 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -34863,18 +33688,6 @@
     {
       "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -36026,6 +34839,18 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -36433,18 +35258,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
       "to": "dir:packages/dead-drop/deploy/caddy",
       "type": "contained-in",
@@ -36843,6 +35656,18 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:apps/web/public/passkey-check.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37257,18 +36082,6 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38084,6 +36897,18 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -38493,18 +37318,6 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -39722,6 +38535,18 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -40136,18 +38961,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "symbol:packages/dead-drop/reference/courier/src/main.rs#main",
       "type": "defines",
       "confidence": "parser-derived"
@@ -40497,6 +39310,18 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:apps/web/public/passkey-check.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
       "type": "references",
       "confidence": "inferred"
     },
@@ -40911,18 +39736,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -41402,6 +40215,18 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -41811,18 +40636,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -42122,6 +40935,18 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -42531,18 +41356,6 @@
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -43946,6 +42759,18 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -44253,18 +43078,6 @@
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:packages/dead-drop/pyproject.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:packages/dead-drop/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -45488,6 +44301,18 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -45897,18 +44722,6 @@
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -46778,6 +45591,18 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:apps/web/routing.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -47187,18 +46012,6 @@
     {
       "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -50697,6 +49510,18 @@
     {
       "from": "system:product",
       "to": "file:apps/web/public/passkey-check.js",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:product",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:product",
+      "to": "file:apps/web/public/unbounded-800.woff2",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
