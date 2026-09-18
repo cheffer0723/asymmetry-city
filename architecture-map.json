@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "2e298a6e9cc29889aa209dc3141b7f6cfedc5816",
-  "generatedAt": "2026-09-18T01:10:36.971Z",
+  "commit": "47283b22d9cb7ca4e46ba711a82ea31988947558",
+  "generatedAt": "2026-09-18T01:25:52.028Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 232,
+    "files": 229,
     "directories": 72,
-    "symbols": 1072,
+    "symbols": 1059,
     "headings": 77,
-    "nodes": 1454,
-    "edges": 5245
+    "nodes": 1438,
+    "edges": 5182
   },
   "nodes": [
     {
@@ -1436,8 +1436,8 @@
       "group": "product",
       "kind": "application",
       "status": "tested",
-      "size": 1740,
-      "lines": 41,
+      "size": 2029,
+      "lines": 44,
       "symbols": [],
       "headings": []
     },
@@ -2219,211 +2219,6 @@
       "headings": []
     },
     {
-      "id": "file:apps/web/public/passkey-check.css",
-      "type": "file",
-      "label": "passkey-check.css",
-      "path": "apps/web/public/passkey-check.css",
-      "group": "product",
-      "kind": "artifact",
-      "status": "source",
-      "size": 2463,
-      "lines": 90,
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "file:apps/web/public/passkey-check.html",
-      "type": "file",
-      "label": "passkey-check.html",
-      "path": "apps/web/public/passkey-check.html",
-      "group": "product",
-      "kind": "artifact",
-      "status": "source",
-      "size": 1697,
-      "lines": 39,
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "file:apps/web/public/passkey-check.js",
-      "type": "file",
-      "label": "passkey-check.js",
-      "path": "apps/web/public/passkey-check.js",
-      "group": "product",
-      "kind": "application",
-      "status": "source",
-      "size": 6790,
-      "lines": 168,
-      "symbols": [
-        {
-          "name": "sha256",
-          "type": "function"
-        },
-        {
-          "name": "bytesToBigIntBE",
-          "type": "function"
-        },
-        {
-          "name": "b64u",
-          "type": "function"
-        },
-        {
-          "name": "prfSalt",
-          "type": "function"
-        },
-        {
-          "name": "of",
-          "type": "function"
-        },
-        {
-          "name": "identityFingerprint",
-          "type": "function"
-        },
-        {
-          "name": "setStatus",
-          "type": "function"
-        },
-        {
-          "name": "logLine",
-          "type": "function"
-        },
-        {
-          "name": "reportSupport",
-          "type": "function"
-        },
-        {
-          "name": "createPasskey",
-          "type": "function"
-        },
-        {
-          "name": "unlock",
-          "type": "function"
-        }
-      ],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#sha256",
-      "type": "symbol",
-      "label": "sha256",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#bytesToBigIntBE",
-      "type": "symbol",
-      "label": "bytesToBigIntBE",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#b64u",
-      "type": "symbol",
-      "label": "b64u",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#prfSalt",
-      "type": "symbol",
-      "label": "prfSalt",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#of",
-      "type": "symbol",
-      "label": "of",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#identityFingerprint",
-      "type": "symbol",
-      "label": "identityFingerprint",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#setStatus",
-      "type": "symbol",
-      "label": "setStatus",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#logLine",
-      "type": "symbol",
-      "label": "logLine",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#reportSupport",
-      "type": "symbol",
-      "label": "reportSupport",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#createPasskey",
-      "type": "symbol",
-      "label": "createPasskey",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/public/passkey-check.js#unlock",
-      "type": "symbol",
-      "label": "unlock",
-      "path": "apps/web/public/passkey-check.js",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/public/passkey-check.js",
-      "symbols": [],
-      "headings": []
-    },
-    {
       "id": "file:apps/web/public/unbounded-800.woff",
       "type": "file",
       "label": "unbounded-800.woff",
@@ -2749,17 +2544,6 @@
       "headings": []
     },
     {
-      "id": "symbol:apps/web/server.mjs#servePasskeyCheckFile",
-      "type": "symbol",
-      "label": "servePasskeyCheckFile",
-      "path": "apps/web/server.mjs",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/server.mjs",
-      "symbols": [],
-      "headings": []
-    },
-    {
       "id": "symbol:apps/web/server.mjs#shutdown",
       "type": "symbol",
       "label": "shutdown",
@@ -2789,8 +2573,8 @@
       "group": "product",
       "kind": "application",
       "status": "tested",
-      "size": 37142,
-      "lines": 831,
+      "size": 36324,
+      "lines": 815,
       "symbols": [
         {
           "name": "freePort",
@@ -2953,8 +2737,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 58980,
-      "lines": 976,
+      "size": 55484,
+      "lines": 926,
       "symbols": [
         {
           "name": "BrandMark",
@@ -2986,10 +2770,6 @@
         },
         {
           "name": "MobilePasskeyGate",
-          "type": "function"
-        },
-        {
-          "name": "PrivacyNotice",
           "type": "function"
         },
         {
@@ -3172,17 +2952,6 @@
       "id": "symbol:apps/web/src/App.tsx#MobilePasskeyGate",
       "type": "symbol",
       "label": "MobilePasskeyGate",
-      "path": "apps/web/src/App.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/App.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/App.tsx#PrivacyNotice",
-      "type": "symbol",
-      "label": "PrivacyNotice",
       "path": "apps/web/src/App.tsx",
       "symbolType": "function",
       "group": "product",
@@ -5000,8 +4769,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 2102,
-      "lines": 34,
+      "size": 2309,
+      "lines": 37,
       "symbols": [],
       "headings": []
     },
@@ -5530,8 +5299,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 85582,
-      "lines": 1607,
+      "size": 84837,
+      "lines": 1599,
       "symbols": [],
       "headings": []
     },
@@ -19263,24 +19032,6 @@
     },
     {
       "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -19677,24 +19428,6 @@
     },
     {
       "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -20116,6 +19849,24 @@
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -20355,24 +20106,6 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -20794,6 +20527,24 @@
     {
       "from": "file:.github/workflows/security.yml",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -21345,24 +21096,6 @@
     },
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -21784,6 +21517,24 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -22083,24 +21834,6 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -22522,6 +22255,24 @@
     {
       "from": "file:OWNER_INTENT.md",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -22785,24 +22536,6 @@
     },
     {
       "from": "file:README.md",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -23229,6 +22962,24 @@
     },
     {
       "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
       "to": "heading:README.md#Asymmetry",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -23476,24 +23227,6 @@
     {
       "from": "file:SECURITY.md",
       "to": "file:apps/web/public/hero-orbit.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:apps/web/public/passkey-check.js",
       "type": "references",
       "confidence": "inferred"
     },
@@ -23973,6 +23706,24 @@
     },
     {
       "from": "file:SECURITY.md",
+      "to": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:packages/dead-drop/reference/test-surface/static/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:packages/dead-drop/reference/test-surface/static/owner-beta-v2.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
       "to": "heading:SECURITY.md#Security Policy",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -24430,6 +24181,18 @@
     {
       "from": "file:apps/web/disclosureContent.test.mjs",
       "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/disclosureContent.test.mjs",
+      "to": "file:apps/web/public/dead-drop-client/spn_client_core_bg.wasm",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/disclosureContent.test.mjs",
+      "to": "file:apps/web/public/dead-drop-client/spn_client_core_bg.wasm.d.ts",
       "type": "references",
       "confidence": "inferred"
     },
@@ -24948,348 +24711,6 @@
       "to": "dir:apps/web/public",
       "type": "contained-in",
       "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.css",
-      "to": "dir:apps/web/public",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "dir:apps/web/public",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:.github/dependabot.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:.github/workflows/architecture-city-sync.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:.github/workflows/build.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:.github/workflows/dead-drop.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:.github/workflows/monitor.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:.github/workflows/release.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:.github/workflows/security.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:.gitleaks.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:apps/web/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:apps/web/public/hero-orbit.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:apps/web/src/publicSite.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:apps/web/vite.config.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:docs/audit/README.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/.gitattributes",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/conformance/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/results/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/schemas/suite-registry.schema.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/simulator/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/tests/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/tests/adversarial/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/tests/privacy/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/tests/protocol/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/tests/unit/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/tests/unit/test_client_boundary.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/tools/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/tools/check_traceability.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/vectors/experimental-suite-0001.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-empty-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-inverted-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-suite-downgrade.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-too-few-authorities.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unsupported-suite-id.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:scripts/generate-architecture-city-source-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:scripts/generate-public-architecture-city-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.html",
-      "to": "file:scripts/security-check.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "dir:apps/web/public",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#sha256",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#bytesToBigIntBE",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#b64u",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#prfSalt",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#of",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#identityFingerprint",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#setStatus",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#logLine",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#reportSupport",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#createPasskey",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/public/passkey-check.js",
-      "to": "symbol:apps/web/public/passkey-check.js#unlock",
-      "type": "defines",
-      "confidence": "parser-derived"
     },
     {
       "from": "file:apps/web/public/unbounded-800.woff",
@@ -25977,24 +25398,6 @@
     },
     {
       "from": "file:apps/web/src/App.tsx",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -26421,6 +25824,24 @@
     },
     {
       "from": "file:apps/web/src/App.tsx",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/App.tsx",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/App.tsx",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/App.tsx",
       "to": "symbol:apps/web/src/App.tsx#BrandMark",
       "type": "defines",
       "confidence": "parser-derived"
@@ -26464,12 +25885,6 @@
     {
       "from": "file:apps/web/src/App.tsx",
       "to": "symbol:apps/web/src/App.tsx#MobilePasskeyGate",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "symbol:apps/web/src/App.tsx#PrivacyNotice",
       "type": "defines",
       "confidence": "parser-derived"
     },
@@ -26901,24 +26316,6 @@
     },
     {
       "from": "file:apps/web/src/BoundaryLab.tsx",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/BoundaryLab.tsx",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/BoundaryLab.tsx",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/BoundaryLab.tsx",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -27328,6 +26725,24 @@
     {
       "from": "file:apps/web/src/BoundaryLab.tsx",
       "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/BoundaryLab.tsx",
+      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/BoundaryLab.tsx",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/BoundaryLab.tsx",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28197,24 +27612,6 @@
     },
     {
       "from": "file:apps/web/src/SealedPacketMesh.tsx",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SealedPacketMesh.tsx",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SealedPacketMesh.tsx",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SealedPacketMesh.tsx",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -28611,6 +28008,18 @@
     },
     {
       "from": "file:apps/web/src/SealedPacketMesh.tsx",
+      "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SealedPacketMesh.tsx",
+      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SealedPacketMesh.tsx",
       "to": "symbol:apps/web/src/SealedPacketMesh.tsx#pointMaterial",
       "type": "defines",
       "confidence": "parser-derived"
@@ -28906,24 +28315,6 @@
     {
       "from": "file:apps/web/src/SignalChamberLock.tsx",
       "to": "file:apps/web/public/manifest.webmanifest",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SignalChamberLock.tsx",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SignalChamberLock.tsx",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/SignalChamberLock.tsx",
-      "to": "file:apps/web/public/passkey-check.js",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29338,6 +28729,24 @@
     {
       "from": "file:apps/web/src/SignalChamberLock.tsx",
       "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SignalChamberLock.tsx",
+      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SignalChamberLock.tsx",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/SignalChamberLock.tsx",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29895,24 +29304,6 @@
     },
     {
       "from": "file:apps/web/src/mobilePasskeyGate.ts",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/mobilePasskeyGate.ts",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/mobilePasskeyGate.ts",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/mobilePasskeyGate.ts",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -30328,6 +29719,24 @@
     {
       "from": "file:apps/web/src/mobilePasskeyGate.ts",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/mobilePasskeyGate.ts",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/mobilePasskeyGate.ts",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/mobilePasskeyGate.ts",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -30909,24 +30318,6 @@
     },
     {
       "from": "file:apps/web/src/sealedPacketSim.ts",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/sealedPacketSim.ts",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/sealedPacketSim.ts",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/sealedPacketSim.ts",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -31342,6 +30733,24 @@
     {
       "from": "file:apps/web/src/sealedPacketSim.ts",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/sealedPacketSim.ts",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/sealedPacketSim.ts",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/sealedPacketSim.ts",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -33249,24 +32658,6 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -33688,6 +33079,24 @@
     {
       "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -34821,24 +34230,6 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -35258,6 +34649,24 @@
       "confidence": "inferred"
     },
     {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
       "from": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
       "to": "dir:packages/dead-drop/deploy/caddy",
       "type": "contained-in",
@@ -35638,24 +35047,6 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:apps/web/public/manifest.webmanifest",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/public/passkey-check.js",
       "type": "references",
       "confidence": "inferred"
     },
@@ -36082,6 +35473,24 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -36879,24 +36288,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -37318,6 +36709,24 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38517,24 +37926,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -38961,6 +38352,24 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "symbol:packages/dead-drop/reference/courier/src/main.rs#main",
       "type": "defines",
       "confidence": "parser-derived"
@@ -39292,24 +38701,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:apps/web/public/manifest.webmanifest",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.js",
       "type": "references",
       "confidence": "inferred"
     },
@@ -39736,6 +39127,24 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -40197,24 +39606,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -40636,6 +40027,24 @@
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -40917,24 +40326,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -41356,6 +40747,24 @@
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -42741,24 +42150,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -43078,6 +42469,24 @@
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:packages/dead-drop/pyproject.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -44283,24 +43692,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -44722,6 +44113,24 @@
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -45573,24 +44982,6 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/public/passkey-check.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:apps/web/public/unbounded-800.woff",
       "type": "references",
       "confidence": "inferred"
@@ -46012,6 +45403,24 @@
     {
       "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -49492,24 +48901,6 @@
     {
       "from": "system:product",
       "to": "file:apps/web/public/manifest.webmanifest",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
-      "to": "file:apps/web/public/passkey-check.css",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
-      "to": "file:apps/web/public/passkey-check.html",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
-      "to": "file:apps/web/public/passkey-check.js",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
