@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "bc1d1560f89a8daab7880961015c3d2498a09f5a",
-  "generatedAt": "2026-09-22T05:58:15.702Z",
+  "commit": "d8736de060c7294dfddd0a62c9838feddbd2f932",
+  "generatedAt": "2026-09-22T06:09:53.106Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 202,
     "directories": 70,
-    "symbols": 886,
+    "symbols": 892,
     "headings": 77,
-    "nodes": 1236,
-    "edges": 3935
+    "nodes": 1242,
+    "edges": 3941
   },
   "nodes": [
     {
@@ -2111,12 +2111,32 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 7201,
-      "lines": 199,
+      "size": 13183,
+      "lines": 334,
       "symbols": [
+        {
+          "name": "noise3",
+          "type": "function"
+        },
+        {
+          "name": "fbm",
+          "type": "function"
+        },
         {
           "name": "LuminousWave",
           "type": "function"
+        },
+        {
+          "name": "smooth",
+          "type": "const"
+        },
+        {
+          "name": "lerp",
+          "type": "const"
+        },
+        {
+          "name": "hash3",
+          "type": "const"
         },
         {
           "name": "resize",
@@ -2149,8 +2169,34 @@
         {
           "name": "tick",
           "type": "const"
+        },
+        {
+          "name": "Star",
+          "type": "type"
         }
       ],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#noise3",
+      "type": "symbol",
+      "label": "noise3",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#fbm",
+      "type": "symbol",
+      "label": "fbm",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
       "headings": []
     },
     {
@@ -2159,6 +2205,39 @@
       "label": "LuminousWave",
       "path": "apps/web/src/LuminousWave.tsx",
       "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#smooth",
+      "type": "symbol",
+      "label": "smooth",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#lerp",
+      "type": "symbol",
+      "label": "lerp",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#hash3",
+      "type": "symbol",
+      "label": "hash3",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
       "group": "product",
       "parent": "file:apps/web/src/LuminousWave.tsx",
       "symbols": [],
@@ -2247,6 +2326,17 @@
       "label": "tick",
       "path": "apps/web/src/LuminousWave.tsx",
       "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#Star",
+      "type": "symbol",
+      "label": "Star",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "type",
       "group": "product",
       "parent": "file:apps/web/src/LuminousWave.tsx",
       "symbols": [],
@@ -2349,7 +2439,7 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 12369,
+      "size": 12411,
       "lines": 245,
       "symbols": [],
       "headings": []
@@ -21527,7 +21617,37 @@
     },
     {
       "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#noise3",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#fbm",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
       "to": "symbol:apps/web/src/LuminousWave.tsx#LuminousWave",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#smooth",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#lerp",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#hash3",
       "type": "defines",
       "confidence": "parser-derived"
     },
@@ -21576,6 +21696,12 @@
     {
       "from": "file:apps/web/src/LuminousWave.tsx",
       "to": "symbol:apps/web/src/LuminousWave.tsx#tick",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#Star",
       "type": "defines",
       "confidence": "parser-derived"
     },
