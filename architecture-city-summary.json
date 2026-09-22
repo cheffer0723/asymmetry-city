@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "9a1bf15f4bed1a2f16e05dd04051952d599acf29",
-  "generatedAt": "2026-09-22T07:39:22.103Z",
+  "commit": "c971c0711584064df500a9284a227670d23d1afb",
+  "generatedAt": "2026-09-22T07:58:54.231Z",
   "fidelity": "city-summary",
   "stats": {
     "files": 0,
@@ -95,9 +95,9 @@
       "symbols": 71,
       "headings": 0,
       "nodes": 107,
-      "lines": 4039,
-      "bytes": 154660,
-      "weight": 11804.68103793163,
+      "lines": 4041,
+      "bytes": 155450,
+      "weight": 11803.487432105943,
       "maxFileWeight": 1681.5444444444445
     },
     "evidence": {
