@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "d8736de060c7294dfddd0a62c9838feddbd2f932",
-  "generatedAt": "2026-09-22T06:09:53.106Z",
+  "commit": "337a73961d459505c700eca60a2384dd6ca71379",
+  "generatedAt": "2026-09-22T06:56:45.150Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 202,
+    "files": 203,
     "directories": 70,
-    "symbols": 892,
+    "symbols": 894,
     "headings": 77,
-    "nodes": 1242,
-    "edges": 3941
+    "nodes": 1245,
+    "edges": 3961
   },
   "nodes": [
     {
@@ -1374,7 +1374,7 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 868,
+      "size": 908,
       "lines": 24,
       "symbols": [],
       "headings": []
@@ -1449,6 +1449,19 @@
       "type": "file",
       "label": "asymmetry-wordmark.svg",
       "path": "apps/web/public/brand/asymmetry-wordmark.svg",
+      "group": "product",
+      "kind": "artifact",
+      "status": "source",
+      "size": 0,
+      "lines": 0,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "file",
+      "label": "dead-drop-icon.png",
+      "path": "apps/web/public/brand/dead-drop-icon.png",
       "group": "product",
       "kind": "artifact",
       "status": "source",
@@ -2037,7 +2050,7 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 4519,
+      "size": 4467,
       "lines": 31,
       "symbols": [
         {
@@ -2350,8 +2363,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 13584,
-      "lines": 275,
+      "size": 16535,
+      "lines": 324,
       "symbols": [
         {
           "name": "Arrow",
@@ -2367,6 +2380,14 @@
         },
         {
           "name": "show",
+          "type": "const"
+        },
+        {
+          "name": "orbit",
+          "type": "const"
+        },
+        {
+          "name": "carousel",
           "type": "const"
         },
         {
@@ -2421,6 +2442,28 @@
       "headings": []
     },
     {
+      "id": "symbol:apps/web/src/PublicSite.tsx#orbit",
+      "type": "symbol",
+      "label": "orbit",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#carousel",
+      "type": "symbol",
+      "label": "carousel",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:apps/web/src/PublicSite.tsx#sweep",
       "type": "symbol",
       "label": "sweep",
@@ -2439,8 +2482,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 12411,
-      "lines": 245,
+      "size": 18770,
+      "lines": 358,
       "symbols": [],
       "headings": []
     },
@@ -16133,6 +16176,12 @@
     },
     {
       "from": "file:.github/workflows/build.yml",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/build.yml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -16367,6 +16416,12 @@
     },
     {
       "from": "file:.github/workflows/monitor.yml",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -16920,12 +16975,6 @@
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -17039,6 +17088,12 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -17592,12 +17647,6 @@
     {
       "from": "file:.github/workflows/security.yml",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -17873,6 +17922,12 @@
     },
     {
       "from": "file:.gitleaks.toml",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.gitleaks.toml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -18024,6 +18079,12 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
       "type": "references",
       "confidence": "inferred"
     },
@@ -18582,12 +18643,6 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -18761,6 +18816,12 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -19314,12 +19375,6 @@
     {
       "from": "file:OWNER_INTENT.md",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -19457,6 +19512,12 @@
     },
     {
       "from": "file:README.md",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -20010,12 +20071,6 @@
     {
       "from": "file:README.md",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -20172,6 +20227,12 @@
     {
       "from": "file:SECURITY.md",
       "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
       "type": "references",
       "confidence": "inferred"
     },
@@ -20753,12 +20814,6 @@
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/scripts/run-beta-bots.ps1",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
       "to": "heading:SECURITY.md#Security Policy",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -20873,6 +20928,12 @@
     },
     {
       "from": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "to": "dir:apps/web/public/brand",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:apps/web/public/brand/dead-drop-icon.png",
       "to": "dir:apps/web/public/brand",
       "type": "contained-in",
       "confidence": "path-derived"
@@ -21713,6 +21774,12 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "symbol:apps/web/src/PublicSite.tsx#Arrow",
       "type": "defines",
       "confidence": "parser-derived"
@@ -21737,6 +21804,18 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#orbit",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#carousel",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "symbol:apps/web/src/PublicSite.tsx#sweep",
       "type": "defines",
       "confidence": "parser-derived"
@@ -21746,6 +21825,12 @@
       "to": "dir:apps/web/src",
       "type": "contained-in",
       "confidence": "path-derived"
+    },
+    {
+      "from": "file:apps/web/src/lander.css",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
     },
     {
       "from": "file:apps/web/src/main.tsx",
@@ -22409,6 +22494,12 @@
     },
     {
       "from": "file:docs/audit/README.md",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/audit/README.md",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -22470,12 +22561,6 @@
     {
       "from": "file:docs/audit/README.md",
       "to": "file:apps/web/routing.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/audit/README.md",
-      "to": "file:apps/web/server.test.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -22650,6 +22735,12 @@
     {
       "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
       "type": "references",
       "confidence": "inferred"
     },
@@ -24191,6 +24282,12 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -24791,6 +24888,12 @@
     },
     {
       "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -25002,6 +25105,12 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
       "type": "references",
       "confidence": "inferred"
     },
@@ -25931,6 +26040,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -26214,6 +26329,12 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
       "type": "references",
       "confidence": "inferred"
     },
@@ -27833,6 +27954,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -28596,6 +28723,12 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29489,6 +29622,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -30197,6 +30336,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -30870,6 +31015,12 @@
     {
       "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
       "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
       "type": "references",
       "confidence": "inferred"
     },
@@ -32015,6 +32166,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -32478,12 +32635,6 @@
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:packages/dead-drop/reference/mailbox/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:packages/dead-drop/reference/mailbox/src/main.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -33563,6 +33714,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -34120,12 +34277,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
       "to": "dir:packages/dead-drop/reference/test-surface/static/assets",
       "type": "contained-in",
@@ -34218,6 +34369,12 @@
     {
       "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
       "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
       "type": "references",
       "confidence": "inferred"
     },
@@ -34853,6 +35010,12 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -35406,12 +35569,6 @@
     {
       "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38718,6 +38875,12 @@
     {
       "from": "system:product",
       "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:product",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
