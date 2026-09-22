@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "23fa509382397b805705d6ae8eaa664f452c4302",
-  "generatedAt": "2026-09-22T05:04:56.650Z",
+  "commit": "1a8a16b869d839daf610627885824b99438da754",
+  "generatedAt": "2026-09-22T05:21:10.142Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 202,
     "directories": 70,
-    "symbols": 881,
+    "symbols": 885,
     "headings": 77,
-    "nodes": 1231,
-    "edges": 3930
+    "nodes": 1235,
+    "edges": 3934
   },
   "nodes": [
     {
@@ -2111,8 +2111,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 4781,
-      "lines": 147,
+      "size": 6219,
+      "lines": 184,
       "symbols": [
         {
           "name": "LuminousWave",
@@ -2120,6 +2120,22 @@
         },
         {
           "name": "resize",
+          "type": "const"
+        },
+        {
+          "name": "heightAt",
+          "type": "const"
+        },
+        {
+          "name": "layout",
+          "type": "const"
+        },
+        {
+          "name": "rgb",
+          "type": "const"
+        },
+        {
+          "name": "edge",
           "type": "const"
         },
         {
@@ -2148,6 +2164,50 @@
       "id": "symbol:apps/web/src/LuminousWave.tsx#resize",
       "type": "symbol",
       "label": "resize",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#heightAt",
+      "type": "symbol",
+      "label": "heightAt",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#layout",
+      "type": "symbol",
+      "label": "layout",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#rgb",
+      "type": "symbol",
+      "label": "rgb",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#edge",
+      "type": "symbol",
+      "label": "edge",
       "path": "apps/web/src/LuminousWave.tsx",
       "symbolType": "const",
       "group": "product",
@@ -2274,7 +2334,7 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 11662,
+      "size": 11657,
       "lines": 233,
       "symbols": [],
       "headings": []
@@ -21459,6 +21519,30 @@
     {
       "from": "file:apps/web/src/LuminousWave.tsx",
       "to": "symbol:apps/web/src/LuminousWave.tsx#resize",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#heightAt",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#layout",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#rgb",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#edge",
       "type": "defines",
       "confidence": "parser-derived"
     },
