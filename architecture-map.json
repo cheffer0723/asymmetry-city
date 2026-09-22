@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "b834b00b0de1202b2ebd1bb7bf80c6feb5f862b7",
-  "generatedAt": "2026-09-22T08:09:17.630Z",
+  "commit": "58f60d7141ae709a34019a615136a940d4e57e0a",
+  "generatedAt": "2026-09-22T21:38:54.477Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 203,
     "directories": 70,
-    "symbols": 901,
+    "symbols": 926,
     "headings": 77,
-    "nodes": 1252,
-    "edges": 4077
+    "nodes": 1277,
+    "edges": 4075
   },
   "nodes": [
     {
@@ -4279,8 +4279,8 @@
       "group": "dead-drop",
       "kind": "rust",
       "status": "source",
-      "size": 3327,
-      "lines": 93,
+      "size": 3670,
+      "lines": 101,
       "symbols": [
         {
           "name": "failure",
@@ -8693,8 +8693,8 @@
       "group": "dead-drop",
       "kind": "configuration",
       "status": "source",
-      "size": 1031,
-      "lines": 34,
+      "size": 1102,
+      "lines": 36,
       "symbols": [],
       "headings": []
     },
@@ -10456,6 +10456,28 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#register_push",
+      "type": "symbol",
+      "label": "register_push",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#unregister_push",
+      "type": "symbol",
+      "label": "unregister_push",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#poll_client_packet",
       "type": "symbol",
       "label": "poll_client_packet",
@@ -11218,6 +11240,28 @@
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#ClientOpaqueStoreRequest",
       "type": "symbol",
       "label": "ClientOpaqueStoreRequest",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#ClientPushRegisterRequest",
+      "type": "symbol",
+      "label": "ClientPushRegisterRequest",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#ClientPushUnregisterRequest",
+      "type": "symbol",
+      "label": "ClientPushUnregisterRequest",
       "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
       "symbolType": "struct",
       "group": "dead-drop",
@@ -12066,6 +12110,237 @@
       "symbolType": "function",
       "group": "dead-drop",
       "parent": "file:packages/dead-drop/reference/test-surface/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#open",
+      "type": "symbol",
+      "label": "open",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#register",
+      "type": "symbol",
+      "label": "register",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#unregister",
+      "type": "symbol",
+      "label": "unregister",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#lookup",
+      "type": "symbol",
+      "label": "lookup",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#prune",
+      "type": "symbol",
+      "label": "prune",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#persist",
+      "type": "symbol",
+      "label": "persist",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#now_secs",
+      "type": "symbol",
+      "label": "now_secs",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#from_environment",
+      "type": "symbol",
+      "label": "from_environment",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#send",
+      "type": "symbol",
+      "label": "send",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#decode_p8",
+      "type": "symbol",
+      "label": "decode_p8",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#configured_from_environment",
+      "type": "symbol",
+      "label": "configured_from_environment",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#notify",
+      "type": "symbol",
+      "label": "notify",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#pem_body_is_decoded_without_armour",
+      "type": "symbol",
+      "label": "pem_body_is_decoded_without_armour",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#stale_registrations_are_pruned",
+      "type": "symbol",
+      "label": "stale_registrations_are_pruned",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#Registration",
+      "type": "symbol",
+      "label": "Registration",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#RegistryOnDisk",
+      "type": "symbol",
+      "label": "RegistryOnDisk",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#PushRegistry",
+      "type": "symbol",
+      "label": "PushRegistry",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#ApnsClient",
+      "type": "symbol",
+      "label": "ApnsClient",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#ApnsError",
+      "type": "symbol",
+      "label": "ApnsError",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#PushService",
+      "type": "symbol",
+      "label": "PushService",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/push.rs#Delivery",
+      "type": "symbol",
+      "label": "Delivery",
+      "path": "packages/dead-drop/reference/test-surface/src/push.rs",
+      "symbolType": "enum",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/push.rs",
       "symbols": [],
       "headings": []
     },
@@ -20908,12 +21183,6 @@
     {
       "from": "file:SECURITY.md",
       "to": "file:packages/dead-drop/scripts/build-browser-client-core.ps1",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38457,12 +38726,6 @@
     },
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:packages/dead-drop/simulator/report.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "symbol:packages/dead-drop/tools/check_traceability.py#collect_defined_tests",
       "type": "defines",
       "confidence": "parser-derived"
@@ -40658,5 +40921,5 @@
       "confidence": "path-derived"
     }
   ],
-  "protectedNodesOmitted": 146
+  "protectedNodesOmitted": 152
 }
