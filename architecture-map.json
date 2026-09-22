@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "337a73961d459505c700eca60a2384dd6ca71379",
-  "generatedAt": "2026-09-22T06:56:45.150Z",
+  "commit": "9a1bf15f4bed1a2f16e05dd04051952d599acf29",
+  "generatedAt": "2026-09-22T07:39:22.103Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 203,
     "directories": 70,
-    "symbols": 894,
+    "symbols": 901,
     "headings": 77,
-    "nodes": 1245,
-    "edges": 3961
+    "nodes": 1252,
+    "edges": 4077
   },
   "nodes": [
     {
@@ -2363,8 +2363,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 16535,
-      "lines": 324,
+      "size": 19993,
+      "lines": 406,
       "symbols": [
         {
           "name": "Arrow",
@@ -2383,11 +2383,39 @@
           "type": "const"
         },
         {
-          "name": "orbit",
+          "name": "paint",
           "type": "const"
         },
         {
-          "name": "carousel",
+          "name": "frame",
+          "type": "const"
+        },
+        {
+          "name": "wake",
+          "type": "const"
+        },
+        {
+          "name": "wheelScroll",
+          "type": "const"
+        },
+        {
+          "name": "release",
+          "type": "const"
+        },
+        {
+          "name": "onDown",
+          "type": "const"
+        },
+        {
+          "name": "onMove",
+          "type": "const"
+        },
+        {
+          "name": "hold",
+          "type": "const"
+        },
+        {
+          "name": "unhold",
           "type": "const"
         },
         {
@@ -2442,9 +2470,9 @@
       "headings": []
     },
     {
-      "id": "symbol:apps/web/src/PublicSite.tsx#orbit",
+      "id": "symbol:apps/web/src/PublicSite.tsx#paint",
       "type": "symbol",
-      "label": "orbit",
+      "label": "paint",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "const",
       "group": "product",
@@ -2453,9 +2481,86 @@
       "headings": []
     },
     {
-      "id": "symbol:apps/web/src/PublicSite.tsx#carousel",
+      "id": "symbol:apps/web/src/PublicSite.tsx#frame",
       "type": "symbol",
-      "label": "carousel",
+      "label": "frame",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#wake",
+      "type": "symbol",
+      "label": "wake",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#wheelScroll",
+      "type": "symbol",
+      "label": "wheelScroll",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#release",
+      "type": "symbol",
+      "label": "release",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#onDown",
+      "type": "symbol",
+      "label": "onDown",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#onMove",
+      "type": "symbol",
+      "label": "onMove",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#hold",
+      "type": "symbol",
+      "label": "hold",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#unhold",
+      "type": "symbol",
+      "label": "unhold",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "const",
       "group": "product",
@@ -2482,8 +2587,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 18770,
-      "lines": 358,
+      "size": 18426,
+      "lines": 346,
       "symbols": [],
       "headings": []
     },
@@ -21780,6 +21885,660 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:.claude/settings.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:.docguard-allow.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:.github/dependabot.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:.github/workflows/architecture-city-sync.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:.gitleaks.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/package.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/brand/asymmetry-emblem.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark-centered.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/brand/icon-192.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/brand/icon-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/brand/icon-maskable-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/coming-soon-signup.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/coming-soon.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/coming-soon.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/hero-orbit.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/manifest.webmanifest",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/routing.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/server.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/src/App.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/src/lander.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/src/main.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/src/routing.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/src/styles.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/tsconfig.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/vite.config.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:docs/audit/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:package.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/.dockerignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/.gitattributes",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/AGENTS.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/apps/end-user-beta/assets/asymmetry-emblem-v1-2048.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/apps/end-user-beta/client-api.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/apps/end-user-beta/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/apps/end-user-beta/preview-server.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/conformance/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/conformance/validator.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/deny.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/examples/baseline-config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/fuzz/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/directory_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/pyproject.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/courier/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/courier/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/directory-publisher/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/directory-publisher/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/directory-publisher/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/directory/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/harness/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/harness/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mailbox/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mailbox/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mailbox/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mailbox/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mailbox/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mailbox/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mailbox/src/store.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mixnode/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mixnode/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mixnode/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mixnode/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mixnode/src/directory.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mixnode/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "symbol:apps/web/src/PublicSite.tsx#Arrow",
       "type": "defines",
       "confidence": "parser-derived"
@@ -21804,13 +22563,55 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
-      "to": "symbol:apps/web/src/PublicSite.tsx#orbit",
+      "to": "symbol:apps/web/src/PublicSite.tsx#paint",
       "type": "defines",
       "confidence": "parser-derived"
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
-      "to": "symbol:apps/web/src/PublicSite.tsx#carousel",
+      "to": "symbol:apps/web/src/PublicSite.tsx#frame",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#wake",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#wheelScroll",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#release",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#onDown",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#onMove",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#hold",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#unhold",
       "type": "defines",
       "confidence": "parser-derived"
     },
