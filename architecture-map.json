@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "6f93fac7d60fb83cd0dd9fc3db585deec4be52d5",
-  "generatedAt": "2026-09-22T03:54:05.488Z",
+  "commit": "23fa509382397b805705d6ae8eaa664f452c4302",
+  "generatedAt": "2026-09-22T05:04:56.650Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 208,
-    "directories": 71,
-    "symbols": 899,
+    "files": 202,
+    "directories": 70,
+    "symbols": 881,
     "headings": 77,
-    "nodes": 1256,
-    "edges": 4183
+    "nodes": 1231,
+    "edges": 3930
   },
   "nodes": [
     {
@@ -76,15 +76,6 @@
       "type": "directory",
       "label": "brand",
       "path": "apps/web/public/brand",
-      "group": "product",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "dir:apps/web/public/gate",
-      "type": "directory",
-      "label": "gate",
-      "path": "apps/web/public/gate",
       "group": "product",
       "symbols": [],
       "headings": []
@@ -1376,19 +1367,6 @@
       "headings": []
     },
     {
-      "id": "file:apps/web/disclosureContent.test.mjs",
-      "type": "file",
-      "label": "disclosureContent.test.mjs",
-      "path": "apps/web/disclosureContent.test.mjs",
-      "group": "product",
-      "kind": "application",
-      "status": "tested",
-      "size": 2029,
-      "lines": 44,
-      "symbols": [],
-      "headings": []
-    },
-    {
       "id": "file:apps/web/index.html",
       "type": "file",
       "label": "index.html",
@@ -1409,8 +1387,8 @@
       "group": "product",
       "kind": "configuration",
       "status": "source",
-      "size": 41401,
-      "lines": 1265,
+      "size": 40537,
+      "lines": 1245,
       "symbols": [],
       "headings": []
     },
@@ -1422,8 +1400,8 @@
       "group": "product",
       "kind": "configuration",
       "status": "source",
-      "size": 767,
-      "lines": 29,
+      "size": 665,
+      "lines": 27,
       "symbols": [],
       "headings": []
     },
@@ -1570,71 +1548,6 @@
       "status": "source",
       "size": 4960,
       "lines": 93,
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "file",
-      "label": "chamber-mark.png",
-      "path": "apps/web/public/gate/chamber-mark.png",
-      "group": "product",
-      "kind": "artifact",
-      "status": "source",
-      "size": 0,
-      "lines": 0,
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "file",
-      "label": "hero-network-mesh-desktop.png",
-      "path": "apps/web/public/hero-network-mesh-desktop.png",
-      "group": "product",
-      "kind": "artifact",
-      "status": "source",
-      "size": 0,
-      "lines": 0,
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "file",
-      "label": "hero-network-mesh-desktop.webp",
-      "path": "apps/web/public/hero-network-mesh-desktop.webp",
-      "group": "product",
-      "kind": "artifact",
-      "status": "source",
-      "size": 0,
-      "lines": 0,
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "file",
-      "label": "hero-network-mesh-mobile.png",
-      "path": "apps/web/public/hero-network-mesh-mobile.png",
-      "group": "product",
-      "kind": "artifact",
-      "status": "source",
-      "size": 0,
-      "lines": 0,
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "file",
-      "label": "hero-network-mesh-mobile.webp",
-      "path": "apps/web/public/hero-network-mesh-mobile.webp",
-      "group": "product",
-      "kind": "artifact",
-      "status": "source",
-      "size": 0,
-      "lines": 0,
       "symbols": [],
       "headings": []
     },
@@ -2191,113 +2104,117 @@
       "headings": []
     },
     {
-      "id": "file:apps/web/src/DeviceProof.tsx",
+      "id": "file:apps/web/src/LuminousWave.tsx",
       "type": "file",
-      "label": "DeviceProof.tsx",
-      "path": "apps/web/src/DeviceProof.tsx",
+      "label": "LuminousWave.tsx",
+      "path": "apps/web/src/LuminousWave.tsx",
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 4050,
-      "lines": 114,
+      "size": 4781,
+      "lines": 147,
       "symbols": [
         {
-          "name": "countCookies",
+          "name": "LuminousWave",
           "type": "function"
         },
         {
-          "name": "measure",
-          "type": "function"
-        },
-        {
-          "name": "DeviceProof",
-          "type": "function"
-        },
-        {
-          "name": "update",
+          "name": "resize",
           "type": "const"
+        },
+        {
+          "name": "draw",
+          "type": "const"
+        },
+        {
+          "name": "tick",
+          "type": "const"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#LuminousWave",
+      "type": "symbol",
+      "label": "LuminousWave",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#resize",
+      "type": "symbol",
+      "label": "resize",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#draw",
+      "type": "symbol",
+      "label": "draw",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#tick",
+      "type": "symbol",
+      "label": "tick",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:apps/web/src/PublicSite.tsx",
+      "type": "file",
+      "label": "PublicSite.tsx",
+      "path": "apps/web/src/PublicSite.tsx",
+      "group": "product",
+      "kind": "application",
+      "status": "source",
+      "size": 13632,
+      "lines": 276,
+      "symbols": [
+        {
+          "name": "Arrow",
+          "type": "function"
+        },
+        {
+          "name": "GetButton",
+          "type": "function"
+        },
+        {
+          "name": "PublicSite",
+          "type": "function"
         },
         {
           "name": "show",
           "type": "const"
         },
         {
-          "name": "Measurements",
-          "type": "type"
+          "name": "sweep",
+          "type": "const"
         }
       ],
       "headings": []
     },
     {
-      "id": "symbol:apps/web/src/DeviceProof.tsx#countCookies",
+      "id": "symbol:apps/web/src/PublicSite.tsx#Arrow",
       "type": "symbol",
-      "label": "countCookies",
-      "path": "apps/web/src/DeviceProof.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/DeviceProof.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/DeviceProof.tsx#measure",
-      "type": "symbol",
-      "label": "measure",
-      "path": "apps/web/src/DeviceProof.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/DeviceProof.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/DeviceProof.tsx#DeviceProof",
-      "type": "symbol",
-      "label": "DeviceProof",
-      "path": "apps/web/src/DeviceProof.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/DeviceProof.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/DeviceProof.tsx#update",
-      "type": "symbol",
-      "label": "update",
-      "path": "apps/web/src/DeviceProof.tsx",
-      "symbolType": "const",
-      "group": "product",
-      "parent": "file:apps/web/src/DeviceProof.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/DeviceProof.tsx#show",
-      "type": "symbol",
-      "label": "show",
-      "path": "apps/web/src/DeviceProof.tsx",
-      "symbolType": "const",
-      "group": "product",
-      "parent": "file:apps/web/src/DeviceProof.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/DeviceProof.tsx#Measurements",
-      "type": "symbol",
-      "label": "Measurements",
-      "path": "apps/web/src/DeviceProof.tsx",
-      "symbolType": "type",
-      "group": "product",
-      "parent": "file:apps/web/src/DeviceProof.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#Emblem",
-      "type": "symbol",
-      "label": "Emblem",
+      "label": "Arrow",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "function",
       "group": "product",
@@ -2306,119 +2223,9 @@
       "headings": []
     },
     {
-      "id": "symbol:apps/web/src/PublicSite.tsx#resolvePublicPage",
+      "id": "symbol:apps/web/src/PublicSite.tsx#GetButton",
       "type": "symbol",
-      "label": "resolvePublicPage",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#PublicLink",
-      "type": "symbol",
-      "label": "PublicLink",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#PublicNavigation",
-      "type": "symbol",
-      "label": "PublicNavigation",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#EnginePage",
-      "type": "symbol",
-      "label": "EnginePage",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#PrinciplesPage",
-      "type": "symbol",
-      "label": "PrinciplesPage",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#scramble",
-      "type": "symbol",
-      "label": "scramble",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#EnterArrow",
-      "type": "symbol",
-      "label": "EnterArrow",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#angleForPosition",
-      "type": "symbol",
-      "label": "angleForPosition",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#turnTo",
-      "type": "symbol",
-      "label": "turnTo",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#MagneticLink",
-      "type": "symbol",
-      "label": "MagneticLink",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#GalacticBackdrop",
-      "type": "symbol",
-      "label": "GalacticBackdrop",
+      "label": "GetButton",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "function",
       "group": "product",
@@ -2438,9 +2245,9 @@
       "headings": []
     },
     {
-      "id": "symbol:apps/web/src/PublicSite.tsx#follow",
+      "id": "symbol:apps/web/src/PublicSite.tsx#show",
       "type": "symbol",
-      "label": "follow",
+      "label": "show",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "const",
       "group": "product",
@@ -2449,9 +2256,9 @@
       "headings": []
     },
     {
-      "id": "symbol:apps/web/src/PublicSite.tsx#settleFrame",
+      "id": "symbol:apps/web/src/PublicSite.tsx#sweep",
       "type": "symbol",
-      "label": "settleFrame",
+      "label": "sweep",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "const",
       "group": "product",
@@ -2460,81 +2267,15 @@
       "headings": []
     },
     {
-      "id": "symbol:apps/web/src/PublicSite.tsx#handleMove",
-      "type": "symbol",
-      "label": "handleMove",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "const",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#reset",
-      "type": "symbol",
-      "label": "reset",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "const",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#updatePath",
-      "type": "symbol",
-      "label": "updatePath",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "const",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#navigatePublic",
-      "type": "symbol",
-      "label": "navigatePublic",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "const",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#PublicHref",
-      "type": "symbol",
-      "label": "PublicHref",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "type",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/PublicSite.tsx#PublicPage",
-      "type": "symbol",
-      "label": "PublicPage",
-      "path": "apps/web/src/PublicSite.tsx",
-      "symbolType": "type",
-      "group": "product",
-      "parent": "file:apps/web/src/PublicSite.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "file:apps/web/src/disclosureContent.ts",
+      "id": "file:apps/web/src/lander.css",
       "type": "file",
-      "label": "disclosureContent.ts",
-      "path": "apps/web/src/disclosureContent.ts",
+      "label": "lander.css",
+      "path": "apps/web/src/lander.css",
       "group": "product",
-      "kind": "application",
+      "kind": "artifact",
       "status": "source",
-      "size": 2166,
-      "lines": 35,
+      "size": 11662,
+      "lines": 233,
       "symbols": [],
       "headings": []
     },
@@ -2548,19 +2289,6 @@
       "status": "source",
       "size": 252,
       "lines": 13,
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "file:apps/web/src/publicSite.css",
-      "type": "file",
-      "label": "publicSite.css",
-      "path": "apps/web/src/publicSite.css",
-      "group": "product",
-      "kind": "artifact",
-      "status": "source",
-      "size": 100989,
-      "lines": 3412,
       "symbols": [],
       "headings": []
     },
@@ -2646,8 +2374,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 84837,
-      "lines": 1599,
+      "size": 8984,
+      "lines": 229,
       "symbols": [],
       "headings": []
     },
@@ -16198,12 +15926,6 @@
     },
     {
       "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -16282,36 +16004,6 @@
     },
     {
       "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -16354,25 +16046,25 @@
     },
     {
       "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/build.yml",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:.github/workflows/build.yml",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/build.yml",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -16468,12 +16160,6 @@
     },
     {
       "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -16552,36 +16238,6 @@
     },
     {
       "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -16624,25 +16280,25 @@
     },
     {
       "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -17069,6 +16725,42 @@
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -17140,12 +16832,6 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -17224,36 +16910,6 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -17296,25 +16952,25 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:.github/workflows/security.yml",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -17745,6 +17401,42 @@
       "confidence": "inferred"
     },
     {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
       "from": "file:.gitleaks.toml",
       "to": "file:.github/dependabot.yml",
       "type": "references",
@@ -17806,7 +17498,7 @@
     },
     {
       "from": "file:.gitleaks.toml",
-      "to": "file:apps/web/src/publicSite.css",
+      "to": "file:apps/web/src/PublicSite.tsx",
       "type": "references",
       "confidence": "inferred"
     },
@@ -18040,6 +17732,12 @@
     },
     {
       "from": "file:.gitleaks.toml",
+      "to": "file:apps/web/src/lander.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.gitleaks.toml",
       "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -18124,12 +17822,6 @@
     },
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -18208,36 +17900,6 @@
     },
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -18280,25 +17942,25 @@
     },
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -18725,6 +18387,42 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -18856,12 +18554,6 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -18940,36 +18632,6 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -19012,25 +18674,25 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:OWNER_INTENT.md",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -19457,6 +19119,42 @@
     {
       "from": "file:OWNER_INTENT.md",
       "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -19552,12 +19250,6 @@
     },
     {
       "from": "file:README.md",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -19636,36 +19328,6 @@
     },
     {
       "from": "file:README.md",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -19708,25 +19370,25 @@
     },
     {
       "from": "file:README.md",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:README.md",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:README.md",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -20153,6 +19815,42 @@
     {
       "from": "file:README.md",
       "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -20345,36 +20043,6 @@
     {
       "from": "file:SECURITY.md",
       "to": "file:apps/web/public/coming-soon.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
       "type": "references",
       "confidence": "inferred"
     },
@@ -20896,6 +20564,36 @@
     },
     {
       "from": "file:SECURITY.md",
+      "to": "file:packages/dead-drop/schemas/simulation-result.schema.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:packages/dead-drop/schemas/suite-registry.schema.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:packages/dead-drop/scripts/build-browser-client-core.ps1",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:packages/dead-drop/scripts/run-beta-bots.ps1",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
       "to": "heading:SECURITY.md#Security Policy",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -20971,174 +20669,6 @@
       "to": "dir:apps/web",
       "type": "contained-in",
       "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "dir:apps/web",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:apps/web/routing.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:apps/web/server.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/test-surface/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/test-surface/src/bin/beta.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/test-surface/src/mailbox.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/test-surface/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/test-surface/static/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/test-surface/static/owner-beta-v2.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/reference/test-surface/static/owner-dashboard.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/adversarial/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/adversarial/test_failures.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/privacy/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/privacy/test_privacy_properties.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/protocol/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/protocol/test_envelope.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/unit/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/unit/test_client_boundary.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/disclosureContent.test.mjs",
-      "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "type": "references",
-      "confidence": "inferred"
     },
     {
       "from": "file:apps/web/index.html",
@@ -21231,36 +20761,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:apps/web/public/gate/chamber-mark.png",
-      "to": "dir:apps/web/public/gate",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "to": "dir:apps/web/public",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "to": "dir:apps/web/public",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "to": "dir:apps/web/public",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "to": "dir:apps/web/public",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
       "from": "file:apps/web/public/hero-orbit.png",
       "to": "dir:apps/web/public",
       "type": "contained-in",
@@ -21289,12 +20789,6 @@
       "to": "dir:apps/web",
       "type": "contained-in",
       "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/routing.test.mjs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
     },
     {
       "from": "file:apps/web/routing.test.mjs",
@@ -21457,12 +20951,6 @@
       "to": "dir:apps/web",
       "type": "contained-in",
       "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/server.test.mjs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
     },
     {
       "from": "file:apps/web/server.test.mjs",
@@ -21748,7 +21236,7 @@
     },
     {
       "from": "file:apps/web/src/App.tsx",
-      "to": "file:apps/web/src/publicSite.css",
+      "to": "file:apps/web/src/PublicSite.tsx",
       "type": "references",
       "confidence": "inferred"
     },
@@ -21957,388 +21445,76 @@
       "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/DeviceProof.tsx",
+      "from": "file:apps/web/src/LuminousWave.tsx",
       "to": "dir:apps/web/src",
       "type": "contained-in",
       "confidence": "path-derived"
     },
     {
-      "from": "file:apps/web/src/DeviceProof.tsx",
-      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/DeviceProof.tsx",
-      "to": "symbol:apps/web/src/DeviceProof.tsx#countCookies",
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#LuminousWave",
       "type": "defines",
       "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/DeviceProof.tsx",
-      "to": "symbol:apps/web/src/DeviceProof.tsx#measure",
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#resize",
       "type": "defines",
       "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/DeviceProof.tsx",
-      "to": "symbol:apps/web/src/DeviceProof.tsx#DeviceProof",
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#draw",
       "type": "defines",
       "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/DeviceProof.tsx",
-      "to": "symbol:apps/web/src/DeviceProof.tsx#update",
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#tick",
       "type": "defines",
       "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/DeviceProof.tsx",
-      "to": "symbol:apps/web/src/DeviceProof.tsx#show",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/DeviceProof.tsx",
-      "to": "symbol:apps/web/src/DeviceProof.tsx#Measurements",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
+      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "dir:apps/web/src",
       "type": "contained-in",
       "confidence": "path-derived"
     },
     {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:.claude/settings.json",
-      "type": "references",
-      "confidence": "inferred"
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#Arrow",
+      "type": "defines",
+      "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:.docguard-allow.json",
-      "type": "references",
-      "confidence": "inferred"
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#GetButton",
+      "type": "defines",
+      "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:.github/workflows/monitor.yml",
-      "type": "references",
-      "confidence": "inferred"
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#PublicSite",
+      "type": "defines",
+      "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#show",
+      "type": "defines",
+      "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/package-lock.json",
-      "type": "references",
-      "confidence": "inferred"
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#sweep",
+      "type": "defines",
+      "confidence": "parser-derived"
     },
     {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/package.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/public/brand/icon-192.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/public/brand/icon-512.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/public/brand/icon-maskable-512.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/public/coming-soon-signup.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/public/coming-soon.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/public/coming-soon.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/tsconfig.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:apps/web/vite.config.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:package-lock.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:package.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/conformance/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/conformance/validator.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/examples/baseline-config.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/schemas/directory-epoch.schema.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/schemas/simulation-result.schema.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/schemas/suite-registry.schema.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/scripts/start-darkfusion-beta.ps1",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/simulator/config.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/directory-epoch-valid.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/experimental-suite-0001.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-cross-layer-operator-reuse.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-empty-layer.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-empty-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-insufficient-quorum.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-inverted-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-node-missing-routing-key.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-non-contiguous-layers.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-protocol-downgrade.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-suite-downgrade.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-too-few-authorities.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-unknown-field.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-wrong-document-type.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/directory-wrong-layer-count.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/manifest.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-geometry-does-not-sum.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-geometry-zero-packet-length.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-missing-packet-geometry.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-no-references.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-status-not-experimental.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unknown-field.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unsupported-protocol-version.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unsupported-suite-id.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-wrong-document-type.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/disclosureContent.ts",
-      "to": "file:packages/dead-drop/vectors/negative/registry-wrong-hop-count.json",
-      "type": "references",
-      "confidence": "inferred"
+      "from": "file:apps/web/src/lander.css",
+      "to": "dir:apps/web/src",
+      "type": "contained-in",
+      "confidence": "path-derived"
     },
     {
       "from": "file:apps/web/src/main.tsx",
@@ -22349,258 +21525,6 @@
     {
       "from": "file:apps/web/src/main.tsx",
       "to": "file:apps/web/src/App.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "dir:apps/web/src",
-      "type": "contained-in",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:.github/dependabot.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:.github/workflows/architecture-city-sync.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:.github/workflows/build.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:.github/workflows/dead-drop.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:.github/workflows/monitor.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:.github/workflows/release.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:.github/workflows/security.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:.gitleaks.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:apps/web/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:apps/web/public/hero-orbit.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:apps/web/vite.config.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:docs/audit/README.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/.gitattributes",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/conformance/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/results/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/schemas/suite-registry.schema.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/simulator/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/tests/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/tests/adversarial/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/tests/privacy/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/tests/protocol/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/tests/unit/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/tests/unit/test_client_boundary.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/tools/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/tools/check_traceability.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/vectors/experimental-suite-0001.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/vectors/negative/directory-empty-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/vectors/negative/directory-inverted-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/vectors/negative/directory-suite-downgrade.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/vectors/negative/directory-too-few-authorities.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unsupported-suite-id.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:scripts/generate-architecture-city-source-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:scripts/generate-public-architecture-city-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/publicSite.css",
-      "to": "file:scripts/security-check.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -22647,630 +21571,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:.github/dependabot.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:.github/workflows/architecture-city-sync.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:.github/workflows/build.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:.github/workflows/dead-drop.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:.github/workflows/monitor.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:.github/workflows/release.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:.github/workflows/security.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:.gitleaks.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:apps/web/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:apps/web/public/hero-orbit.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:apps/web/src/publicSite.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:apps/web/vite.config.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:docs/audit/README.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/.gitattributes",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/conformance/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/results/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/schemas/suite-registry.schema.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/simulator/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/tests/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/tests/adversarial/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/tests/privacy/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/tests/protocol/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/tests/unit/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/tests/unit/test_client_boundary.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/tools/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/tools/check_traceability.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/vectors/experimental-suite-0001.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/vectors/negative/directory-empty-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/vectors/negative/directory-inverted-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/vectors/negative/directory-suite-downgrade.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/vectors/negative/directory-too-few-authorities.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unsupported-suite-id.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:scripts/generate-architecture-city-source-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:scripts/generate-public-architecture-city-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:scripts/security-check.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/.dockerignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/AGENTS.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/apps/end-user-beta/assets/asymmetry-emblem-v1-2048.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/apps/end-user-beta/client-api.js",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/apps/end-user-beta/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/apps/end-user-beta/preview-server.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/conformance/validator.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/deny.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/docker-entrypoint.sh",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/examples/baseline-config.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/fuzz/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/fuzz/fuzz_targets/directory_parse.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/pyproject.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/courier/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/directory-publisher/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/directory-publisher/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/directory-publisher/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/directory/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/harness/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/harness/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/harness/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mailbox/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mailbox/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mailbox/docker-entrypoint.sh",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mailbox/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mailbox/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mailbox/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mailbox/src/store.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mixnode/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mixnode/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mixnode/docker-entrypoint.sh",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mixnode/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mixnode/src/directory.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mixnode/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/styles.css",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:apps/web/tsconfig.json",
       "to": "dir:apps/web",
       "type": "contained-in",
@@ -23303,18 +21603,6 @@
     {
       "from": "file:docs/audit/README.md",
       "to": "file:.gitleaks.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/audit/README.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/audit/README.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
       "type": "references",
       "confidence": "inferred"
     },
@@ -23848,12 +22136,6 @@
     },
     {
       "from": "file:docs/audit/README.md",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/audit/README.md",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -23932,19 +22214,37 @@
     },
     {
       "from": "file:docs/audit/README.md",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
+      "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:docs/audit/README.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
+      "to": "file:apps/web/public/manifest.webmanifest",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:docs/audit/README.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/audit/README.md",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/audit/README.md",
+      "to": "file:apps/web/routing.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/audit/README.md",
+      "to": "file:apps/web/server.test.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -24082,12 +22382,6 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -24166,36 +22460,6 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -24238,25 +22502,25 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -24688,6 +22952,36 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "heading:packages/dead-drop/AGENTS.md#Asymmetry SPN (Dead Drop) Agent Operating Rules",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -24844,7 +23138,7 @@
     },
     {
       "from": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
-      "to": "file:apps/web/src/publicSite.css",
+      "to": "file:apps/web/src/PublicSite.tsx",
       "type": "references",
       "confidence": "inferred"
     },
@@ -25051,12 +23345,6 @@
       "to": "dir:packages/dead-drop/apps/end-user-beta",
       "type": "contained-in",
       "confidence": "path-derived"
-    },
-    {
-      "from": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
@@ -25630,12 +23918,6 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -25714,36 +23996,6 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -25786,25 +24038,25 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -26229,6 +24481,36 @@
       "confidence": "inferred"
     },
     {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
       "from": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
       "to": "dir:packages/dead-drop/deploy/caddy",
       "type": "contained-in",
@@ -26291,6 +24573,12 @@
     {
       "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
       "to": "file:apps/web/public/brand/icon-maskable-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -26446,12 +24734,6 @@
     },
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -26530,36 +24812,6 @@
     },
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -26602,25 +24854,25 @@
     },
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -27051,6 +25303,36 @@
       "confidence": "inferred"
     },
     {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
       "from": "file:packages/dead-drop/pyproject.toml",
       "to": "dir:packages/dead-drop",
       "type": "contained-in",
@@ -27073,12 +25355,6 @@
       "to": "dir:packages/dead-drop/reference/client-core/src",
       "type": "contained-in",
       "confidence": "path-derived"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
@@ -27448,6 +25724,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:apps/web/src/lander.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -27664,12 +25946,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -27748,36 +26024,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -27820,25 +26066,25 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28265,6 +26511,36 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28745,18 +27021,6 @@
     {
       "from": "file:packages/dead-drop/reference/courier/railway.toml",
       "to": "file:.gitleaks.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/railway.toml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/railway.toml",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29296,12 +27560,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -29380,36 +27638,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -29452,25 +27680,25 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29902,6 +28130,36 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "symbol:packages/dead-drop/reference/courier/src/main.rs#main",
       "type": "defines",
       "confidence": "parser-derived"
@@ -30070,12 +28328,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -30154,36 +28406,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -30226,25 +28448,25 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -30671,6 +28893,36 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -30964,12 +29216,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -31048,36 +29294,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -31120,25 +29336,25 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -31570,6 +29786,36 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "symbol:packages/dead-drop/reference/directory/src/main.rs#main",
       "type": "defines",
       "confidence": "parser-derived"
@@ -31678,12 +29924,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -31762,36 +30002,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -31834,25 +30044,25 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -32284,6 +30494,36 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#main",
       "type": "defines",
       "confidence": "parser-derived"
@@ -32423,6 +30663,12 @@
     {
       "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
       "to": "file:apps/web/public/manifest.webmanifest",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -33496,12 +31742,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -33580,36 +31820,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -33652,25 +31862,25 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -33989,6 +32199,60 @@
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/harness/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/harness/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/mailbox/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/mailbox/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/mailbox/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/mailbox/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/mailbox/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/mailbox/src/main.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -35026,12 +33290,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -35110,36 +33368,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -35182,25 +33410,25 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -35631,6 +33859,42 @@
       "confidence": "inferred"
     },
     {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
       "from": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
       "to": "dir:packages/dead-drop/reference/test-surface/static/assets",
       "type": "contained-in",
@@ -35747,6 +34011,12 @@
     {
       "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
       "to": "file:apps/web/public/manifest.webmanifest",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -36310,12 +34580,6 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:apps/web/index.html",
       "type": "references",
       "confidence": "inferred"
@@ -36394,36 +34658,6 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "references",
       "confidence": "inferred"
@@ -36466,25 +34700,25 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:apps/web/src/lander.css",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:apps/web/src/main.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "references",
       "confidence": "inferred"
     },
@@ -36911,6 +35145,42 @@
     {
       "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37774,19 +36044,7 @@
     },
     {
       "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
       "to": "file:apps/web/public/brand/asymmetry-wordmark-centered.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:apps/web/src/disclosureContent.ts",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38458,7 +36716,7 @@
     },
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:apps/web/src/publicSite.css",
+      "to": "file:apps/web/src/PublicSite.tsx",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38644,19 +36902,7 @@
     },
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:apps/web/public/brand/asymmetry-wordmark-centered.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:apps/web/src/disclosureContent.ts",
       "type": "references",
       "confidence": "inferred"
     },
@@ -39005,6 +37251,24 @@
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:packages/dead-drop/schemas/directory-epoch.schema.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/schemas/simulation-result.schema.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/scripts/build-browser-client-core.ps1",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/simulator/report.py",
       "type": "references",
       "confidence": "inferred"
     },
@@ -39466,18 +37730,6 @@
     },
     {
       "from": "file:packages/surb-reply/src/lib.rs",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/surb-reply/src/lib.rs",
-      "to": "file:apps/web/src/disclosureContent.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/surb-reply/src/lib.rs",
       "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -39874,12 +38126,6 @@
     },
     {
       "from": "file:scripts/doc-guard.mjs",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:scripts/doc-guard.mjs",
       "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
@@ -40204,12 +38450,6 @@
     },
     {
       "from": "system:product",
-      "to": "file:apps/web/disclosureContent.test.mjs",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
       "to": "file:apps/web/index.html",
       "type": "domain-artifact",
       "confidence": "path-derived"
@@ -40288,36 +38528,6 @@
     },
     {
       "from": "system:product",
-      "to": "file:apps/web/public/gate/chamber-mark.png",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.png",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
-      "to": "file:apps/web/public/hero-network-mesh-desktop.webp",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.png",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
-      "to": "file:apps/web/public/hero-network-mesh-mobile.webp",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
       "to": "file:apps/web/public/hero-orbit.png",
       "type": "domain-artifact",
       "confidence": "path-derived"
@@ -40360,25 +38570,25 @@
     },
     {
       "from": "system:product",
-      "to": "file:apps/web/src/DeviceProof.tsx",
+      "to": "file:apps/web/src/LuminousWave.tsx",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
     {
       "from": "system:product",
-      "to": "file:apps/web/src/disclosureContent.ts",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:product",
+      "to": "file:apps/web/src/lander.css",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
     {
       "from": "system:product",
       "to": "file:apps/web/src/main.tsx",
-      "type": "domain-artifact",
-      "confidence": "path-derived"
-    },
-    {
-      "from": "system:product",
-      "to": "file:apps/web/src/publicSite.css",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
@@ -41253,5 +39463,5 @@
       "confidence": "path-derived"
     }
   ],
-  "protectedNodesOmitted": 179
+  "protectedNodesOmitted": 146
 }
