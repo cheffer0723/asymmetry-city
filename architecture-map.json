@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "277d7ab32b9a4812c44b5227ffa9d24c40dfc914",
-  "generatedAt": "2026-09-22T05:33:50.811Z",
+  "commit": "bc1d1560f89a8daab7880961015c3d2498a09f5a",
+  "generatedAt": "2026-09-22T05:58:15.702Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 202,
     "directories": 70,
-    "symbols": 885,
+    "symbols": 886,
     "headings": 77,
-    "nodes": 1235,
-    "edges": 3934
+    "nodes": 1236,
+    "edges": 3935
   },
   "nodes": [
     {
@@ -1387,8 +1387,8 @@
       "group": "product",
       "kind": "configuration",
       "status": "source",
-      "size": 40537,
-      "lines": 1245,
+      "size": 40099,
+      "lines": 1235,
       "symbols": [],
       "headings": []
     },
@@ -1400,8 +1400,8 @@
       "group": "product",
       "kind": "configuration",
       "status": "source",
-      "size": 665,
-      "lines": 27,
+      "size": 626,
+      "lines": 26,
       "symbols": [],
       "headings": []
     },
@@ -2111,8 +2111,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 6492,
-      "lines": 188,
+      "size": 7201,
+      "lines": 199,
       "symbols": [
         {
           "name": "LuminousWave",
@@ -2120,6 +2120,10 @@
         },
         {
           "name": "resize",
+          "type": "const"
+        },
+        {
+          "name": "ridge",
           "type": "const"
         },
         {
@@ -2164,6 +2168,17 @@
       "id": "symbol:apps/web/src/LuminousWave.tsx#resize",
       "type": "symbol",
       "label": "resize",
+      "path": "apps/web/src/LuminousWave.tsx",
+      "symbolType": "const",
+      "group": "product",
+      "parent": "file:apps/web/src/LuminousWave.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/LuminousWave.tsx#ridge",
+      "type": "symbol",
+      "label": "ridge",
       "path": "apps/web/src/LuminousWave.tsx",
       "symbolType": "const",
       "group": "product",
@@ -2245,8 +2260,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 13632,
-      "lines": 276,
+      "size": 13584,
+      "lines": 275,
       "symbols": [
         {
           "name": "Arrow",
@@ -2334,8 +2349,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 11657,
-      "lines": 233,
+      "size": 12369,
+      "lines": 245,
       "symbols": [],
       "headings": []
     },
@@ -21519,6 +21534,12 @@
     {
       "from": "file:apps/web/src/LuminousWave.tsx",
       "to": "symbol:apps/web/src/LuminousWave.tsx#resize",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/LuminousWave.tsx",
+      "to": "symbol:apps/web/src/LuminousWave.tsx#ridge",
       "type": "defines",
       "confidence": "parser-derived"
     },
