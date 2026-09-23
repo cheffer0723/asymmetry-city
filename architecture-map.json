@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "b3d51df1b1d04eb2b8edcc39b637b4d68b9a2f4a",
-  "generatedAt": "2026-09-23T15:06:18.730Z",
+  "commit": "be00d235f4b0f2b33deb8ac0e3062e193d1f5011",
+  "generatedAt": "2026-09-23T15:17:10.625Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -2904,8 +2904,8 @@
       "group": "dead-drop",
       "kind": "document",
       "status": "source",
-      "size": 12107,
-      "lines": 216,
+      "size": 12231,
+      "lines": 218,
       "symbols": [],
       "headings": [
         "Asymmetry SPN (Dead Drop) Agent Operating Rules",
@@ -12524,7 +12524,7 @@
       "group": "dead-drop",
       "kind": "artifact",
       "status": "source",
-      "size": 17444,
+      "size": 17434,
       "lines": 689,
       "symbols": [],
       "headings": []
@@ -12537,7 +12537,7 @@
       "group": "dead-drop",
       "kind": "artifact",
       "status": "source",
-      "size": 8071,
+      "size": 8061,
       "lines": 31,
       "symbols": [],
       "headings": []
