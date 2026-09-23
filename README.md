@@ -1,36 +1,72 @@
-# Asymmetry Architecture City
+# Architecture City
 
-This repository hosts a static, repository-derived city view of the Asymmetry codebase: a public-safe visual map of the project's systems, surfaces, and verified repository structure. The live viewer starts with a lightweight CITY summary, then loads the full safety-filtered graph only when a visitor asks for deeper detail.
+Static 3D architecture map for a software repository: districts, towers, and evidence-labelled traces rendered in the browser with Three.js. This repository ships a committed sample graph (derived from `cheffer0723/asymmetry`) plus a Railway-ready Caddy service so deployers get a working city with **no secrets**.
+
+## Deploy on Railway
+
+Marketplace overview copy lives in [`TEMPLATE.md`](TEMPLATE.md) (paste that file into the Railway template overview).
+
+Publisher steps (icons, networking, healthcheck, category): [`RAILWAY_PUBLISH.md`](RAILWAY_PUBLISH.md).
+
+What Railway runs:
+
+- One service from the repo root
+- `Dockerfile` → Caddy 2 on `$PORT`
+- Healthcheck: `/health`
+- Variables: none required
+- Assets: `index.html`, vendored Three.js, summary + full graph JSON
+
+## What visitors get
+
+- Fast first paint from `architecture-city-summary.json` (CITY mode)
+- Optional **LOAD FULL DETAILS** from `architecture-map.json`
+- Read-only, safety-filtered orientation — not source contents, not live traffic
+
+## Customize the sample
+
+1. Replace `architecture-city-summary.json` and `architecture-map.json` with your own graph (same schema).
+2. Update `source-manifest.json` so the snapshot attribution stays honest.
+3. Edit titles / intro copy in `index.html` if you do not want the Asymmetry sample branding.
+4. Redeploy. No build step.
+
+## Local run
+
+### Option A — Caddy (same as Railway)
+
+```bash
+# requires caddy installed locally
+caddy run --config Caddyfile --adapter caddyfile
+```
+
+Open `http://127.0.0.1:8080/` (or whatever `$PORT` you set).
+
+### Option B — any static server from the repo root
+
+```bash
+python3 -m http.server 8080
+```
+
+Open `http://127.0.0.1:8080/`. The import map loads Three.js from `./vendor/three/` (no CDN).
+
+## GitHub Pages
+
+`.github/workflows/deploy.yml` still publishes the repository root to Pages. Railway and Pages are independent hosts of the same static viewer.
 
 ## Boundaries
 
-- `cheffer0723/asymmetry` remains the source-of-truth product repository.
-- This repository contains a committed, read-only snapshot of that repository's architecture graph.
-- Its GitHub Pages deployment is independent of the product deployment and does not write back to the product repository.
-- The existing Pages workflow in `.github/workflows/deploy.yml` remains unchanged.
-- The public city snapshot excludes nodes and relationship metadata matching the viewer's protected-internals filter; no source-file contents are published by this viewer.
+- `cheffer0723/asymmetry` remains the product source of truth when this sample graph is used.
+- This repository is a read-only snapshot viewer; it does not write back to the product repo.
+- Public posture: orientation and evidence boundaries only — no private internals, production traffic claims, or live system guarantees.
 
-## Snapshot
+## Layout
 
-`architecture-city-summary.json` is the lightweight first-load graph used for CITY mode. `architecture-map.json` was generated from `cheffer0723/asymmetry` commit `66aa5e2d69bf9cb5d9ca4e9afdcc2e362dca681f` on 2026-08-14. The viewer loads the full safety-filtered graph only when visitors choose deeper detail, preserving source-derived paths, domain grouping, evidence labels, and relationship confidence for entries that remain in scope.
-
-Refreshing the visual is a deliberate snapshot update in this repository; it is not coupled to the near-release product repository.
-
-## Visual reading model
-
-District substrates establish the codebase's major domains, with footprint scaled from per-domain repository weight. Repository files resolve into towers whose footprint and height reflect source-weight signals such as lines, bytes, safe symbols, and headings; symbols resolve into circuit modules. The thin illuminated traces prioritize the graph's evidence-labelled relationships. Moving pulses are schematic relationship indicators, not claims about production traffic or users.
-
-The city controls collapse into a compact tab on phones. Selecting a primary system tower opens that domain's expanded repository view; Reset View restores the city. Pixel-cloud blocks, district glow, and additional board illumination are intentionally schematic orientation cues, not source-derived runtime data.
-
-
-## Current viewer
-
-- `index.html` is the live GitHub Pages viewer.
-- `architecture-city-summary.json` is the fast first-load CITY graph.
-- `architecture-map.json` is the full safety-filtered graph.
-- `source-manifest.json` records the source repository, commit, capture date, and source documents.
-- `legacy/` preserves the earlier 2D explorer prototype so it does not compete with the live viewer.
-
-## Public posture
-
-The viewer should describe orientation, evidence boundaries, and snapshot status. It should not present source contents, private internals, production traffic, user activity, or live system guarantees.
+| Path | Role |
+|---|---|
+| `index.html` | 3D viewer |
+| `architecture-city-summary.json` | Lightweight first-load graph |
+| `architecture-map.json` | Full safety-filtered graph |
+| `source-manifest.json` | Snapshot provenance |
+| `vendor/three/` | Vendored Three.js + OrbitControls |
+| `Dockerfile` / `Caddyfile` / `railway.toml` | Railway static host |
+| `TEMPLATE.md` | Railway marketplace overview |
+| `legacy/` | Earlier 2D explorer (not served by Railway) |

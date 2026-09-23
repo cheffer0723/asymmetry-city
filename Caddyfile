@@ -1,0 +1,21 @@
+{
+	admin off
+	persist_config off
+	auto_https off
+}
+
+:{$PORT:8080} {
+	encode gzip zstd
+
+	handle /health {
+		header Content-Type "text/plain; charset=utf-8"
+		respond "ok" 200
+	}
+
+	handle {
+		root * /srv
+		# No SPA path fallback: missing .js must 404, not return index.html
+		# (HTML MIME on module scripts blanks the WebGL city for deployers).
+		file_server
+	}
+}
