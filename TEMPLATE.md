@@ -32,7 +32,7 @@ Hosting this template means running a single Railway service from the GitHub rep
 
 ### Implementation Details
 
-Caddy listens on Railway's `$PORT`, enables gzip for the large detail graph, and serves only the runtime assets copied into `/srv`. The viewer loads the city summary first, then fetches `architecture-map.json` when a visitor chooses **LOAD FULL DETAILS**.
+Caddy listens on Railway's `$PORT`, enables gzip for the large detail graph, and serves only the runtime assets copied into `/srv`. Vendor scripts are long-cache immutable; graph JSON stays short-cache. Missing `.js` paths return **404** (not `index.html`) so a broken vendor tree cannot blank the WebGL city with an HTML MIME type. The viewer loads the city summary first, prefetches the full map when idle, then installs `architecture-map.json` when a visitor chooses **LOAD FULL DETAILS**.
 
 ### Why Deploy Architecture City on Railway?
 

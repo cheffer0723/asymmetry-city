@@ -8,7 +8,8 @@ watchPatterns = [
   "source-manifest.json",
   "vendor/**",
   "Caddyfile",
-  "Dockerfile"
+  "Dockerfile",
+  "scripts/**"
 ]
 
 [deploy]

@@ -4,9 +4,8 @@ Static 3D architecture map for a software repository: districts, towers, and evi
 
 ## Deploy on Railway
 
-Marketplace overview copy lives in [`TEMPLATE.md`](TEMPLATE.md) (paste that file into the Railway template overview).
-
-Publisher steps (icons, networking, healthcheck, category): [`RAILWAY_PUBLISH.md`](RAILWAY_PUBLISH.md).
+Marketplace overview: [`TEMPLATE.md`](TEMPLATE.md)  
+Publisher checklist: [`RAILWAY_PUBLISH.md`](RAILWAY_PUBLISH.md)
 
 What Railway runs:
 
@@ -14,31 +13,37 @@ What Railway runs:
 - `Dockerfile` → Caddy 2 on `$PORT`
 - Healthcheck: `/health`
 - Variables: none required
-- Assets: `index.html`, vendored Three.js, summary + full graph JSON
+- Assets: `index.html`, vendored Three.js (`three.core.js` included), summary + full graph JSON
+
+After you publish, paste the Deploy button here:
+
+```md
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/<your-template-code>)
+```
 
 ## What visitors get
 
 - Fast first paint from `architecture-city-summary.json` (CITY mode)
 - Optional **LOAD FULL DETAILS** from `architecture-map.json`
+- Sample attribution from `source-manifest.json` / graph `repository` field
 - Read-only, safety-filtered orientation — not source contents, not live traffic
 
 ## Customize the sample
 
 1. Replace `architecture-city-summary.json` and `architecture-map.json` with your own graph (same schema).
-2. Update `source-manifest.json` so the snapshot attribution stays honest.
-3. Edit titles / intro copy in `index.html` if you do not want the Asymmetry sample branding.
+2. Update `source-manifest.json` so snapshot attribution stays honest.
+3. Edit focus buttons / district labels in `index.html` if your domains differ from the Asymmetry sample.
 4. Redeploy. No build step.
 
 ## Local run
 
-### Option A — Caddy (same as Railway)
+### Option A — Caddy (same config as Railway)
 
 ```bash
-# requires caddy installed locally
-caddy run --config Caddyfile --adapter caddyfile
+SITE_ROOT=. PORT=8080 caddy run --config Caddyfile --adapter caddyfile
 ```
 
-Open `http://127.0.0.1:8080/` (or whatever `$PORT` you set).
+Open `http://127.0.0.1:8080/`
 
 ### Option B — any static server from the repo root
 
@@ -46,7 +51,11 @@ Open `http://127.0.0.1:8080/` (or whatever `$PORT` you set).
 python3 -m http.server 8080
 ```
 
-Open `http://127.0.0.1:8080/`. The import map loads Three.js from `./vendor/three/` (no CDN).
+### Smoke check
+
+```bash
+./scripts/smoke.sh http://127.0.0.1:8080
+```
 
 ## GitHub Pages
 
@@ -66,7 +75,8 @@ Open `http://127.0.0.1:8080/`. The import map loads Three.js from `./vendor/thre
 | `architecture-city-summary.json` | Lightweight first-load graph |
 | `architecture-map.json` | Full safety-filtered graph |
 | `source-manifest.json` | Snapshot provenance |
-| `vendor/three/` | Vendored Three.js + OrbitControls |
+| `vendor/three/` | Vendored Three.js (`three.core.js`, module, OrbitControls) |
 | `Dockerfile` / `Caddyfile` / `railway.toml` | Railway static host |
+| `scripts/smoke.sh` | Deploy verification |
 | `TEMPLATE.md` | Railway marketplace overview |
 | `legacy/` | Earlier 2D explorer (not served by Railway) |

@@ -8,7 +8,9 @@ Use this after the repo deploys cleanly on your own Railway project. Follow Rail
 2. Confirm public URL loads the intro card and 3D canvas.
 3. Confirm `/health` returns `ok`.
 4. Confirm **LOAD FULL DETAILS** pulls `architecture-map.json` (city densifies).
-5. Confirm mobile/desktop WebGL browsers you care about.
+5. Confirm `/vendor/three/three.core.js` returns JavaScript (not HTML).
+6. Confirm mobile/desktop WebGL browsers you care about.
+7. Optional: `./scripts/smoke.sh https://your-service.up.railway.app`
 
 If any of those fail, **do not publish**.
 
