@@ -1,6 +1,19 @@
 # Architecture City
 
-Static 3D architecture map for a software repository: districts, towers, and evidence-labelled traces rendered in the browser with Three.js. This repository ships a committed sample graph (derived from `cheffer0723/asymmetry`) plus a Railway-ready Caddy service so deployers get a working city with **no secrets**.
+Static 3D architecture map for a software repository: districts, towers, and evidence-labelled traces rendered in the browser with Three.js. For the Asymmetry product mirror, this repo stays current via **snapshot sync** from private `cheffer0723/asymmetry` (not a live browser connection). It also ships as a Railway-ready Caddy service so deployers get a working city with **no secrets**.
+
+## Keeping up with Asymmetry
+
+Yes — that is the intended loop:
+
+1. Asymmetry changes.
+2. Private asymmetry CI regenerates + safety-filters the architecture graph.
+3. `asymmetry-city-sync[bot]` commits the public JSON into this repo.
+4. GitHub Pages (and a Railway service tracking `main`) serve the updated city.
+
+Details and ops checklist: [`SYNC.md`](SYNC.md).
+
+The viewer itself only reads committed JSON. Railway packaging does not replace or disable that sync.
 
 ## Deploy on Railway
 
@@ -63,8 +76,9 @@ python3 -m http.server 8080
 
 ## Boundaries
 
-- `cheffer0723/asymmetry` remains the product source of truth when this sample graph is used.
-- This repository is a read-only snapshot viewer; it does not write back to the product repo.
+- `cheffer0723/asymmetry` remains the product source of truth.
+- This repository is a read-only public mirror of the safety-filtered city graph; it does not write back to asymmetry.
+- Sync is push-based snapshots from asymmetry CI, not a real-time runtime link.
 - Public posture: orientation and evidence boundaries only — no private internals, production traffic claims, or live system guarantees.
 
 ## Layout
@@ -79,4 +93,5 @@ python3 -m http.server 8080
 | `Dockerfile` / `Caddyfile` / `railway.toml` | Railway static host |
 | `scripts/smoke.sh` | Deploy verification |
 | `TEMPLATE.md` | Railway marketplace overview |
+| `SYNC.md` | How asymmetry → city snapshot sync works |
 | `legacy/` | Earlier 2D explorer (not served by Railway) |
