@@ -17,8 +17,12 @@ The viewer itself only reads committed JSON. Railway packaging does not replace 
 
 ## Deploy on Railway
 
-Marketplace overview: [`TEMPLATE.md`](TEMPLATE.md)  
-Publisher checklist: [`RAILWAY_PUBLISH.md`](RAILWAY_PUBLISH.md)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/architecture-city)
+
+Marketplace: [railway.com/deploy/architecture-city](https://railway.com/deploy/architecture-city)  
+Overview source: [`TEMPLATE.md`](TEMPLATE.md)  
+Publisher checklist: [`RAILWAY_PUBLISH.md`](RAILWAY_PUBLISH.md)  
+Live demo: [asymmetry-city-production.up.railway.app](https://asymmetry-city-production.up.railway.app)
 
 What Railway runs:
 
@@ -27,12 +31,6 @@ What Railway runs:
 - Healthcheck: `/health`
 - Variables: none required
 - Assets: `index.html`, vendored Three.js (`three.core.js` included), summary + full graph JSON
-
-After you publish, paste the Deploy button here:
-
-```md
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/<your-template-code>)
-```
 
 ## What visitors get
 

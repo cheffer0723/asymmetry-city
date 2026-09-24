@@ -1,5 +1,9 @@
 # Railway template publish checklist
 
+**Published:** [Architecture City](https://railway.com/deploy/architecture-city) (`architecture-city`)  
+**Template editor:** [workspace templates](https://railway.com/workspace/templates/71d21e4f-60ac-4307-84ab-f4385ac2d13b)  
+**Demo project:** `Architecture-city` → https://asymmetry-city-production.up.railway.app
+
 Use this after the repo deploys cleanly on your own Railway project. Follow Railway's published guidance: [Create a template](https://docs.railway.com/guides/create), [Best practices](https://docs.railway.com/templates/best-practices), [Publish and share](https://docs.railway.com/templates/publish-and-share).
 
 ## Before you create the template
@@ -65,6 +69,20 @@ railway templates publish <TEMPLATE_ID> \
 
 ## After publish
 
-1. Add the Deploy on Railway button URL to `README.md` / `TEMPLATE.md` once Railway assigns it.
+1. Deploy button is in `README.md` → https://railway.com/deploy/architecture-city
 2. Watch the first few community deploys for build failures.
 3. Unpublish immediately if the service boots but the city canvas stays blank — fix, redeploy, republish.
+
+### Republish overview / metadata
+
+```bash
+# Account/workspace auth: railway login  OR  RAILWAY_API_TOKEN=...
+railway templates publish architecture-city \
+  --category Observability \
+  --description "Deploy and Host Architecture City with Railway" \
+  --readme-file TEMPLATE.md \
+  --demo-project d8747ce7-8771-4d67-b0fd-2e6fa52c5b16 \
+  --json
+```
+
+Cloud Agent note: put the account/workspace token in secret **`RAILWAY_API_TOKEN`** (not project `RAILWAY_TOKEN`).
