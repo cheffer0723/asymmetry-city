@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "be00d235f4b0f2b33deb8ac0e3062e193d1f5011",
-  "generatedAt": "2026-09-23T15:17:10.625Z",
+  "commit": "860e55398b0f0ffb4f6e5264186452d96ea2b027",
+  "generatedAt": "2026-09-24T21:59:46.836Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 203,
     "directories": 70,
-    "symbols": 937,
+    "symbols": 939,
     "headings": 77,
-    "nodes": 1288,
-    "edges": 4078
+    "nodes": 1290,
+    "edges": 4080
   },
   "nodes": [
     {
@@ -5576,8 +5576,8 @@
       "group": "dead-drop",
       "kind": "configuration",
       "status": "source",
-      "size": 1073,
-      "lines": 27,
+      "size": 1164,
+      "lines": 28,
       "symbols": [],
       "headings": []
     },
@@ -5589,8 +5589,8 @@
       "group": "dead-drop",
       "kind": "rust",
       "status": "source",
-      "size": 12134,
-      "lines": 324,
+      "size": 15434,
+      "lines": 401,
       "symbols": [
         {
           "name": "main",
@@ -5602,6 +5602,14 @@
         },
         {
           "name": "health",
+          "type": "function"
+        },
+        {
+          "name": "verify_first_hop_until_confirmed",
+          "type": "function"
+        },
+        {
+          "name": "verify_first_hop",
           "type": "function"
         },
         {
@@ -5677,6 +5685,28 @@
       "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#health",
       "type": "symbol",
       "label": "health",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#verify_first_hop_until_confirmed",
+      "type": "symbol",
+      "label": "verify_first_hop_until_confirmed",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#verify_first_hop",
+      "type": "symbol",
+      "label": "verify_first_hop",
       "path": "packages/dead-drop/reference/gateway/src/main.rs",
       "symbolType": "function",
       "group": "dead-drop",
@@ -32116,6 +32146,18 @@
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#health",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#verify_first_hop_until_confirmed",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#verify_first_hop",
       "type": "defines",
       "confidence": "parser-derived"
     },
