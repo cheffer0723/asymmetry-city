@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "cef012aee68f728b66fb19ddf721a1caae067cc9",
-  "generatedAt": "2026-10-01T08:44:00.872Z",
+  "commit": "50a188c660e5a1d80d80d7ec563934245c043ed2",
+  "generatedAt": "2026-10-01T15:02:08.937Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 205,
     "directories": 71,
-    "symbols": 965,
+    "symbols": 963,
     "headings": 78,
-    "nodes": 1320,
-    "edges": 4320
+    "nodes": 1318,
+    "edges": 4276
   },
   "nodes": [
     {
@@ -1659,7 +1659,7 @@
       "group": "product",
       "kind": "application",
       "status": "tested",
-      "size": 1238,
+      "size": 1249,
       "lines": 27,
       "symbols": [],
       "headings": []
@@ -1958,8 +1958,8 @@
       "group": "product",
       "kind": "application",
       "status": "tested",
-      "size": 30621,
-      "lines": 681,
+      "size": 31342,
+      "lines": 695,
       "symbols": [
         {
           "name": "freePort",
@@ -2107,17 +2107,9 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 4467,
-      "lines": 31,
+      "size": 625,
+      "lines": 19,
       "symbols": [
-        {
-          "name": "BrandMark",
-          "type": "function"
-        },
-        {
-          "name": "BetaPrivacyNotice",
-          "type": "function"
-        },
         {
           "name": "App",
           "type": "function"
@@ -2127,28 +2119,6 @@
           "type": "const"
         }
       ],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/App.tsx#BrandMark",
-      "type": "symbol",
-      "label": "BrandMark",
-      "path": "apps/web/src/App.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/App.tsx",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "symbol:apps/web/src/App.tsx#BetaPrivacyNotice",
-      "type": "symbol",
-      "label": "BetaPrivacyNotice",
-      "path": "apps/web/src/App.tsx",
-      "symbolType": "function",
-      "group": "product",
-      "parent": "file:apps/web/src/App.tsx",
-      "symbols": [],
       "headings": []
     },
     {
@@ -2420,7 +2390,7 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 20319,
+      "size": 20395,
       "lines": 412,
       "symbols": [
         {
@@ -2670,8 +2640,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 878,
-      "lines": 26,
+      "size": 1055,
+      "lines": 29,
       "symbols": [
         {
           "name": "resolveView",
@@ -23658,270 +23628,6 @@
       "to": "dir:apps/web/src",
       "type": "contained-in",
       "confidence": "path-derived"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:.github/dependabot.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:.github/workflows/architecture-city-sync.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:.github/workflows/build.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:.github/workflows/dead-drop.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:.github/workflows/monitor.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:.github/workflows/release.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:.github/workflows/security.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:.gitleaks.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:apps/web/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:apps/web/public/hero-orbit.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:apps/web/src/PublicSite.tsx",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:apps/web/vite.config.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:docs/audit/README.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/.gitattributes",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/conformance/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/results/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/schemas/suite-registry.schema.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/simulator/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/tests/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/tests/adversarial/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/tests/privacy/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/tests/protocol/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/tests/unit/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/tests/unit/test_client_boundary.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/tools/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/tools/check_traceability.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/vectors/experimental-suite-0001.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/vectors/negative/directory-empty-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/vectors/negative/directory-inverted-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/vectors/negative/directory-suite-downgrade.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/vectors/negative/directory-too-few-authorities.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unsupported-suite-id.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:scripts/generate-architecture-city-source-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:scripts/generate-public-architecture-city-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "file:scripts/security-check.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "symbol:apps/web/src/App.tsx#BrandMark",
-      "type": "defines",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:apps/web/src/App.tsx",
-      "to": "symbol:apps/web/src/App.tsx#BetaPrivacyNotice",
-      "type": "defines",
-      "confidence": "parser-derived"
     },
     {
       "from": "file:apps/web/src/App.tsx",
