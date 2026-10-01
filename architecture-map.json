@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "fd54c2e9f572745937892614ffd2938c9372b32d",
-  "generatedAt": "2026-09-30T23:25:50.844Z",
+  "commit": "602a5e6616f70d6b3116b00bc86393f2908bac2b",
+  "generatedAt": "2026-10-01T01:13:52.368Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 203,
     "directories": 70,
-    "symbols": 939,
-    "headings": 77,
-    "nodes": 1290,
-    "edges": 4080
+    "symbols": 964,
+    "headings": 78,
+    "nodes": 1316,
+    "edges": 4091
   },
   "nodes": [
     {
@@ -1817,6 +1817,17 @@
       "headings": []
     },
     {
+      "id": "symbol:apps/web/server.mjs#sendOpaquePacket",
+      "type": "symbol",
+      "label": "sendOpaquePacket",
+      "path": "apps/web/server.mjs",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/server.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:apps/web/server.mjs#handleDeadDropPacket",
       "type": "symbol",
       "label": "handleDeadDropPacket",
@@ -1901,8 +1912,8 @@
       "group": "product",
       "kind": "application",
       "status": "tested",
-      "size": 24957,
-      "lines": 571,
+      "size": 27343,
+      "lines": 620,
       "symbols": [
         {
           "name": "freePort",
@@ -2904,8 +2915,8 @@
       "group": "dead-drop",
       "kind": "document",
       "status": "source",
-      "size": 12231,
-      "lines": 218,
+      "size": 15946,
+      "lines": 277,
       "symbols": [],
       "headings": [
         "Asymmetry SPN (Dead Drop) Agent Operating Rules",
@@ -2913,6 +2924,7 @@
         "Non-Negotiables",
         "The two deployment paths — do not conflate them",
         "The public-mode boundary is the security control",
+        "One path, one size: `POST /api/c` and `/api/dead-drop/packet/v2`",
         "State the admission model accurately",
         "Repository conventions that are enforced",
         "The beta client will be the only surface a tester sees",
@@ -2965,6 +2977,16 @@
       "id": "heading:packages/dead-drop/AGENTS.md#The public-mode boundary is the security control",
       "type": "heading",
       "label": "The public-mode boundary is the security control",
+      "path": "packages/dead-drop/AGENTS.md",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/AGENTS.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:packages/dead-drop/AGENTS.md#One path, one size: `POST /api/c` and `/api/dead-drop/packet/v2`",
+      "type": "heading",
+      "label": "One path, one size: `POST /api/c` and `/api/dead-drop/packet/v2`",
       "path": "packages/dead-drop/AGENTS.md",
       "group": "dead-drop",
       "parent": "file:packages/dead-drop/AGENTS.md",
@@ -5589,8 +5611,8 @@
       "group": "dead-drop",
       "kind": "rust",
       "status": "source",
-      "size": 15434,
-      "lines": 401,
+      "size": 19873,
+      "lines": 505,
       "symbols": [
         {
           "name": "main",
@@ -5621,7 +5643,23 @@
           "type": "function"
         },
         {
-          "name": "relay_response",
+          "name": "framed_packet",
+          "type": "function"
+        },
+        {
+          "name": "forward_packet",
+          "type": "function"
+        },
+        {
+          "name": "relay_outcome",
+          "type": "function"
+        },
+        {
+          "name": "outcome_response",
+          "type": "function"
+        },
+        {
+          "name": "octet_stream",
           "type": "function"
         },
         {
@@ -5649,12 +5687,36 @@
           "type": "function"
         },
         {
+          "name": "body_of",
+          "type": "function"
+        },
+        {
+          "name": "framed_success_answers_share_one_status_and_one_size",
+          "type": "function"
+        },
+        {
+          "name": "unframed_answers_keep_the_old_shape",
+          "type": "function"
+        },
+        {
+          "name": "the_empty_frame_is_not_a_delivery_envelope",
+          "type": "function"
+        },
+        {
+          "name": "failures_keep_their_status_in_both_forms",
+          "type": "function"
+        },
+        {
           "name": "Gateway",
           "type": "struct"
         },
         {
           "name": "GatewayInner",
           "type": "struct"
+        },
+        {
+          "name": "RelayOutcome",
+          "type": "enum"
         }
       ],
       "headings": []
@@ -5737,9 +5799,53 @@
       "headings": []
     },
     {
-      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#relay_response",
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#framed_packet",
       "type": "symbol",
-      "label": "relay_response",
+      "label": "framed_packet",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#forward_packet",
+      "type": "symbol",
+      "label": "forward_packet",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#relay_outcome",
+      "type": "symbol",
+      "label": "relay_outcome",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#outcome_response",
+      "type": "symbol",
+      "label": "outcome_response",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#octet_stream",
+      "type": "symbol",
+      "label": "octet_stream",
       "path": "packages/dead-drop/reference/gateway/src/main.rs",
       "symbolType": "function",
       "group": "dead-drop",
@@ -5814,6 +5920,61 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#body_of",
+      "type": "symbol",
+      "label": "body_of",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#framed_success_answers_share_one_status_and_one_size",
+      "type": "symbol",
+      "label": "framed_success_answers_share_one_status_and_one_size",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#unframed_answers_keep_the_old_shape",
+      "type": "symbol",
+      "label": "unframed_answers_keep_the_old_shape",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#the_empty_frame_is_not_a_delivery_envelope",
+      "type": "symbol",
+      "label": "the_empty_frame_is_not_a_delivery_envelope",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#failures_keep_their_status_in_both_forms",
+      "type": "symbol",
+      "label": "failures_keep_their_status_in_both_forms",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#Gateway",
       "type": "symbol",
       "label": "Gateway",
@@ -5830,6 +5991,17 @@
       "label": "GatewayInner",
       "path": "packages/dead-drop/reference/gateway/src/main.rs",
       "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/gateway/src/main.rs#RelayOutcome",
+      "type": "symbol",
+      "label": "RelayOutcome",
+      "path": "packages/dead-drop/reference/gateway/src/main.rs",
+      "symbolType": "enum",
       "group": "dead-drop",
       "parent": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "symbols": [],
@@ -10542,6 +10714,17 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#register_push_inner",
+      "type": "symbol",
+      "label": "register_push_inner",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#nudge_push",
       "type": "symbol",
       "label": "nudge_push",
@@ -10564,6 +10747,17 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#unregister_push_inner",
+      "type": "symbol",
+      "label": "unregister_push_inner",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#poll_client_packet",
       "type": "symbol",
       "label": "poll_client_packet",
@@ -10578,6 +10772,83 @@
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#poll_client_packet_inner",
       "type": "symbol",
       "label": "poll_client_packet_inner",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#multiplexed_client",
+      "type": "symbol",
+      "label": "multiplexed_client",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#dispatch_multiplexed",
+      "type": "symbol",
+      "label": "dispatch_multiplexed",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#mux_payload",
+      "type": "symbol",
+      "label": "mux_payload",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#mux_error",
+      "type": "symbol",
+      "label": "mux_error",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#mux_invalid_fields",
+      "type": "symbol",
+      "label": "mux_invalid_fields",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#framed_client_response",
+      "type": "symbol",
+      "label": "framed_client_response",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#client_frame",
+      "type": "symbol",
+      "label": "client_frame",
       "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
       "symbolType": "function",
       "group": "dead-drop",
@@ -11029,6 +11300,28 @@
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#validate_executable",
       "type": "symbol",
       "label": "validate_executable",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#every_frame_is_exactly_the_constant_size",
+      "type": "symbol",
+      "label": "every_frame_is_exactly_the_constant_size",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#a_payload_larger_than_the_frame_is_refused",
+      "type": "symbol",
+      "label": "a_payload_larger_than_the_frame_is_refused",
       "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
       "symbolType": "function",
       "group": "dead-drop",
@@ -12675,6 +12968,39 @@
       "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#public_router_exposes_only_the_intended_surface",
       "type": "symbol",
       "label": "public_router_exposes_only_the_intended_surface",
+      "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#padded_frame",
+      "type": "symbol",
+      "label": "padded_frame",
+      "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#post_multiplexed",
+      "type": "symbol",
+      "label": "post_multiplexed",
+      "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#public_router_multiplexed_endpoint_is_one_path_one_status_and_one_size",
+      "type": "symbol",
+      "label": "public_router_multiplexed_endpoint_is_one_path_one_status_and_one_size",
       "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
       "symbolType": "function",
       "group": "dead-drop",
@@ -24567,6 +24893,12 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "heading:packages/dead-drop/AGENTS.md#One path, one size: `POST /api/c` and `/api/dead-drop/packet/v2`",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "heading:packages/dead-drop/AGENTS.md#State the admission model accurately",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -32175,7 +32507,31 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#relay_response",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#framed_packet",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#forward_packet",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#relay_outcome",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#outcome_response",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#octet_stream",
       "type": "defines",
       "confidence": "parser-derived"
     },
@@ -32217,6 +32573,36 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#body_of",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#framed_success_answers_share_one_status_and_one_size",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#unframed_answers_keep_the_old_shape",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#the_empty_frame_is_not_a_delivery_envelope",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#failures_keep_their_status_in_both_forms",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#Gateway",
       "type": "defines",
       "confidence": "parser-derived"
@@ -32224,6 +32610,12 @@
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#GatewayInner",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "symbol:packages/dead-drop/reference/gateway/src/main.rs#RelayOutcome",
       "type": "defines",
       "confidence": "parser-derived"
     },
