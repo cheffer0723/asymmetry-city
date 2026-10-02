@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "50a188c660e5a1d80d80d7ec563934245c043ed2",
-  "generatedAt": "2026-10-01T15:02:08.937Z",
+  "commit": "c4c3a01209a9fca637dbd59312c5c08c52da4f68",
+  "generatedAt": "2026-10-02T18:38:16.051Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,9 +11,9 @@
   "stats": {
     "files": 205,
     "directories": 71,
-    "symbols": 963,
+    "symbols": 980,
     "headings": 78,
-    "nodes": 1318,
+    "nodes": 1335,
     "edges": 4276
   },
   "nodes": [
@@ -1222,8 +1222,8 @@
       "group": "root",
       "kind": "document",
       "status": "attention",
-      "size": 8056,
-      "lines": 96,
+      "size": 8406,
+      "lines": 97,
       "symbols": [],
       "headings": [
         "Security Policy",
@@ -2931,8 +2931,8 @@
       "group": "dead-drop",
       "kind": "document",
       "status": "source",
-      "size": 15946,
-      "lines": 277,
+      "size": 16587,
+      "lines": 287,
       "symbols": [],
       "headings": [
         "Asymmetry SPN (Dead Drop) Agent Operating Rules",
@@ -10213,6 +10213,83 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#with_limit",
+      "type": "symbol",
+      "label": "with_limit",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#try_acquire_at",
+      "type": "symbol",
+      "label": "try_acquire_at",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#rate_key_digest",
+      "type": "symbol",
+      "label": "rate_key_digest",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#keyed_limit_from",
+      "type": "symbol",
+      "label": "keyed_limit_from",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#source_key",
+      "type": "symbol",
+      "label": "source_key",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#public_source_limits",
+      "type": "symbol",
+      "label": "public_source_limits",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#too_many_requests",
+      "type": "symbol",
+      "label": "too_many_requests",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#generate",
       "type": "symbol",
       "label": "generate",
@@ -11324,6 +11401,72 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#a_key_gets_its_limit_per_minute_and_a_fresh_window_after",
+      "type": "symbol",
+      "label": "a_key_gets_its_limit_per_minute_and_a_fresh_window_after",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#keys_are_independent",
+      "type": "symbol",
+      "label": "keys_are_independent",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#disabled_never_refuses_and_keeps_no_windows",
+      "type": "symbol",
+      "label": "disabled_never_refuses_and_keeps_no_windows",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#the_table_stays_bounded_under_many_keys",
+      "type": "symbol",
+      "label": "the_table_stays_bounded_under_many_keys",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#environment_values_parse_as_documented",
+      "type": "symbol",
+      "label": "environment_values_parse_as_documented",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#the_source_key_is_the_edge_appended_address_or_direct",
+      "type": "symbol",
+      "label": "the_source_key_is_the_edge_appended_address_or_direct",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#every_frame_is_exactly_the_constant_size",
       "type": "symbol",
       "label": "every_frame_is_exactly_the_constant_size",
@@ -11470,6 +11613,39 @@
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#PublicRequestGate",
       "type": "symbol",
       "label": "PublicRequestGate",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#KeyedRateLimit",
+      "type": "symbol",
+      "label": "KeyedRateLimit",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#RateWindow",
+      "type": "symbol",
+      "label": "RateWindow",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#SourceRateLimit",
+      "type": "symbol",
+      "label": "SourceRateLimit",
       "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
       "symbolType": "struct",
       "group": "dead-drop",
@@ -13017,6 +13193,17 @@
       "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#public_router_multiplexed_endpoint_is_one_path_one_status_and_one_size",
       "type": "symbol",
       "label": "public_router_multiplexed_endpoint_is_one_path_one_status_and_one_size",
+      "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#public_router_slows_a_flooded_mailbox_and_a_flooding_address",
+      "type": "symbol",
+      "label": "public_router_slows_a_flooded_mailbox_and_a_flooding_address",
       "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
       "symbolType": "function",
       "group": "dead-drop",
