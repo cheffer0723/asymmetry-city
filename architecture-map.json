@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "c4c3a01209a9fca637dbd59312c5c08c52da4f68",
-  "generatedAt": "2026-10-02T18:38:16.051Z",
+  "commit": "eb8f1b3d645cb3faf35400188eea7da5e3329718",
+  "generatedAt": "2026-10-02T18:49:13.349Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 205,
+    "files": 206,
     "directories": 71,
-    "symbols": 980,
+    "symbols": 988,
     "headings": 78,
-    "nodes": 1335,
-    "edges": 4276
+    "nodes": 1344,
+    "edges": 4284
   },
   "nodes": [
     {
@@ -719,8 +719,8 @@
       "group": "ci",
       "kind": "configuration",
       "status": "source",
-      "size": 3393,
-      "lines": 73,
+      "size": 4686,
+      "lines": 104,
       "symbols": [],
       "headings": []
     },
@@ -1222,7 +1222,7 @@
       "group": "root",
       "kind": "document",
       "status": "attention",
-      "size": 8406,
+      "size": 8797,
       "lines": 97,
       "symbols": [],
       "headings": [
@@ -2879,8 +2879,8 @@
       "group": "root",
       "kind": "configuration",
       "status": "source",
-      "size": 954,
-      "lines": 28,
+      "size": 1010,
+      "lines": 29,
       "symbols": [],
       "headings": []
     },
@@ -2931,8 +2931,8 @@
       "group": "dead-drop",
       "kind": "document",
       "status": "source",
-      "size": 16587,
-      "lines": 287,
+      "size": 17208,
+      "lines": 296,
       "symbols": [],
       "headings": [
         "Asymmetry SPN (Dead Drop) Agent Operating Rules",
@@ -10279,6 +10279,17 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#mailbox_busy",
+      "type": "symbol",
+      "label": "mailbox_busy",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#too_many_requests",
       "type": "symbol",
       "label": "too_many_requests",
@@ -13204,6 +13215,17 @@
       "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#public_router_slows_a_flooded_mailbox_and_a_flooding_address",
       "type": "symbol",
       "label": "public_router_slows_a_flooded_mailbox_and_a_flooding_address",
+      "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#public_router_never_names_a_full_mailbox",
+      "type": "symbol",
+      "label": "public_router_never_names_a_full_mailbox",
       "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
       "symbolType": "function",
       "group": "dead-drop",
@@ -16371,6 +16393,110 @@
       "symbolType": "const",
       "group": "tooling",
       "parent": "file:scripts/check-mixnet.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:scripts/check-relay.mjs",
+      "type": "file",
+      "label": "check-relay.mjs",
+      "path": "scripts/check-relay.mjs",
+      "group": "tooling",
+      "kind": "application",
+      "status": "source",
+      "size": 6930,
+      "lines": 131,
+      "symbols": [
+        {
+          "name": "frame",
+          "type": "function"
+        },
+        {
+          "name": "postFrame",
+          "type": "function"
+        },
+        {
+          "name": "pass",
+          "type": "const"
+        },
+        {
+          "name": "fail",
+          "type": "const"
+        },
+        {
+          "name": "warn",
+          "type": "const"
+        },
+        {
+          "name": "dim",
+          "type": "const"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#frame",
+      "type": "symbol",
+      "label": "frame",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#postFrame",
+      "type": "symbol",
+      "label": "postFrame",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#pass",
+      "type": "symbol",
+      "label": "pass",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "const",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#fail",
+      "type": "symbol",
+      "label": "fail",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "const",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#warn",
+      "type": "symbol",
+      "label": "warn",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "const",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#dim",
+      "type": "symbol",
+      "label": "dim",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "const",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
       "symbols": [],
       "headings": []
     },
@@ -39958,6 +40084,12 @@
     },
     {
       "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:scripts/check-relay.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
       "to": "file:scripts/generate-architecture-city-source-map.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -41411,6 +41543,48 @@
     {
       "from": "file:scripts/check-mixnet.mjs",
       "to": "symbol:scripts/check-mixnet.mjs#short",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "dir:scripts",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#frame",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#postFrame",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#pass",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#fail",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#warn",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#dim",
       "type": "defines",
       "confidence": "parser-derived"
     },
