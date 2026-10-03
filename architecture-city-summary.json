@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "9b89d3322ec84ec39795fc4be90eb4117d8e99de",
-  "generatedAt": "2026-10-03T16:17:03.766Z",
+  "commit": "11708e891152177f684e393e2d3d8cc9004d5044",
+  "generatedAt": "2026-10-03T17:52:15.663Z",
   "fidelity": "city-summary",
   "stats": {
     "files": 0,
@@ -119,9 +119,9 @@
       "symbols": 820,
       "headings": 22,
       "nodes": 1034,
-      "lines": 12601,
-      "bytes": 506044,
-      "weight": 77033.07678627287,
+      "lines": 12606,
+      "bytes": 506271,
+      "weight": 77040.59900849509,
       "maxFileWeight": 1758.3
     },
     "surb-reply": {
@@ -162,7 +162,7 @@
     }
   },
   "sizeModel": {
-    "districtWeightMax": 77033.07678627287,
+    "districtWeightMax": 77040.59900849509,
     "fileWeightMax": 1758.3,
     "sizing": "District footprint reflects per-domain repository weight; building footprint/height reflect file lines, bytes, and safe symbol/headings where available."
   }
