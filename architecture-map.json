@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "b7af30446c9510f3de6db12069b04cc4c8e556e7",
-  "generatedAt": "2026-10-03T03:55:02.517Z",
+  "commit": "e1057b307b2b656c1ca895845d9e7afc62f2ddf0",
+  "generatedAt": "2026-10-03T05:33:31.746Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 206,
+    "files": 207,
     "directories": 71,
     "symbols": 988,
     "headings": 78,
-    "nodes": 1344,
-    "edges": 4284
+    "nodes": 1345,
+    "edges": 4288
   },
   "nodes": [
     {
@@ -2931,8 +2931,8 @@
       "group": "dead-drop",
       "kind": "document",
       "status": "source",
-      "size": 17208,
-      "lines": 296,
+      "size": 17634,
+      "lines": 302,
       "symbols": [],
       "headings": [
         "Asymmetry SPN (Dead Drop) Agent Operating Rules",
@@ -3520,8 +3520,8 @@
       "group": "dead-drop",
       "kind": "artifact",
       "status": "source",
-      "size": 1077,
-      "lines": 22,
+      "size": 2583,
+      "lines": 56,
       "symbols": [],
       "headings": []
     },
@@ -15370,6 +15370,19 @@
       "headings": []
     },
     {
+      "id": "file:packages/dead-drop/torrc.template",
+      "type": "file",
+      "label": "torrc.template",
+      "path": "packages/dead-drop/torrc.template",
+      "group": "dead-drop",
+      "kind": "artifact",
+      "status": "source",
+      "size": 0,
+      "lines": 0,
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "file:packages/dead-drop/vectors/directory-epoch-valid.json",
       "type": "file",
       "label": "directory-epoch-valid.json",
@@ -22366,6 +22379,12 @@
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/torrc.template",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:packages/dead-drop/vectors/negative/directory-cross-layer-operator-reuse.json",
       "type": "references",
       "confidence": "inferred"
@@ -22865,12 +22884,6 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:packages/dead-drop/docker-entrypoint.sh",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/examples/baseline-config.json",
       "type": "references",
       "confidence": "inferred"
     },
@@ -25210,6 +25223,12 @@
     },
     {
       "from": "file:docs/audit/README.md",
+      "to": "file:packages/dead-drop/torrc.template",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/audit/README.md",
       "to": "file:packages/dead-drop/vectors/directory-epoch-valid.json",
       "type": "references",
       "confidence": "inferred"
@@ -25541,12 +25560,6 @@
     {
       "from": "file:docs/audit/README.md",
       "to": "file:apps/web/public/unbounded-800.woff",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/audit/README.md",
-      "to": "file:apps/web/public/unbounded-800.woff2",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28852,6 +28865,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:packages/dead-drop/torrc.template",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:packages/dead-drop/vectors/negative/directory-cross-layer-operator-reuse.json",
       "type": "references",
       "confidence": "inferred"
@@ -30665,6 +30684,12 @@
     {
       "from": "file:packages/dead-drop/reference/courier/railway.toml",
       "to": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/railway.toml",
+      "to": "file:packages/dead-drop/torrc.template",
       "type": "references",
       "confidence": "inferred"
     },
@@ -41013,6 +41038,12 @@
       "confidence": "parser-derived"
     },
     {
+      "from": "file:packages/dead-drop/torrc.template",
+      "to": "dir:packages/dead-drop",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
       "from": "file:packages/dead-drop/vectors/directory-epoch-valid.json",
       "to": "dir:packages/dead-drop/vectors",
       "type": "contained-in",
@@ -42833,6 +42864,12 @@
     {
       "from": "system:dead-drop",
       "to": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/torrc.template",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
