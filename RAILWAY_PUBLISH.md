@@ -2,7 +2,8 @@
 
 **Published:** [Architecture City](https://railway.com/deploy/architecture-city) (`architecture-city`)  
 **Template editor:** [workspace templates](https://railway.com/workspace/templates/71d21e4f-60ac-4307-84ab-f4385ac2d13b)  
-**Demo project:** `Architecture-city` → https://asymmetry-city-production.up.railway.app
+**Demo project:** `Architecture-city` → https://asymmetry-city-production.up.railway.app  
+**Icons:** `assets/railway-icon.png` (service + marketplace card). After deploy also at `/assets/railway-icon.png`.
 
 Use this after the repo deploys cleanly on your own Railway project. Follow Railway's published guidance: [Create a template](https://docs.railway.com/guides/create), [Best practices](https://docs.railway.com/templates/best-practices), [Publish and share](https://docs.railway.com/templates/publish-and-share).
 
@@ -41,8 +42,8 @@ If any of those fail, **do not publish**.
 | Category | `Observability` (or `Other` if you prefer) |
 | Short description | ~one line; must match what deployers get |
 | Overview | paste `TEMPLATE.md` (H1/H2 structure Railway expects) |
-| Template icon | 1:1 aspect, transparent background |
-| Service icon | same rule; Devicon / simple mark is fine |
+| Template icon | `assets/railway-icon.png` (512×512, transparent) |
+| Service icon | same file on the `asymmetry-city` service |
 | Demo project | optional public demo after you have a stable deploy |
 
 ## Reputation guards (do these)

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <!-- Architecture City mark: three towers, 1:1, transparent background -->
+  <rect x="176" y="448" width="192" height="400" rx="28" fill="#4DD8FF"/>
+  <rect x="416" y="176" width="192" height="672" rx="28" fill="#65E3AB"/>
+  <rect x="656" y="304" width="192" height="544" rx="28" fill="#AE82FF"/>
+  <g fill="#061019" fill-opacity="0.28">
+    <rect x="216" y="500" width="28" height="28" rx="6"/>
+    <rect x="300" y="500" width="28" height="28" rx="6"/>
+    <rect x="216" y="572" width="28" height="28" rx="6"/>
+    <rect x="300" y="572" width="28" height="28" rx="6"/>
+    <rect x="216" y="644" width="28" height="28" rx="6"/>
+    <rect x="300" y="644" width="28" height="28" rx="6"/>
+    <rect x="216" y="716" width="28" height="28" rx="6"/>
+    <rect x="300" y="716" width="28" height="28" rx="6"/>
+    <rect x="456" y="228" width="28" height="28" rx="6"/>
+    <rect x="540" y="228" width="28" height="28" rx="6"/>
+    <rect x="456" y="300" width="28" height="28" rx="6"/>
+    <rect x="540" y="300" width="28" height="28" rx="6"/>
+    <rect x="456" y="372" width="28" height="28" rx="6"/>
+    <rect x="540" y="372" width="28" height="28" rx="6"/>
+    <rect x="456" y="444" width="28" height="28" rx="6"/>
+    <rect x="540" y="444" width="28" height="28" rx="6"/>
+    <rect x="456" y="516" width="28" height="28" rx="6"/>
+    <rect x="540" y="516" width="28" height="28" rx="6"/>
+    <rect x="456" y="588" width="28" height="28" rx="6"/>
+    <rect x="540" y="588" width="28" height="28" rx="6"/>
+    <rect x="456" y="660" width="28" height="28" rx="6"/>
+    <rect x="540" y="660" width="28" height="28" rx="6"/>
+    <rect x="456" y="732" width="28" height="28" rx="6"/>
+    <rect x="540" y="732" width="28" height="28" rx="6"/>
+    <rect x="696" y="356" width="28" height="28" rx="6"/>
+    <rect x="780" y="356" width="28" height="28" rx="6"/>
+    <rect x="696" y="428" width="28" height="28" rx="6"/>
+    <rect x="780" y="428" width="28" height="28" rx="6"/>
+    <rect x="696" y="500" width="28" height="28" rx="6"/>
+    <rect x="780" y="500" width="28" height="28" rx="6"/>
+    <rect x="696" y="572" width="28" height="28" rx="6"/>
+    <rect x="780" y="572" width="28" height="28" rx="6"/>
+    <rect x="696" y="644" width="28" height="28" rx="6"/>
+    <rect x="780" y="644" width="28" height="28" rx="6"/>
+    <rect x="696" y="716" width="28" height="28" rx="6"/>
+    <rect x="780" y="716" width="28" height="28" rx="6"/>
+  </g>
+</svg>

@@ -11,6 +11,7 @@ COPY Caddyfile /etc/caddy/Caddyfile
 WORKDIR /srv
 COPY index.html ./
 COPY architecture-city-summary.json architecture-map.json source-manifest.json ./
+COPY assets ./assets
 COPY vendor ./vendor
 
 EXPOSE 8080
