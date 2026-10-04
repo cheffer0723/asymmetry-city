@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "9e658bd3c854ca80be8039014faab54aa8894233",
-  "generatedAt": "2026-10-04T09:18:17.094Z",
+  "commit": "df8c7288ba5da12ec9b29b71e71222e3c9a4fee9",
+  "generatedAt": "2026-10-04T15:12:35.660Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 241,
+    "files": 243,
     "directories": 93,
-    "symbols": 1045,
+    "symbols": 1104,
     "headings": 119,
-    "nodes": 1498,
-    "edges": 4697
+    "nodes": 1559,
+    "edges": 4881
   },
   "nodes": [
     {
@@ -917,8 +917,8 @@
       "group": "ci",
       "kind": "configuration",
       "status": "source",
-      "size": 4686,
-      "lines": 104,
+      "size": 5608,
+      "lines": 123,
       "symbols": [],
       "headings": []
     },
@@ -4764,8 +4764,8 @@
       "group": "root",
       "kind": "configuration",
       "status": "source",
-      "size": 1010,
-      "lines": 29,
+      "size": 1061,
+      "lines": 30,
       "symbols": [],
       "headings": []
     },
@@ -4816,8 +4816,8 @@
       "group": "dead-drop",
       "kind": "document",
       "status": "source",
-      "size": 17208,
-      "lines": 296,
+      "size": 18154,
+      "lines": 309,
       "symbols": [],
       "headings": [
         "Asymmetry SPN (Dead Drop) Agent Operating Rules",
@@ -12175,6 +12175,17 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#relay_dropped",
+      "type": "symbol",
+      "label": "relay_dropped",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#too_many_requests",
       "type": "symbol",
       "label": "too_many_requests",
@@ -12549,6 +12560,17 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#public_health",
+      "type": "symbol",
+      "label": "public_health",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#health",
       "type": "symbol",
       "label": "health",
@@ -12651,6 +12673,61 @@
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#gateway_health",
       "type": "symbol",
       "label": "gateway_health",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#shield_control",
+      "type": "symbol",
+      "label": "shield_control",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#gateway_health_body",
+      "type": "symbol",
+      "label": "gateway_health_body",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#shield_tiles",
+      "type": "symbol",
+      "label": "shield_tiles",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#relay_controls_html",
+      "type": "symbol",
+      "label": "relay_controls_html",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#html_escape_attribute",
+      "type": "symbol",
+      "label": "html_escape_attribute",
       "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
       "symbolType": "function",
       "group": "dead-drop",
@@ -13924,6 +14001,17 @@
       "headings": []
     },
     {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#ShieldControl",
+      "type": "symbol",
+      "label": "ShieldControl",
+      "path": "packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:packages/dead-drop/reference/test-surface/src/lib.rs#EnrollmentGate",
       "type": "symbol",
       "label": "EnrollmentGate",
@@ -14889,6 +14977,665 @@
       "headings": []
     },
     {
+      "id": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "type": "file",
+      "label": "shield.rs",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "group": "dead-drop",
+      "kind": "rust",
+      "status": "source",
+      "size": 24942,
+      "lines": 740,
+      "symbols": [
+        {
+          "name": "add",
+          "type": "function"
+        },
+        {
+          "name": "plus",
+          "type": "function"
+        },
+        {
+          "name": "slot",
+          "type": "function"
+        },
+        {
+          "name": "new",
+          "type": "function"
+        },
+        {
+          "name": "level",
+          "type": "function"
+        },
+        {
+          "name": "drop_at",
+          "type": "function"
+        },
+        {
+          "name": "owner_drop",
+          "type": "function"
+        },
+        {
+          "name": "owner_reopen",
+          "type": "function"
+        },
+        {
+          "name": "restore_drop",
+          "type": "function"
+        },
+        {
+          "name": "record",
+          "type": "function"
+        },
+        {
+          "name": "advance",
+          "type": "function"
+        },
+        {
+          "name": "minute_tally",
+          "type": "function"
+        },
+        {
+          "name": "sum",
+          "type": "function"
+        },
+        {
+          "name": "judge",
+          "type": "function"
+        },
+        {
+          "name": "incidents",
+          "type": "function"
+        },
+        {
+          "name": "report",
+          "type": "function"
+        },
+        {
+          "name": "now_minute",
+          "type": "function"
+        },
+        {
+          "name": "off_rules",
+          "type": "function"
+        },
+        {
+          "name": "disabled",
+          "type": "function"
+        },
+        {
+          "name": "configured_from_environment",
+          "type": "function"
+        },
+        {
+          "name": "save",
+          "type": "function"
+        },
+        {
+          "name": "dropped",
+          "type": "function"
+        },
+        {
+          "name": "rules",
+          "type": "function"
+        },
+        {
+          "name": "run",
+          "type": "function"
+        },
+        {
+          "name": "quiet_traffic_never_raises_the_level",
+          "type": "function"
+        },
+        {
+          "name": "an_address_flood_raises_to_two_then_steps_down_and_closes_the_incident",
+          "type": "function"
+        },
+        {
+          "name": "a_surge_needs_both_the_floor_and_four_times_the_usual_rate",
+          "type": "function"
+        },
+        {
+          "name": "the_owner_view_holds_no_counts",
+          "type": "function"
+        },
+        {
+          "name": "an_incident_left_open_by_a_restart_is_closed_on_load",
+          "type": "function"
+        },
+        {
+          "name": "a_rule_set_to_off_never_fires",
+          "type": "function"
+        },
+        {
+          "name": "the_incident_list_keeps_the_latest_fifty",
+          "type": "function"
+        },
+        {
+          "name": "a_sustained_flood_drops_the_relay_then_it_reopens_cautious",
+          "type": "function"
+        },
+        {
+          "name": "the_owner_can_drop_and_reopen_and_a_drop_is_capped_at_a_day",
+          "type": "function"
+        },
+        {
+          "name": "with_automatic_drop_off_a_flood_tightens_but_never_drops",
+          "type": "function"
+        },
+        {
+          "name": "Tally",
+          "type": "struct"
+        },
+        {
+          "name": "Rules",
+          "type": "struct"
+        },
+        {
+          "name": "Incident",
+          "type": "struct"
+        },
+        {
+          "name": "Drop",
+          "type": "struct"
+        },
+        {
+          "name": "Report",
+          "type": "struct"
+        },
+        {
+          "name": "Core",
+          "type": "struct"
+        },
+        {
+          "name": "Saved",
+          "type": "struct"
+        },
+        {
+          "name": "Shield",
+          "type": "struct"
+        },
+        {
+          "name": "Event",
+          "type": "enum"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#add",
+      "type": "symbol",
+      "label": "add",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#plus",
+      "type": "symbol",
+      "label": "plus",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#slot",
+      "type": "symbol",
+      "label": "slot",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#new",
+      "type": "symbol",
+      "label": "new",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#level",
+      "type": "symbol",
+      "label": "level",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#drop_at",
+      "type": "symbol",
+      "label": "drop_at",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#owner_drop",
+      "type": "symbol",
+      "label": "owner_drop",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#owner_reopen",
+      "type": "symbol",
+      "label": "owner_reopen",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#restore_drop",
+      "type": "symbol",
+      "label": "restore_drop",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#record",
+      "type": "symbol",
+      "label": "record",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#advance",
+      "type": "symbol",
+      "label": "advance",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#minute_tally",
+      "type": "symbol",
+      "label": "minute_tally",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#sum",
+      "type": "symbol",
+      "label": "sum",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#judge",
+      "type": "symbol",
+      "label": "judge",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#incidents",
+      "type": "symbol",
+      "label": "incidents",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#report",
+      "type": "symbol",
+      "label": "report",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#now_minute",
+      "type": "symbol",
+      "label": "now_minute",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#off_rules",
+      "type": "symbol",
+      "label": "off_rules",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#disabled",
+      "type": "symbol",
+      "label": "disabled",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#configured_from_environment",
+      "type": "symbol",
+      "label": "configured_from_environment",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#save",
+      "type": "symbol",
+      "label": "save",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#dropped",
+      "type": "symbol",
+      "label": "dropped",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#rules",
+      "type": "symbol",
+      "label": "rules",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#run",
+      "type": "symbol",
+      "label": "run",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#quiet_traffic_never_raises_the_level",
+      "type": "symbol",
+      "label": "quiet_traffic_never_raises_the_level",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#an_address_flood_raises_to_two_then_steps_down_and_closes_the_incident",
+      "type": "symbol",
+      "label": "an_address_flood_raises_to_two_then_steps_down_and_closes_the_incident",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#a_surge_needs_both_the_floor_and_four_times_the_usual_rate",
+      "type": "symbol",
+      "label": "a_surge_needs_both_the_floor_and_four_times_the_usual_rate",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#the_owner_view_holds_no_counts",
+      "type": "symbol",
+      "label": "the_owner_view_holds_no_counts",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#an_incident_left_open_by_a_restart_is_closed_on_load",
+      "type": "symbol",
+      "label": "an_incident_left_open_by_a_restart_is_closed_on_load",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#a_rule_set_to_off_never_fires",
+      "type": "symbol",
+      "label": "a_rule_set_to_off_never_fires",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#the_incident_list_keeps_the_latest_fifty",
+      "type": "symbol",
+      "label": "the_incident_list_keeps_the_latest_fifty",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#a_sustained_flood_drops_the_relay_then_it_reopens_cautious",
+      "type": "symbol",
+      "label": "a_sustained_flood_drops_the_relay_then_it_reopens_cautious",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#the_owner_can_drop_and_reopen_and_a_drop_is_capped_at_a_day",
+      "type": "symbol",
+      "label": "the_owner_can_drop_and_reopen_and_a_drop_is_capped_at_a_day",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#with_automatic_drop_off_a_flood_tightens_but_never_drops",
+      "type": "symbol",
+      "label": "with_automatic_drop_off_a_flood_tightens_but_never_drops",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Tally",
+      "type": "symbol",
+      "label": "Tally",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Rules",
+      "type": "symbol",
+      "label": "Rules",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Incident",
+      "type": "symbol",
+      "label": "Incident",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Drop",
+      "type": "symbol",
+      "label": "Drop",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Report",
+      "type": "symbol",
+      "label": "Report",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Core",
+      "type": "symbol",
+      "label": "Core",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Saved",
+      "type": "symbol",
+      "label": "Saved",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Shield",
+      "type": "symbol",
+      "label": "Shield",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Event",
+      "type": "symbol",
+      "label": "Event",
+      "path": "packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbolType": "enum",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "type": "file",
       "label": "state.rs",
@@ -15144,6 +15891,28 @@
       "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#public_surface_runs_loop_cover_and_fails_closed_on_an_invalid_rate",
       "type": "symbol",
       "label": "public_surface_runs_loop_cover_and_fails_closed_on_an_invalid_rate",
+      "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#the_owner_can_drop_the_relay_and_reopen_it",
+      "type": "symbol",
+      "label": "the_owner_can_drop_the_relay_and_reopen_it",
+      "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/test-surface/tests/multiprocess.rs#stop_keeping_state",
+      "type": "symbol",
+      "label": "stop_keeping_state",
       "path": "packages/dead-drop/reference/test-surface/tests/multiprocess.rs",
       "symbolType": "function",
       "group": "dead-drop",
@@ -18163,6 +18932,19 @@
       "headings": []
     },
     {
+      "id": "file:scripts/check-entry.mjs",
+      "type": "file",
+      "label": "check-entry.mjs",
+      "path": "scripts/check-entry.mjs",
+      "group": "tooling",
+      "kind": "application",
+      "status": "source",
+      "size": 2498,
+      "lines": 58,
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "file:scripts/check-mixnet.mjs",
       "type": "file",
       "label": "check-mixnet.mjs",
@@ -18289,8 +19071,8 @@
       "group": "tooling",
       "kind": "application",
       "status": "source",
-      "size": 6930,
-      "lines": 131,
+      "size": 11966,
+      "lines": 244,
       "symbols": [
         {
           "name": "frame",
@@ -18298,6 +19080,30 @@
         },
         {
           "name": "postFrame",
+          "type": "function"
+        },
+        {
+          "name": "reportShield",
+          "type": "function"
+        },
+        {
+          "name": "hourText",
+          "type": "function"
+        },
+        {
+          "name": "incidentTitle",
+          "type": "function"
+        },
+        {
+          "name": "incidentBody",
+          "type": "function"
+        },
+        {
+          "name": "github",
+          "type": "function"
+        },
+        {
+          "name": "fileIssueOnce",
           "type": "function"
         },
         {
@@ -18334,6 +19140,72 @@
       "id": "symbol:scripts/check-relay.mjs#postFrame",
       "type": "symbol",
       "label": "postFrame",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#reportShield",
+      "type": "symbol",
+      "label": "reportShield",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#hourText",
+      "type": "symbol",
+      "label": "hourText",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#incidentTitle",
+      "type": "symbol",
+      "label": "incidentTitle",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#incidentBody",
+      "type": "symbol",
+      "label": "incidentBody",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#github",
+      "type": "symbol",
+      "label": "github",
+      "path": "scripts/check-relay.mjs",
+      "symbolType": "function",
+      "group": "tooling",
+      "parent": "file:scripts/check-relay.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:scripts/check-relay.mjs#fileIssueOnce",
+      "type": "symbol",
+      "label": "fileIssueOnce",
       "path": "scripts/check-relay.mjs",
       "symbolType": "function",
       "group": "tooling",
@@ -25733,6 +26605,12 @@
     },
     {
       "from": "file:apps/web/routing.test.mjs",
+      "to": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/routing.test.mjs",
       "to": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "type": "references",
       "confidence": "inferred"
@@ -25896,6 +26774,12 @@
     {
       "from": "file:apps/web/server.test.mjs",
       "to": "file:packages/dead-drop/reference/test-surface/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/server.test.mjs",
+      "to": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -30510,6 +31394,12 @@
     {
       "from": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
       "to": "file:packages/dead-drop/reference/test-surface/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
+      "to": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -40930,6 +41820,360 @@
       "confidence": "parser-derived"
     },
     {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "dir:packages/dead-drop/reference/test-surface/src",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/adversarial/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/adversarial/test_failures.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/privacy/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/privacy/test_privacy_properties.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/protocol/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/protocol/test_envelope.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/unit/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/unit/test_client_boundary.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#add",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#plus",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#slot",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#new",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#level",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#drop_at",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#owner_drop",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#owner_reopen",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#restore_drop",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#record",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#advance",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#minute_tally",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#sum",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#judge",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#incidents",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#report",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#now_minute",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#off_rules",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#disabled",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#configured_from_environment",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#save",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#dropped",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#rules",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#run",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#quiet_traffic_never_raises_the_level",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#an_address_flood_raises_to_two_then_steps_down_and_closes_the_incident",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#a_surge_needs_both_the_floor_and_four_times_the_usual_rate",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#the_owner_view_holds_no_counts",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#an_incident_left_open_by_a_restart_is_closed_on_load",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#a_rule_set_to_off_never_fires",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#the_incident_list_keeps_the_latest_fifty",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#a_sustained_flood_drops_the_relay_then_it_reopens_cautious",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#the_owner_can_drop_and_reopen_and_a_drop_is_capped_at_a_day",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#with_automatic_drop_off_a_flood_tightens_but_never_drops",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Tally",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Rules",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Incident",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Drop",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Report",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Core",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Saved",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Shield",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "symbol:packages/dead-drop/reference/test-surface/src/shield.rs#Event",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "dir:packages/dead-drop/reference/test-surface/src",
       "type": "contained-in",
@@ -44249,6 +45493,12 @@
     },
     {
       "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
       "to": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "type": "references",
       "confidence": "inferred"
@@ -44430,12 +45680,6 @@
     {
       "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
       "to": "file:packages/dead-drop/vectors/negative/registry-status-not-experimental.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unknown-field.json",
       "type": "references",
       "confidence": "inferred"
     },
@@ -45862,6 +47106,12 @@
       "confidence": "parser-derived"
     },
     {
+      "from": "file:scripts/check-entry.mjs",
+      "to": "dir:scripts",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
       "from": "file:scripts/check-mixnet.mjs",
       "to": "dir:scripts",
       "type": "contained-in",
@@ -45917,6 +47167,690 @@
     },
     {
       "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:.claude/settings.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:.docguard-allow.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:.github/dependabot.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:.github/workflows/architecture-city-sync.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:.gitleaks.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/package.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/brand/asymmetry-emblem.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark-centered.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/brand/icon-192.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/brand/icon-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/brand/icon-maskable-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/coming-soon-signup.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/coming-soon.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/coming-soon.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/hero-orbit.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/legal/dead-drop-terms.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/manifest.webmanifest",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/routing.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/server.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/src/App.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/src/LuminousWave.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/src/lander.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/src/main.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/src/routing.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/src/styles.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/tsconfig.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/vite.config.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/docs/adr-tor-transport.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/docs/known-weaknesses.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/full-branch.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/expo-module.config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/index.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTor.podspec",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTorModule.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRust.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.h",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.modulemap",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/lib/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/examples/live.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/uniffi.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/rust-toolchain.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTor.types.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.web.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/build-dead-drop-tor-ios.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/generate-dead-drop-tor-bindings.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/test-tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/src/core/deaddrop/tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/mobile/tor-workflow.yml.disabled",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/relay/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/relay/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/relay/onion-service.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/relay/tor-version-bump-pr371.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:archive/tor-do-not-use/relay/torrc.template",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:docs/audit/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:package.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/.dockerignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/.gitattributes",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/AGENTS.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/assets/asymmetry-emblem-v1-2048.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/client-api.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/preview-server.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/conformance/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/conformance/validator.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/deny.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/examples/baseline-config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/fuzz/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/directory_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/pyproject.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/courier/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/courier/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:packages/dead-drop/reference/directory-publisher/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
       "to": "symbol:scripts/check-relay.mjs#frame",
       "type": "defines",
       "confidence": "parser-derived"
@@ -45924,6 +47858,42 @@
     {
       "from": "file:scripts/check-relay.mjs",
       "to": "symbol:scripts/check-relay.mjs#postFrame",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#reportShield",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#hourText",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#incidentTitle",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#incidentBody",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#github",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "symbol:scripts/check-relay.mjs#fileIssueOnce",
       "type": "defines",
       "confidence": "parser-derived"
     },
@@ -46956,6 +48926,12 @@
     {
       "from": "system:dead-drop",
       "to": "file:packages/dead-drop/reference/test-surface/src/main.rs",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
