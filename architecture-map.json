@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "88dd3dcf4ed0da8c240caae7ceba9e4827d278a8",
-  "generatedAt": "2026-10-04T16:11:10.288Z",
+  "commit": "39caff28b137e7f59ea56ce191b1d931236f2094",
+  "generatedAt": "2026-10-04T17:33:03.461Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -11,10 +11,10 @@
   "stats": {
     "files": 251,
     "directories": 96,
-    "symbols": 1136,
+    "symbols": 1152,
     "headings": 127,
-    "nodes": 1610,
-    "edges": 5302
+    "nodes": 1626,
+    "edges": 5298
   },
   "nodes": [
     {
@@ -8524,8 +8524,8 @@
       "group": "dead-drop",
       "kind": "configuration",
       "status": "source",
-      "size": 645,
-      "lines": 29,
+      "size": 771,
+      "lines": 32,
       "symbols": [],
       "headings": []
     },
@@ -8756,8 +8756,8 @@
       "group": "dead-drop",
       "kind": "rust",
       "status": "source",
-      "size": 6961,
-      "lines": 198,
+      "size": 7157,
+      "lines": 203,
       "symbols": [
         {
           "name": "transcript",
@@ -8864,6 +8864,182 @@
       "symbolType": "struct",
       "group": "dead-drop",
       "parent": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#failure",
+      "type": "symbol",
+      "label": "failure",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#fixed",
+      "type": "symbol",
+      "label": "fixed",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#binding_api_version",
+      "type": "symbol",
+      "label": "binding_api_version",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#new",
+      "type": "symbol",
+      "label": "new",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#hello_wire",
+      "type": "symbol",
+      "label": "hello_wire",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#confirm",
+      "type": "symbol",
+      "label": "confirm",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#seal",
+      "type": "symbol",
+      "label": "seal",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#open",
+      "type": "symbol",
+      "label": "open",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#recipient_proof",
+      "type": "symbol",
+      "label": "recipient_proof",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#recipient_accept_hello",
+      "type": "symbol",
+      "label": "recipient_accept_hello",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#full_flow_over_the_ffi_surface",
+      "type": "symbol",
+      "label": "full_flow_over_the_ffi_surface",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#a_stranger_is_rejected",
+      "type": "symbol",
+      "label": "a_stranger_is_rejected",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#labels_the_binding_surface",
+      "type": "symbol",
+      "label": "labels_the_binding_surface",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#HzSender",
+      "type": "symbol",
+      "label": "HzSender",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#HzSession",
+      "type": "symbol",
+      "label": "HzSession",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs#MobileHzError",
+      "type": "symbol",
+      "label": "MobileHzError",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
+      "symbolType": "enum",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/mobile_ffi.rs",
       "symbols": [],
       "headings": []
     },
@@ -25673,12 +25849,6 @@
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
       "to": "heading:SECURITY.md#Security Policy",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -41039,12 +41209,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
-      "to": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
       "to": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Provenance — HZ-25519-761 (HoldZero)",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -48839,12 +49003,6 @@
     },
     {
       "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/directory-too-few-authorities.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
       "to": "symbol:packages/dead-drop/tests/unit/test_container_hardening.py#test_base_images_are_digest_pinned",
       "type": "defines",
       "confidence": "parser-derived"
@@ -49506,12 +49664,6 @@
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -52564,5 +52716,5 @@
       "confidence": "path-derived"
     }
   ],
-  "protectedNodesOmitted": 158
+  "protectedNodesOmitted": 162
 }
