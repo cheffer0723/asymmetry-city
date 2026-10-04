@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "df8c7288ba5da12ec9b29b71e71222e3c9a4fee9",
-  "generatedAt": "2026-10-04T15:12:35.660Z",
+  "commit": "88dd3dcf4ed0da8c240caae7ceba9e4827d278a8",
+  "generatedAt": "2026-10-04T16:11:10.288Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 243,
-    "directories": 93,
-    "symbols": 1104,
-    "headings": 119,
-    "nodes": 1559,
-    "edges": 4881
+    "files": 251,
+    "directories": 96,
+    "symbols": 1136,
+    "headings": 127,
+    "nodes": 1610,
+    "edges": 5302
   },
   "nodes": [
     {
@@ -540,6 +540,33 @@
       "headings": []
     },
     {
+      "id": "dir:packages/dead-drop/reference/hz-25519-761",
+      "type": "directory",
+      "label": "hz-25519-761",
+      "path": "packages/dead-drop/reference/hz-25519-761",
+      "group": "dead-drop",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "dir:packages/dead-drop/reference/hz-25519-761/src",
+      "type": "directory",
+      "label": "src",
+      "path": "packages/dead-drop/reference/hz-25519-761/src",
+      "group": "dead-drop",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "dir:packages/dead-drop/reference/hz-25519-761/tests",
+      "type": "directory",
+      "label": "tests",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests",
+      "group": "dead-drop",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "dir:packages/dead-drop/reference/mailbox",
       "type": "directory",
       "label": "mailbox",
@@ -839,8 +866,8 @@
       "group": "root",
       "kind": "configuration",
       "status": "source",
-      "size": 613,
-      "lines": 15,
+      "size": 735,
+      "lines": 17,
       "symbols": [],
       "headings": []
     },
@@ -4962,7 +4989,7 @@
       "group": "dead-drop",
       "kind": "configuration",
       "status": "source",
-      "size": 440,
+      "size": 466,
       "lines": 9,
       "symbols": [],
       "headings": []
@@ -8486,6 +8513,685 @@
       "symbolType": "function",
       "group": "dead-drop",
       "parent": "file:packages/dead-drop/reference/harness/src/main.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
+      "type": "file",
+      "label": "Cargo.toml",
+      "path": "packages/dead-drop/reference/hz-25519-761/Cargo.toml",
+      "group": "dead-drop",
+      "kind": "configuration",
+      "status": "source",
+      "size": 645,
+      "lines": 29,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "type": "file",
+      "label": "PROVENANCE.md",
+      "path": "packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "group": "dead-drop",
+      "kind": "document",
+      "status": "source",
+      "size": 2382,
+      "lines": 54,
+      "symbols": [],
+      "headings": [
+        "Provenance — HZ-25519-761 (HoldZero)",
+        "Source",
+        "What this crate is",
+        "Primitives and their references",
+        "Changes made on import",
+        "Boundary (owner rules)"
+      ]
+    },
+    {
+      "id": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Provenance — HZ-25519-761 (HoldZero)",
+      "type": "heading",
+      "label": "Provenance — HZ-25519-761 (HoldZero)",
+      "path": "packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Source",
+      "type": "heading",
+      "label": "Source",
+      "path": "packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#What this crate is",
+      "type": "heading",
+      "label": "What this crate is",
+      "path": "packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Primitives and their references",
+      "type": "heading",
+      "label": "Primitives and their references",
+      "path": "packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Changes made on import",
+      "type": "heading",
+      "label": "Changes made on import",
+      "path": "packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Boundary (owner rules)",
+      "type": "heading",
+      "label": "Boundary (owner rules)",
+      "path": "packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "type": "file",
+      "label": "README.md",
+      "path": "packages/dead-drop/reference/hz-25519-761/README.md",
+      "group": "dead-drop",
+      "kind": "document",
+      "status": "source",
+      "size": 966,
+      "lines": 23,
+      "symbols": [],
+      "headings": [
+        "HZ-25519-761 (HoldZero)",
+        "Re-run the checks"
+      ]
+    },
+    {
+      "id": "heading:packages/dead-drop/reference/hz-25519-761/README.md#HZ-25519-761 (HoldZero)",
+      "type": "heading",
+      "label": "HZ-25519-761 (HoldZero)",
+      "path": "packages/dead-drop/reference/hz-25519-761/README.md",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:packages/dead-drop/reference/hz-25519-761/README.md#Re-run the checks",
+      "type": "heading",
+      "label": "Re-run the checks",
+      "path": "packages/dead-drop/reference/hz-25519-761/README.md",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "type": "file",
+      "label": "deception.rs",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "group": "dead-drop",
+      "kind": "rust",
+      "status": "source",
+      "size": 1748,
+      "lines": 50,
+      "symbols": [
+        {
+          "name": "expand",
+          "type": "function"
+        },
+        {
+          "name": "cover_packet",
+          "type": "function"
+        },
+        {
+          "name": "is_well_formed",
+          "type": "function"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/deception.rs#expand",
+      "type": "symbol",
+      "label": "expand",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/deception.rs#cover_packet",
+      "type": "symbol",
+      "label": "cover_packet",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/deception.rs#is_well_formed",
+      "type": "symbol",
+      "label": "is_well_formed",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "file",
+      "label": "handshake.rs",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "group": "dead-drop",
+      "kind": "rust",
+      "status": "source",
+      "size": 1606,
+      "lines": 51,
+      "symbols": [
+        {
+          "name": "proof",
+          "type": "function"
+        },
+        {
+          "name": "verify",
+          "type": "function"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/handshake.rs#proof",
+      "type": "symbol",
+      "label": "proof",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/handshake.rs#verify",
+      "type": "symbol",
+      "label": "verify",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "type": "file",
+      "label": "lib.rs",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "group": "dead-drop",
+      "kind": "rust",
+      "status": "source",
+      "size": 6961,
+      "lines": 198,
+      "symbols": [
+        {
+          "name": "transcript",
+          "type": "function"
+        },
+        {
+          "name": "combine",
+          "type": "function"
+        },
+        {
+          "name": "sender_initiate",
+          "type": "function"
+        },
+        {
+          "name": "recipient_accept",
+          "type": "function"
+        },
+        {
+          "name": "seal",
+          "type": "function"
+        },
+        {
+          "name": "open",
+          "type": "function"
+        },
+        {
+          "name": "HybridMessage",
+          "type": "struct"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#transcript",
+      "type": "symbol",
+      "label": "transcript",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#combine",
+      "type": "symbol",
+      "label": "combine",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#sender_initiate",
+      "type": "symbol",
+      "label": "sender_initiate",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#recipient_accept",
+      "type": "symbol",
+      "label": "recipient_accept",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#seal",
+      "type": "symbol",
+      "label": "seal",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#open",
+      "type": "symbol",
+      "label": "open",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#HybridMessage",
+      "type": "symbol",
+      "label": "HybridMessage",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "type": "file",
+      "label": "protocol.rs",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "group": "dead-drop",
+      "kind": "rust",
+      "status": "source",
+      "size": 3849,
+      "lines": 110,
+      "symbols": [
+        {
+          "name": "seal",
+          "type": "function"
+        },
+        {
+          "name": "open",
+          "type": "function"
+        },
+        {
+          "name": "confirm",
+          "type": "function"
+        },
+        {
+          "name": "sender_hello",
+          "type": "function"
+        },
+        {
+          "name": "recipient_accept_hello",
+          "type": "function"
+        },
+        {
+          "name": "Session",
+          "type": "struct"
+        },
+        {
+          "name": "Hello",
+          "type": "struct"
+        },
+        {
+          "name": "PendingSender",
+          "type": "struct"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#seal",
+      "type": "symbol",
+      "label": "seal",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#open",
+      "type": "symbol",
+      "label": "open",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#confirm",
+      "type": "symbol",
+      "label": "confirm",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#sender_hello",
+      "type": "symbol",
+      "label": "sender_hello",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#recipient_accept_hello",
+      "type": "symbol",
+      "label": "recipient_accept_hello",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#Session",
+      "type": "symbol",
+      "label": "Session",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#Hello",
+      "type": "symbol",
+      "label": "Hello",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#PendingSender",
+      "type": "symbol",
+      "label": "PendingSender",
+      "path": "packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbolType": "struct",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "file",
+      "label": "protocol.rs",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "group": "dead-drop",
+      "kind": "rust",
+      "status": "tested",
+      "size": 6345,
+      "lines": 165,
+      "symbols": [
+        {
+          "name": "recipient_keys",
+          "type": "function"
+        },
+        {
+          "name": "hybrid_both_sides_agree",
+          "type": "function"
+        },
+        {
+          "name": "hybrid_tampering_the_post_quantum_half_breaks_it",
+          "type": "function"
+        },
+        {
+          "name": "hybrid_tampering_the_classical_half_breaks_it",
+          "type": "function"
+        },
+        {
+          "name": "seal_open_roundtrips_and_is_fixed_size",
+          "type": "function"
+        },
+        {
+          "name": "wrong_key_does_not_open",
+          "type": "function"
+        },
+        {
+          "name": "message_too_long_is_refused",
+          "type": "function"
+        },
+        {
+          "name": "proof_confirms_for_holder",
+          "type": "function"
+        },
+        {
+          "name": "proof_fails_for_wrong_key_wrong_role_or_tamper",
+          "type": "function"
+        },
+        {
+          "name": "cover_matches_real_size_and_never_opens",
+          "type": "function"
+        },
+        {
+          "name": "e2e_first_contact_then_message",
+          "type": "function"
+        },
+        {
+          "name": "e2e_stranger_gets_silence",
+          "type": "function"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#recipient_keys",
+      "type": "symbol",
+      "label": "recipient_keys",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#hybrid_both_sides_agree",
+      "type": "symbol",
+      "label": "hybrid_both_sides_agree",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#hybrid_tampering_the_post_quantum_half_breaks_it",
+      "type": "symbol",
+      "label": "hybrid_tampering_the_post_quantum_half_breaks_it",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#hybrid_tampering_the_classical_half_breaks_it",
+      "type": "symbol",
+      "label": "hybrid_tampering_the_classical_half_breaks_it",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#seal_open_roundtrips_and_is_fixed_size",
+      "type": "symbol",
+      "label": "seal_open_roundtrips_and_is_fixed_size",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#wrong_key_does_not_open",
+      "type": "symbol",
+      "label": "wrong_key_does_not_open",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#message_too_long_is_refused",
+      "type": "symbol",
+      "label": "message_too_long_is_refused",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#proof_confirms_for_holder",
+      "type": "symbol",
+      "label": "proof_confirms_for_holder",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#proof_fails_for_wrong_key_wrong_role_or_tamper",
+      "type": "symbol",
+      "label": "proof_fails_for_wrong_key_wrong_role_or_tamper",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#cover_matches_real_size_and_never_opens",
+      "type": "symbol",
+      "label": "cover_matches_real_size_and_never_opens",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#e2e_first_contact_then_message",
+      "type": "symbol",
+      "label": "e2e_first_contact_then_message",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#e2e_stranger_gets_silence",
+      "type": "symbol",
+      "label": "e2e_stranger_gets_silence",
+      "path": "packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "symbolType": "function",
+      "group": "dead-drop",
+      "parent": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "symbols": [],
       "headings": []
     },
@@ -22015,6 +22721,12 @@
     },
     {
       "from": "file:.gitleaks.toml",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.gitleaks.toml",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -24919,49 +25631,49 @@
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/mailbox/Cargo.toml",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/mailbox/Dockerfile",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/mailbox/docker-entrypoint.sh",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/README.md",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/mailbox/railway.toml",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/mailbox/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/mailbox/src/main.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/mailbox/src/store.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/mixnode/Cargo.toml",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -25579,6 +26291,12 @@
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
       "type": "references",
       "confidence": "inferred"
@@ -25820,12 +26538,6 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -26569,6 +27281,12 @@
     },
     {
       "from": "file:apps/web/routing.test.mjs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/routing.test.mjs",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -26738,6 +27456,12 @@
     {
       "from": "file:apps/web/server.test.mjs",
       "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/server.test.mjs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29101,6 +29825,12 @@
     },
     {
       "from": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/src/lib.rs",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -29905,6 +30635,24 @@
     },
     {
       "from": "file:docs/audit/README.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/audit/README.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/audit/README.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/audit/README.md",
       "to": "file:packages/dead-drop/reference/mailbox/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
@@ -30176,24 +30924,6 @@
     {
       "from": "file:docs/audit/README.md",
       "to": "file:packages/dead-drop/vectors/negative/registry-geometry-does-not-sum.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/audit/README.md",
-      "to": "file:packages/dead-drop/vectors/negative/registry-geometry-zero-packet-length.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/audit/README.md",
-      "to": "file:packages/dead-drop/vectors/negative/registry-missing-packet-geometry.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/audit/README.md",
-      "to": "file:packages/dead-drop/vectors/negative/registry-no-references.json",
       "type": "references",
       "confidence": "inferred"
     },
@@ -31358,6 +32088,12 @@
     {
       "from": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
       "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -32629,6 +33365,12 @@
     },
     {
       "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
       "to": "heading:packages/dead-drop/docs/threat-to-test-matrix.md#Threat-to-test traceability matrix",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -33895,6 +34637,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -33902,6 +34650,12 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -34873,6 +35627,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -35024,6 +35784,12 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "to": "file:apps/web/public/hero-orbit.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/operation.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -35545,6 +36311,24 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/railway.toml",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/railway.toml",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/railway.toml",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/railway.toml",
       "to": "file:packages/dead-drop/reference/mailbox/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
@@ -35828,24 +36612,6 @@
     {
       "from": "file:packages/dead-drop/reference/courier/railway.toml",
       "to": "file:packages/dead-drop/vectors/negative/registry-missing-packet-geometry.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/railway.toml",
-      "to": "file:packages/dead-drop/vectors/negative/registry-no-references.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/railway.toml",
-      "to": "file:packages/dead-drop/vectors/negative/registry-status-not-experimental.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/railway.toml",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unknown-field.json",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37450,6 +38216,12 @@
       "to": "dir:packages/dead-drop/reference/directory/src",
       "type": "contained-in",
       "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/hex.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/hex.rs",
@@ -39265,6 +40037,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -39278,6 +40056,12 @@
     {
       "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
       "to": "file:packages/dead-drop/vectors/negative/manifest.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -39576,6 +40360,2340 @@
       "confidence": "parser-derived"
     },
     {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
+      "to": "dir:packages/dead-drop/reference/hz-25519-761",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "dir:packages/dead-drop/reference/hz-25519-761",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/brand/asymmetry-emblem.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark-centered.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/brand/icon-192.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/brand/icon-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/brand/icon-maskable-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/src/lander.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:.docguard-allow.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:.github/workflows/architecture-city-sync.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/coming-soon-signup.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/coming-soon.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/coming-soon.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/hero-orbit.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/legal/dead-drop-terms.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/docs/adr-tor-transport.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/docs/known-weaknesses.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/full-branch.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/expo-module.config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/index.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTor.podspec",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTorModule.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRust.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.h",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.modulemap",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/lib/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/examples/live.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/uniffi.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/rust-toolchain.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTor.types.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.web.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/build-dead-drop-tor-ios.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/generate-dead-drop-tor-bindings.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/test-tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/src/core/deaddrop/tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/mobile/tor-workflow.yml.disabled",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/relay/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/relay/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/relay/onion-service.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/relay/tor-version-bump-pr371.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:archive/tor-do-not-use/relay/torrc.template",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/.dockerignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/.gitattributes",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/AGENTS.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/apps/end-user-beta/assets/asymmetry-emblem-v1-2048.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/apps/end-user-beta/client-api.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/apps/end-user-beta/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/apps/end-user-beta/preview-server.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/conformance/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/conformance/validator.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/deny.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/examples/baseline-config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/fuzz/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/directory_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/pyproject.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/courier/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/courier/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/directory-publisher/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/directory-publisher/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/directory-publisher/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/directory/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/directory/src/hex.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/directory/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/harness/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/harness/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Provenance — HZ-25519-761 (HoldZero)",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Source",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#What this crate is",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Primitives and their references",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Changes made on import",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Boundary (owner rules)",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "to": "dir:packages/dead-drop/reference/hz-25519-761",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "to": "heading:packages/dead-drop/reference/hz-25519-761/README.md#HZ-25519-761 (HoldZero)",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "to": "heading:packages/dead-drop/reference/hz-25519-761/README.md#Re-run the checks",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "dir:packages/dead-drop/reference/hz-25519-761/src",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:.claude/settings.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:.docguard-allow.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:.github/dependabot.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:.github/workflows/architecture-city-sync.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:.gitleaks.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/package.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/brand/asymmetry-emblem.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark-centered.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/brand/icon-192.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/brand/icon-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/brand/icon-maskable-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/coming-soon-signup.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/coming-soon.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/coming-soon.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/hero-orbit.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/legal/dead-drop-terms.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/manifest.webmanifest",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/routing.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/server.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/src/App.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/src/LuminousWave.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/src/lander.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/src/main.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/src/routing.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/src/styles.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/tsconfig.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/vite.config.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/docs/adr-tor-transport.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/docs/known-weaknesses.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/full-branch.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/expo-module.config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/index.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTor.podspec",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTorModule.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRust.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.h",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.modulemap",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/lib/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/examples/live.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/uniffi.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/rust-toolchain.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTor.types.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.web.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/build-dead-drop-tor-ios.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/generate-dead-drop-tor-bindings.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/test-tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/src/core/deaddrop/tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/mobile/tor-workflow.yml.disabled",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/relay/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/relay/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/relay/onion-service.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/relay/tor-version-bump-pr371.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:archive/tor-do-not-use/relay/torrc.template",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:docs/audit/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:package.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/.dockerignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/.gitattributes",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/AGENTS.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/assets/asymmetry-emblem-v1-2048.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/client-api.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/preview-server.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/conformance/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/conformance/validator.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/deny.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/examples/baseline-config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/fuzz/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/directory_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/pyproject.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/courier/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/courier/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/directory-publisher/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:packages/dead-drop/reference/directory-publisher/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/deception.rs#expand",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/deception.rs#cover_packet",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/deception.rs#is_well_formed",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "to": "dir:packages/dead-drop/reference/hz-25519-761/src",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/handshake.rs#proof",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/handshake.rs#verify",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "dir:packages/dead-drop/reference/hz-25519-761/src",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:.claude/settings.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:.docguard-allow.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:.github/dependabot.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:.github/workflows/architecture-city-sync.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:.gitleaks.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/package.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/brand/asymmetry-emblem.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark-centered.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/brand/asymmetry-wordmark.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/brand/icon-192.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/brand/icon-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/brand/icon-maskable-512.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/coming-soon-signup.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/coming-soon.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/coming-soon.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/hero-orbit.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/legal/dead-drop-terms.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/manifest.webmanifest",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/unbounded-800.woff",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/unbounded-800.woff2",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/routing.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/server.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/src/App.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/src/LuminousWave.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/src/lander.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/src/main.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/src/routing.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/src/styles.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/tsconfig.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/vite.config.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/docs/adr-tor-transport.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/docs/known-weaknesses.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/full-branch.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/expo-module.config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/index.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTor.podspec",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTorModule.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRust.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.h",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.modulemap",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/lib/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/examples/live.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/uniffi.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/rust-toolchain.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTor.types.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.web.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/build-dead-drop-tor-ios.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/generate-dead-drop-tor-bindings.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/test-tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/src/core/deaddrop/tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/mobile/tor-workflow.yml.disabled",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/relay/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/relay/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/relay/onion-service.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/relay/tor-version-bump-pr371.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:archive/tor-do-not-use/relay/torrc.template",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:docs/audit/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:package.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/.dockerignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/.gitattributes",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/AGENTS.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/assets/asymmetry-emblem-v1-2048.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/client-api.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/apps/end-user-beta/preview-server.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/conformance/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/conformance/validator.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/deny.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/examples/baseline-config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/fuzz/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/directory_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/pyproject.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/courier/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/courier/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/directory-publisher/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/directory-publisher/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#transcript",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#combine",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#sender_initiate",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#recipient_accept",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#seal",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#open",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/lib.rs#HybridMessage",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "dir:packages/dead-drop/reference/hz-25519-761/src",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#seal",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#open",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#confirm",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#sender_hello",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#recipient_accept_hello",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#Session",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#Hello",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/src/protocol.rs#PendingSender",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "dir:packages/dead-drop/reference/hz-25519-761/tests",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#recipient_keys",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#hybrid_both_sides_agree",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#hybrid_tampering_the_post_quantum_half_breaks_it",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#hybrid_tampering_the_classical_half_breaks_it",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#seal_open_roundtrips_and_is_fixed_size",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#wrong_key_does_not_open",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#message_too_long_is_refused",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#proof_confirms_for_holder",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#proof_fails_for_wrong_key_wrong_role_or_tamper",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#cover_matches_real_size_and_never_opens",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#e2e_first_contact_then_message",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "to": "symbol:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs#e2e_stranger_gets_silence",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
       "from": "file:packages/dead-drop/reference/mailbox/Cargo.toml",
       "to": "dir:packages/dead-drop/reference/mailbox",
       "type": "contained-in",
@@ -39841,6 +42959,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/directory.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/directory.rs",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -40033,6 +43157,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/main.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/main.rs",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -40190,6 +43320,12 @@
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -40843,12 +43979,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "symbol:packages/dead-drop/reference/mixnode/src/state.rs#state_directory",
       "type": "defines",
       "confidence": "parser-derived"
@@ -41227,6 +44357,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/bin/beta.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/bin/beta.rs",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -41404,6 +44540,12 @@
       "to": "dir:packages/dead-drop/reference/test-surface/src",
       "type": "contained-in",
       "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/mailbox.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/mailbox.rs",
@@ -41641,6 +44783,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/main.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/main.rs",
       "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
       "type": "references",
       "confidence": "inferred"
@@ -41828,6 +44976,12 @@
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
       "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/shield.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -43034,6 +46188,12 @@
     {
       "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
       "to": "file:packages/dead-drop/conformance/validator.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -45343,6 +48503,54 @@
     },
     {
       "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
       "to": "file:packages/dead-drop/reference/mailbox/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
@@ -45632,54 +48840,6 @@
     {
       "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
       "to": "file:packages/dead-drop/vectors/negative/directory-too-few-authorities.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/directory-unknown-field.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/directory-wrong-document-type.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/directory-wrong-layer-count.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/registry-geometry-does-not-sum.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/registry-geometry-zero-packet-length.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/registry-missing-packet-geometry.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/registry-no-references.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
-      "to": "file:packages/dead-drop/vectors/negative/registry-status-not-experimental.json",
       "type": "references",
       "confidence": "inferred"
     },
@@ -46219,6 +49379,54 @@
     },
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:packages/dead-drop/reference/mailbox/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
@@ -46304,36 +49512,6 @@
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:packages/dead-drop/reference/protocol/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:packages/dead-drop/reference/protocol/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:packages/dead-drop/reference/protocol/tests/canonical_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:packages/dead-drop/reference/test-surface/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:packages/dead-drop/reference/test-surface/src/bin/beta.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -46916,6 +50094,12 @@
     {
       "from": "file:packages/surb-reply/src/lib.rs",
       "to": "file:scripts/signup-list.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/surb-reply/src/lib.rs",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -48776,6 +51960,54 @@
     {
       "from": "system:dead-drop",
       "to": "file:packages/dead-drop/reference/harness/src/main.rs",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/README.md",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/src/protocol.rs",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "file:packages/dead-drop/reference/hz-25519-761/tests/protocol.rs",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
