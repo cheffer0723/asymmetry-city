@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "b4e63456704ba31a218143a947807197d574ced7",
-  "generatedAt": "2026-10-06T19:50:44.485Z",
+  "commit": "d5a6c82ee320a54e8de9d4f0a2d78042aef7b880",
+  "generatedAt": "2026-10-06T20:05:18.091Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -12,9 +12,9 @@
     "files": 255,
     "directories": 96,
     "symbols": 1157,
-    "headings": 127,
-    "nodes": 1635,
-    "edges": 5337
+    "headings": 125,
+    "nodes": 1633,
+    "edges": 5335
   },
   "nodes": [
     {
@@ -1155,13 +1155,12 @@
       "group": "root",
       "kind": "document",
       "status": "source",
-      "size": 2879,
-      "lines": 55,
+      "size": 2749,
+      "lines": 50,
       "symbols": [],
       "headings": [
         "What Asymmetry Is — the owner's intent",
         "The product — one engine, one job",
-        "One workspace",
         "My boundaries (these are mine — confirm or move them)",
         "Claims are mine to make",
         "How I want agents to work"
@@ -1181,16 +1180,6 @@
       "id": "heading:OWNER_INTENT.md#The product — one engine, one job",
       "type": "heading",
       "label": "The product — one engine, one job",
-      "path": "OWNER_INTENT.md",
-      "group": "root",
-      "parent": "file:OWNER_INTENT.md",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "heading:OWNER_INTENT.md#One workspace",
-      "type": "heading",
-      "label": "One workspace",
       "path": "OWNER_INTENT.md",
       "group": "root",
       "parent": "file:OWNER_INTENT.md",
@@ -1235,7 +1224,7 @@
       "group": "root",
       "kind": "document",
       "status": "attention",
-      "size": 19921,
+      "size": 19917,
       "lines": 426,
       "symbols": [],
       "headings": [
@@ -4843,8 +4832,8 @@
       "group": "dead-drop",
       "kind": "document",
       "status": "source",
-      "size": 19578,
-      "lines": 332,
+      "size": 19356,
+      "lines": 326,
       "symbols": [],
       "headings": [
         "Asymmetry SPN (Dead Drop) Agent Operating Rules",
@@ -4857,7 +4846,6 @@
         "Repository conventions that are enforced",
         "The old browser beta client",
         "Deployment safety",
-        "Required handoff",
         "Current safety status"
       ]
     },
@@ -4955,16 +4943,6 @@
       "id": "heading:packages/dead-drop/AGENTS.md#Deployment safety",
       "type": "heading",
       "label": "Deployment safety",
-      "path": "packages/dead-drop/AGENTS.md",
-      "group": "dead-drop",
-      "parent": "file:packages/dead-drop/AGENTS.md",
-      "symbols": [],
-      "headings": []
-    },
-    {
-      "id": "heading:packages/dead-drop/AGENTS.md#Required handoff",
-      "type": "heading",
-      "label": "Required handoff",
       "path": "packages/dead-drop/AGENTS.md",
       "group": "dead-drop",
       "parent": "file:packages/dead-drop/AGENTS.md",
@@ -24501,12 +24479,6 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
-      "to": "heading:OWNER_INTENT.md#One workspace",
-      "type": "contains-heading",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
       "to": "heading:OWNER_INTENT.md#My boundaries (these are mine — confirm or move them)",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -32074,12 +32046,6 @@
     {
       "from": "file:packages/dead-drop/AGENTS.md",
       "to": "heading:packages/dead-drop/AGENTS.md#Deployment safety",
-      "type": "contains-heading",
-      "confidence": "parser-derived"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "heading:packages/dead-drop/AGENTS.md#Required handoff",
       "type": "contains-heading",
       "confidence": "parser-derived"
     },
