@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "838f24561a6755d42afb575e62c5c7f48ff6aee3",
-  "generatedAt": "2026-10-07T13:10:51.135Z",
+  "commit": "3f559340b2185492a2b39636ece952aaf3bad987",
+  "generatedAt": "2026-10-16T02:04:19.764Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 258,
-    "directories": 96,
+    "files": 270,
+    "directories": 97,
     "symbols": 1236,
-    "headings": 125,
-    "nodes": 1715,
-    "edges": 5566
+    "headings": 130,
+    "nodes": 1733,
+    "edges": 5678
   },
   "nodes": [
     {
@@ -837,6 +837,15 @@
       "headings": []
     },
     {
+      "id": "dir:railway-frozen",
+      "type": "directory",
+      "label": "railway-frozen",
+      "path": "railway-frozen",
+      "group": "root",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "dir:scripts",
       "type": "directory",
       "label": "scripts",
@@ -866,8 +875,8 @@
       "group": "root",
       "kind": "configuration",
       "status": "source",
-      "size": 735,
-      "lines": 17,
+      "size": 767,
+      "lines": 18,
       "symbols": [],
       "headings": []
     },
@@ -20918,6 +20927,218 @@
       "headings": []
     },
     {
+      "id": "file:railway-frozen/README.md",
+      "type": "file",
+      "label": "README.md",
+      "path": "railway-frozen/README.md",
+      "group": "root",
+      "kind": "document",
+      "status": "source",
+      "size": 2460,
+      "lines": 58,
+      "symbols": [],
+      "headings": [
+        "Railway, frozen (2026-10-16)",
+        "In an emergency, read this first",
+        "What is in this folder",
+        "Rebuilding by hand (until the button exists)",
+        "Not here, and staying up"
+      ]
+    },
+    {
+      "id": "heading:railway-frozen/README.md#Railway, frozen (2026-10-16)",
+      "type": "heading",
+      "label": "Railway, frozen (2026-10-16)",
+      "path": "railway-frozen/README.md",
+      "group": "root",
+      "parent": "file:railway-frozen/README.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:railway-frozen/README.md#In an emergency, read this first",
+      "type": "heading",
+      "label": "In an emergency, read this first",
+      "path": "railway-frozen/README.md",
+      "group": "root",
+      "parent": "file:railway-frozen/README.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:railway-frozen/README.md#What is in this folder",
+      "type": "heading",
+      "label": "What is in this folder",
+      "path": "railway-frozen/README.md",
+      "group": "root",
+      "parent": "file:railway-frozen/README.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:railway-frozen/README.md#Rebuilding by hand (until the button exists)",
+      "type": "heading",
+      "label": "Rebuilding by hand (until the button exists)",
+      "path": "railway-frozen/README.md",
+      "group": "root",
+      "parent": "file:railway-frozen/README.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "heading:railway-frozen/README.md#Not here, and staying up",
+      "type": "heading",
+      "label": "Not here, and staying up",
+      "path": "railway-frozen/README.md",
+      "group": "root",
+      "parent": "file:railway-frozen/README.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "type": "file",
+      "label": "asymmetry-deaddrop-relay.json",
+      "path": "railway-frozen/asymmetry-deaddrop-relay.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1689,
+      "lines": 54,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/asymmetry-spn-directory.json",
+      "type": "file",
+      "label": "asymmetry-spn-directory.json",
+      "path": "railway-frozen/asymmetry-spn-directory.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1487,
+      "lines": 49,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/spn-courier.json",
+      "type": "file",
+      "label": "spn-courier.json",
+      "path": "railway-frozen/spn-courier.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1249,
+      "lines": 44,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/spn-gateway.json",
+      "type": "file",
+      "label": "spn-gateway.json",
+      "path": "railway-frozen/spn-gateway.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1530,
+      "lines": 44,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/spn-mailbox-1.json",
+      "type": "file",
+      "label": "spn-mailbox-1.json",
+      "path": "railway-frozen/spn-mailbox-1.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1463,
+      "lines": 51,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/spn-mailbox-2.json",
+      "type": "file",
+      "label": "spn-mailbox-2.json",
+      "path": "railway-frozen/spn-mailbox-2.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1467,
+      "lines": 51,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/spn-mailbox-3.json",
+      "type": "file",
+      "label": "spn-mailbox-3.json",
+      "path": "railway-frozen/spn-mailbox-3.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1470,
+      "lines": 51,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/spn-mailbox-4.json",
+      "type": "file",
+      "label": "spn-mailbox-4.json",
+      "path": "railway-frozen/spn-mailbox-4.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1463,
+      "lines": 51,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/spn-mix-1.json",
+      "type": "file",
+      "label": "spn-mix-1.json",
+      "path": "railway-frozen/spn-mix-1.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1475,
+      "lines": 46,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/spn-mix-2.json",
+      "type": "file",
+      "label": "spn-mix-2.json",
+      "path": "railway-frozen/spn-mix-2.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1415,
+      "lines": 53,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/spn-mix-3.json",
+      "type": "file",
+      "label": "spn-mix-3.json",
+      "path": "railway-frozen/spn-mix-3.json",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1418,
+      "lines": 53,
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "file:railway.toml",
       "type": "file",
       "label": "railway.toml",
@@ -27694,6 +27915,12 @@
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:railway-frozen/spn-gateway.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:scripts/generate-architecture-city-source-map.mjs",
       "type": "references",
       "confidence": "inferred"
@@ -28001,12 +28228,6 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/lib/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/Cargo.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -34066,6 +34287,72 @@
     },
     {
       "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/asymmetry-spn-directory.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/spn-courier.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/spn-gateway.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/spn-mailbox-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/spn-mailbox-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/spn-mailbox-3.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/spn-mailbox-4.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/spn-mix-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/spn-mix-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
+      "to": "file:railway-frozen/spn-mix-3.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/conformance/validator.py",
       "to": "symbol:packages/dead-drop/conformance/validator.py#load_json",
       "type": "defines",
       "confidence": "parser-derived"
@@ -36053,6 +36340,12 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:packages/dead-drop/vectors/negative/registry-wrong-hop-count.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:railway-frozen/spn-gateway.json",
       "type": "references",
       "confidence": "inferred"
     },
@@ -49468,6 +49761,72 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/asymmetry-spn-directory.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/spn-courier.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/spn-gateway.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/spn-mailbox-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/spn-mailbox-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/spn-mailbox-3.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/spn-mailbox-4.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/spn-mix-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/spn-mix-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
+      "to": "file:railway-frozen/spn-mix-3.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/__main__.py",
       "to": "symbol:packages/dead-drop/simulator/__main__.py#_parser",
       "type": "defines",
       "confidence": "parser-derived"
@@ -50806,6 +51165,72 @@
     },
     {
       "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/asymmetry-spn-directory.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/spn-courier.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/spn-gateway.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mailbox-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mailbox-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mailbox-3.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mailbox-4.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mix-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mix-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mix-3.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
       "to": "symbol:packages/dead-drop/tests/protocol/test_negative_vectors.py#_load",
       "type": "defines",
       "confidence": "parser-derived"
@@ -51083,6 +51508,72 @@
     {
       "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
       "to": "file:packages/dead-drop/vectors/negative/registry-wrong-hop-count.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/asymmetry-spn-directory.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/spn-courier.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/spn-gateway.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/spn-mailbox-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/spn-mailbox-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/spn-mailbox-3.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/spn-mailbox-4.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/spn-mix-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/spn-mix-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "to": "file:railway-frozen/spn-mix-3.json",
       "type": "references",
       "confidence": "inferred"
     },
@@ -52768,6 +53259,72 @@
     },
     {
       "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/asymmetry-spn-directory.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/spn-courier.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/spn-gateway.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mailbox-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mailbox-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mailbox-3.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mailbox-4.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mix-1.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mix-2.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
+      "to": "file:railway-frozen/spn-mix-3.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/generate_negative_vectors.py",
       "to": "symbol:packages/dead-drop/tools/generate_negative_vectors.py#_drop",
       "type": "defines",
       "confidence": "parser-derived"
@@ -53299,6 +53856,336 @@
       "to": "symbol:packages/surb-reply/src/lib.rs#SurbError",
       "type": "defines",
       "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "heading:railway-frozen/README.md#Railway, frozen (2026-10-16)",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "heading:railway-frozen/README.md#In an emergency, read this first",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "heading:railway-frozen/README.md#What is in this folder",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "heading:railway-frozen/README.md#Rebuilding by hand (until the button exists)",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "heading:railway-frozen/README.md#Not here, and staying up",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "to": "file:packages/dead-drop/reference/directory-publisher/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "to": "file:packages/dead-drop/reference/mailbox/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "to": "file:packages/dead-drop/reference/mixnode/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-deaddrop-relay.json",
+      "to": "file:railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-spn-directory.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-spn-directory.json",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-spn-directory.json",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-spn-directory.json",
+      "to": "file:packages/dead-drop/reference/directory-publisher/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-spn-directory.json",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-spn-directory.json",
+      "to": "file:packages/dead-drop/reference/mailbox/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-spn-directory.json",
+      "to": "file:packages/dead-drop/reference/mixnode/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/asymmetry-spn-directory.json",
+      "to": "file:railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-courier.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/spn-gateway.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/spn-gateway.json",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mailbox-1.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/spn-mailbox-2.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/spn-mailbox-3.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/spn-mailbox-4.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-1.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-1.json",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-1.json",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-1.json",
+      "to": "file:packages/dead-drop/reference/directory-publisher/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-1.json",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-1.json",
+      "to": "file:packages/dead-drop/reference/mailbox/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-1.json",
+      "to": "file:packages/dead-drop/reference/mixnode/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-1.json",
+      "to": "file:railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-1.json",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-2.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-2.json",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-2.json",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-2.json",
+      "to": "file:packages/dead-drop/reference/directory-publisher/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-2.json",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-2.json",
+      "to": "file:packages/dead-drop/reference/mailbox/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-2.json",
+      "to": "file:packages/dead-drop/reference/mixnode/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-2.json",
+      "to": "file:railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-3.json",
+      "to": "dir:railway-frozen",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-3.json",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-3.json",
+      "to": "file:packages/dead-drop/reference/courier/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-3.json",
+      "to": "file:packages/dead-drop/reference/directory-publisher/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-3.json",
+      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-3.json",
+      "to": "file:packages/dead-drop/reference/mailbox/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-3.json",
+      "to": "file:packages/dead-drop/reference/mixnode/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/spn-mix-3.json",
+      "to": "file:railway.toml",
+      "type": "references",
+      "confidence": "inferred"
     },
     {
       "from": "file:scripts/check-entry.mjs",
@@ -54185,6 +55072,12 @@
     {
       "from": "file:scripts/doc-guard.mjs",
       "to": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/doc-guard.mjs",
+      "to": "file:railway-frozen/spn-gateway.json",
       "type": "references",
       "confidence": "inferred"
     },
