@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "1f1f4d918771ced1761ddcb98cbf3af973adec93",
-  "generatedAt": "2026-10-17T02:03:48.254Z",
+  "commit": "1e003929ebedc671d2e08e565dd527609284598e",
+  "generatedAt": "2026-10-17T02:04:05.389Z",
   "fidelity": "city-summary",
   "stats": {
     "files": 0,
@@ -11,12 +11,12 @@
     "headings": 0,
     "nodes": 5,
     "edges": 0,
-    "fullFiles": 272,
-    "fullDirectories": 98,
+    "fullFiles": 275,
+    "fullDirectories": 100,
     "fullSymbols": 1249,
-    "fullHeadings": 131,
-    "fullNodes": 1750,
-    "fullEdges": 5749
+    "fullHeadings": 151,
+    "fullNodes": 1775,
+    "fullEdges": 5893
   },
   "nodes": [
     {
@@ -71,9 +71,9 @@
       "symbols": 70,
       "headings": 92,
       "nodes": 251,
-      "lines": 5384,
-      "bytes": 254766,
-      "weight": 17136.527045708674,
+      "lines": 5385,
+      "bytes": 254808,
+      "weight": 17137.99371237534,
       "maxFileWeight": 1698.5
     },
     "ci": {
@@ -102,15 +102,15 @@
     },
     "evidence": {
       "systems": 1,
-      "files": 1,
-      "directories": 2,
+      "files": 4,
+      "directories": 4,
       "symbols": 0,
-      "headings": 9,
-      "nodes": 13,
-      "lines": 181,
-      "bytes": 7548,
-      "weight": 703.8666666666667,
-      "maxFileWeight": 427.8666666666667
+      "headings": 29,
+      "nodes": 38,
+      "lines": 523,
+      "bytes": 24940,
+      "weight": 1786.111111111111,
+      "maxFileWeight": 448.7111111111111
     },
     "dead-drop": {
       "systems": 1,
@@ -119,9 +119,9 @@
       "symbols": 1005,
       "headings": 29,
       "nodes": 1245,
-      "lines": 15515,
-      "bytes": 616011,
-      "weight": 101255.5659976589,
+      "lines": 15537,
+      "bytes": 617218,
+      "weight": 101290.97710877,
       "maxFileWeight": 2480.133333333333
     },
     "surb-reply": {
@@ -162,7 +162,7 @@
     }
   },
   "sizeModel": {
-    "districtWeightMax": 101255.5659976589,
+    "districtWeightMax": 101290.97710877,
     "fileWeightMax": 2480.133333333333,
     "sizing": "District footprint reflects per-domain repository weight; building footprint/height reflect file lines, bytes, and safe symbol/headings where available."
   }
