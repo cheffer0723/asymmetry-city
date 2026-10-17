@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "3f559340b2185492a2b39636ece952aaf3bad987",
-  "generatedAt": "2026-10-16T02:04:19.764Z",
+  "commit": "1f1f4d918771ced1761ddcb98cbf3af973adec93",
+  "generatedAt": "2026-10-17T02:03:48.254Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 270,
-    "directories": 97,
-    "symbols": 1236,
-    "headings": 130,
-    "nodes": 1733,
-    "edges": 5678
+    "files": 272,
+    "directories": 98,
+    "symbols": 1249,
+    "headings": 131,
+    "nodes": 1750,
+    "edges": 5749
   },
   "nodes": [
     {
@@ -846,6 +846,15 @@
       "headings": []
     },
     {
+      "id": "dir:railway-frozen/emergency",
+      "type": "directory",
+      "label": "emergency",
+      "path": "railway-frozen/emergency",
+      "group": "root",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "dir:scripts",
       "type": "directory",
       "label": "scripts",
@@ -981,6 +990,19 @@
       "status": "source",
       "size": 5036,
       "lines": 144,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:.github/workflows/standby-place.yml",
+      "type": "file",
+      "label": "standby-place.yml",
+      "path": ".github/workflows/standby-place.yml",
+      "group": "ci",
+      "kind": "configuration",
+      "status": "source",
+      "size": 2791,
+      "lines": 73,
       "symbols": [],
       "headings": []
     },
@@ -20934,14 +20956,15 @@
       "group": "root",
       "kind": "document",
       "status": "source",
-      "size": 2460,
-      "lines": 58,
+      "size": 3898,
+      "lines": 87,
       "symbols": [],
       "headings": [
         "Railway, frozen (2026-10-16)",
         "In an emergency, read this first",
+        "Before this, the old servers",
         "What is in this folder",
-        "Rebuilding by hand (until the button exists)",
+        "Rebuilding the old servers by hand",
         "Not here, and staying up"
       ]
     },
@@ -20966,6 +20989,16 @@
       "headings": []
     },
     {
+      "id": "heading:railway-frozen/README.md#Before this, the old servers",
+      "type": "heading",
+      "label": "Before this, the old servers",
+      "path": "railway-frozen/README.md",
+      "group": "root",
+      "parent": "file:railway-frozen/README.md",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "heading:railway-frozen/README.md#What is in this folder",
       "type": "heading",
       "label": "What is in this folder",
@@ -20976,9 +21009,9 @@
       "headings": []
     },
     {
-      "id": "heading:railway-frozen/README.md#Rebuilding by hand (until the button exists)",
+      "id": "heading:railway-frozen/README.md#Rebuilding the old servers by hand",
       "type": "heading",
-      "label": "Rebuilding by hand (until the button exists)",
+      "label": "Rebuilding the old servers by hand",
       "path": "railway-frozen/README.md",
       "group": "root",
       "parent": "file:railway-frozen/README.md",
@@ -21018,6 +21051,215 @@
       "status": "source",
       "size": 1487,
       "lines": 49,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:railway-frozen/emergency/standby-place.mjs",
+      "type": "file",
+      "label": "standby-place.mjs",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "group": "root",
+      "kind": "application",
+      "status": "source",
+      "size": 9021,
+      "lines": 200,
+      "symbols": [
+        {
+          "name": "gql",
+          "type": "function"
+        },
+        {
+          "name": "findProject",
+          "type": "function"
+        },
+        {
+          "name": "create",
+          "type": "function"
+        },
+        {
+          "name": "roundTrip",
+          "type": "function"
+        },
+        {
+          "name": "talk",
+          "type": "function"
+        },
+        {
+          "name": "talkOnce",
+          "type": "function"
+        },
+        {
+          "name": "destroy",
+          "type": "function"
+        },
+        {
+          "name": "secs",
+          "type": "const"
+        },
+        {
+          "name": "say",
+          "type": "const"
+        },
+        {
+          "name": "summary",
+          "type": "const"
+        },
+        {
+          "name": "hex",
+          "type": "const"
+        },
+        {
+          "name": "sleep",
+          "type": "const"
+        },
+        {
+          "name": "finish",
+          "type": "const"
+        }
+      ],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#gql",
+      "type": "symbol",
+      "label": "gql",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "function",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#findProject",
+      "type": "symbol",
+      "label": "findProject",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "function",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#create",
+      "type": "symbol",
+      "label": "create",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "function",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#roundTrip",
+      "type": "symbol",
+      "label": "roundTrip",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "function",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#talk",
+      "type": "symbol",
+      "label": "talk",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "function",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#talkOnce",
+      "type": "symbol",
+      "label": "talkOnce",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "function",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#destroy",
+      "type": "symbol",
+      "label": "destroy",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "function",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#secs",
+      "type": "symbol",
+      "label": "secs",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "const",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#say",
+      "type": "symbol",
+      "label": "say",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "const",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#summary",
+      "type": "symbol",
+      "label": "summary",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "const",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#hex",
+      "type": "symbol",
+      "label": "hex",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "const",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#sleep",
+      "type": "symbol",
+      "label": "sleep",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "const",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:railway-frozen/emergency/standby-place.mjs#finish",
+      "type": "symbol",
+      "label": "finish",
+      "path": "railway-frozen/emergency/standby-place.mjs",
+      "symbolType": "const",
+      "group": "root",
+      "parent": "file:railway-frozen/emergency/standby-place.mjs",
       "symbols": [],
       "headings": []
     },
@@ -22719,6 +22961,12 @@
     },
     {
       "from": "file:.github/workflows/monitor.yml",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -23356,12 +23604,6 @@
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -23415,6 +23657,12 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -24056,10 +24304,10 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
+      "from": "file:.github/workflows/standby-place.yml",
+      "to": "dir:.github/workflows",
+      "type": "contained-in",
+      "confidence": "path-derived"
     },
     {
       "from": "file:.gitleaks.toml",
@@ -24100,6 +24348,12 @@
     {
       "from": "file:.gitleaks.toml",
       "to": "file:.github/workflows/security.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.gitleaks.toml",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -24440,6 +24694,12 @@
       "confidence": "inferred"
     },
     {
+      "from": "file:.gitleaks.toml",
+      "to": "file:railway-frozen/emergency/standby-place.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:.claude/settings.json",
       "type": "references",
@@ -24472,6 +24732,12 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -25114,12 +25380,6 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -25521,6 +25781,12 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -25869,12 +26135,6 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
-      "to": "file:packages/dead-drop/.dockerignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
       "to": "heading:OWNER_INTENT.md#What Asymmetry Is — the owner's intent",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -25936,6 +26196,12 @@
     {
       "from": "file:README.md",
       "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -26583,12 +26849,6 @@
     },
     {
       "from": "file:README.md",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
       "to": "heading:README.md#Asymmetry",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -26704,6 +26964,12 @@
     {
       "from": "file:SECURITY.md",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -27363,12 +27629,6 @@
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
       "to": "heading:SECURITY.md#Security Policy",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -27933,6 +28193,12 @@
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
       "type": "references",
       "confidence": "inferred"
@@ -27988,6 +28254,12 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:railway-frozen/emergency/standby-place.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28220,18 +28492,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTorModule.swift",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/lib/.gitkeep",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:apps/web/public/legal/dead-drop-terms.html",
       "to": "dir:apps/web/public/legal",
       "type": "contained-in",
@@ -28342,6 +28602,12 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-terms.html",
       "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-terms.html",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28912,12 +29178,6 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-terms.html",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-terms.html",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29541,6 +29801,12 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -30177,12 +30443,6 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "symbol:apps/web/src/PublicSite.tsx#Arrow",
       "type": "defines",
       "confidence": "parser-derived"
@@ -30688,6 +30948,12 @@
     {
       "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
       "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -31330,12 +31596,6 @@
     {
       "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
       "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
-      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -32763,6 +33023,12 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -33405,12 +33671,6 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "heading:packages/dead-drop/AGENTS.md#Asymmetry SPN (Dead Drop) Agent Operating Rules",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -33538,6 +33798,12 @@
     {
       "from": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
       "to": "file:.github/workflows/security.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -34443,6 +34709,12 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -35078,12 +35350,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
       "to": "dir:packages/dead-drop/deploy/caddy",
       "type": "contained-in",
@@ -35104,6 +35370,12 @@
     {
       "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
       "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -35164,6 +35436,12 @@
     {
       "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
       "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "to": "file:railway-frozen/emergency/standby-place.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -35308,6 +35586,12 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -35950,12 +36234,6 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -36363,6 +36641,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
       "type": "references",
       "confidence": "inferred"
@@ -36472,6 +36756,12 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:packages/dead-drop/tests/protocol/test_phase2_conformance.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:railway-frozen/emergency/standby-place.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -36652,6 +36942,12 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37294,12 +37590,6 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:packages/dead-drop/reference/courier/src/main.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37899,6 +38189,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -38530,12 +38826,6 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -39297,6 +39587,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -39928,12 +40224,6 @@
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:packages/dead-drop/reference/courier/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:packages/dead-drop/reference/courier/Dockerfile",
       "type": "references",
       "confidence": "inferred"
     },
@@ -40101,6 +40391,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -40738,12 +41034,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -41031,6 +41321,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -41668,12 +41964,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -41769,6 +42059,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -42406,12 +42702,6 @@
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -42585,6 +42875,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
       "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
       "type": "references",
       "confidence": "inferred"
@@ -42712,6 +43008,12 @@
     {
       "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
       "to": "file:packages/dead-drop/vectors/negative/manifest.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "to": "file:railway-frozen/emergency/standby-place.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -43029,6 +43331,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
       "to": "file:apps/web/public/brand/asymmetry-emblem-gradient.png",
       "type": "references",
       "confidence": "inferred"
@@ -43084,6 +43392,12 @@
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
       "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:railway-frozen/emergency/standby-place.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -43689,18 +44003,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
-      "to": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
-      "to": "file:packages/dead-drop/reference/hz-25519-761/README.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
       "to": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Provenance — HZ-25519-761 (HoldZero)",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -43797,6 +44099,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -44434,12 +44742,6 @@
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -44523,6 +44825,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -45160,12 +45468,6 @@
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -46461,6 +46763,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -46972,12 +47280,6 @@
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:packages/dead-drop/conformance/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "to": "file:packages/dead-drop/conformance/validator.py",
       "type": "references",
       "confidence": "inferred"
     },
@@ -48633,6 +48935,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -49274,12 +49582,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
       "to": "dir:packages/dead-drop/reference/test-surface/static/assets",
       "type": "contained-in",
@@ -49350,6 +49652,12 @@
       "to": "dir:packages/dead-drop/scripts",
       "type": "contained-in",
       "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
@@ -49480,6 +49788,12 @@
     {
       "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
       "to": "file:packages/dead-drop/vectors/negative/manifest.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
+      "to": "file:railway-frozen/emergency/standby-place.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -50067,6 +50381,12 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:.gitleaks.toml",
       "type": "references",
       "confidence": "inferred"
@@ -50704,12 +51024,6 @@
     {
       "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:packages/dead-drop/reference/courier/railway.toml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -52389,6 +52703,12 @@
     },
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:.gitignore",
       "type": "references",
       "confidence": "inferred"
@@ -52990,12 +53310,6 @@
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:packages/dead-drop/reference/mixnode/src/directory.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/tools/check_traceability.py",
-      "to": "file:packages/dead-drop/reference/mixnode/src/main.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -53865,7 +54179,265 @@
     },
     {
       "from": "file:railway-frozen/README.md",
+      "to": "file:.github/dependabot.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:.github/workflows/architecture-city-sync.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:.github/workflows/build.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:.github/workflows/monitor.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:.github/workflows/security.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:.gitleaks.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:apps/web/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:apps/web/public/hero-orbit.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:apps/web/src/PublicSite.tsx",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:apps/web/vite.config.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/lib/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:docs/audit/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/.gitattributes",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/conformance/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/reference/observability/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/reference/observability/alert-rules.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
       "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/results/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/schemas/suite-registry.schema.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/simulator/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/tests/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/tests/adversarial/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/tests/privacy/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/tests/protocol/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/tests/unit/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/tests/unit/test_client_boundary.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/tests/unit/test_container_hardening.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/tools/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/tools/check_traceability.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/vectors/experimental-suite-0001.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/vectors/negative/directory-empty-validity-window.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/vectors/negative/directory-inverted-validity-window.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/vectors/negative/directory-suite-downgrade.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/vectors/negative/directory-too-few-authorities.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:packages/dead-drop/vectors/negative/registry-unsupported-suite-id.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:scripts/generate-architecture-city-source-map.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:scripts/generate-public-architecture-city-map.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
+      "to": "file:scripts/security-check.mjs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -53883,13 +54455,19 @@
     },
     {
       "from": "file:railway-frozen/README.md",
+      "to": "heading:railway-frozen/README.md#Before this, the old servers",
+      "type": "contains-heading",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
       "to": "heading:railway-frozen/README.md#What is in this folder",
       "type": "contains-heading",
       "confidence": "parser-derived"
     },
     {
       "from": "file:railway-frozen/README.md",
-      "to": "heading:railway-frozen/README.md#Rebuilding by hand (until the button exists)",
+      "to": "heading:railway-frozen/README.md#Rebuilding the old servers by hand",
       "type": "contains-heading",
       "confidence": "parser-derived"
     },
@@ -53994,6 +54572,90 @@
       "to": "file:railway.toml",
       "type": "references",
       "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "dir:railway-frozen/emergency",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#gql",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#findProject",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#create",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#roundTrip",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#talk",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#talkOnce",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#destroy",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#secs",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#say",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#summary",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#hex",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#sleep",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:railway-frozen/emergency/standby-place.mjs",
+      "to": "symbol:railway-frozen/emergency/standby-place.mjs#finish",
+      "type": "defines",
+      "confidence": "parser-derived"
     },
     {
       "from": "file:railway-frozen/spn-courier.json",
@@ -54286,6 +54948,12 @@
     {
       "from": "file:scripts/check-relay.mjs",
       "to": "file:.github/workflows/release.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -54927,12 +55595,6 @@
     },
     {
       "from": "file:scripts/check-relay.mjs",
-      "to": "file:packages/dead-drop/reference/courier/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:scripts/check-relay.mjs",
       "to": "symbol:scripts/check-relay.mjs#frame",
       "type": "defines",
       "confidence": "parser-derived"
@@ -55366,6 +56028,12 @@
     {
       "from": "system:ci",
       "to": "file:.github/workflows/security.yml",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:ci",
+      "to": "file:.github/workflows/standby-place.yml",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
