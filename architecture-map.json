@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "1e003929ebedc671d2e08e565dd527609284598e",
-  "generatedAt": "2026-10-17T02:04:05.389Z",
+  "commit": "da5d4ead9c1155087df712bdf626a3a0efbdbee6",
+  "generatedAt": "2026-10-19T13:27:14.613Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 275,
+    "files": 277,
     "directories": 100,
     "symbols": 1249,
     "headings": 151,
-    "nodes": 1775,
-    "edges": 5893
+    "nodes": 1777,
+    "edges": 5905
   },
   "nodes": [
     {
@@ -969,6 +969,19 @@
       "status": "source",
       "size": 3116,
       "lines": 84,
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "file:.github/workflows/hawkscan.yml",
+      "type": "file",
+      "label": "hawkscan.yml",
+      "path": ".github/workflows/hawkscan.yml",
+      "group": "ci",
+      "kind": "configuration",
+      "status": "source",
+      "size": 4831,
+      "lines": 125,
       "symbols": [],
       "headings": []
     },
@@ -22896,6 +22909,19 @@
       "headings": []
     },
     {
+      "id": "file:stackhawk.yml",
+      "type": "file",
+      "label": "stackhawk.yml",
+      "path": "stackhawk.yml",
+      "group": "root",
+      "kind": "configuration",
+      "status": "source",
+      "size": 1133,
+      "lines": 32,
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "file:start.ps1",
       "type": "file",
       "label": "start.ps1",
@@ -23198,6 +23224,18 @@
       "confidence": "path-derived"
     },
     {
+      "from": "file:.github/workflows/hawkscan.yml",
+      "to": "dir:.github/workflows",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:.github/workflows/hawkscan.yml",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
       "from": "file:.github/workflows/monitor.yml",
       "to": "dir:.github/workflows",
       "type": "contained-in",
@@ -23230,6 +23268,12 @@
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -23878,12 +23922,6 @@
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -23931,6 +23969,12 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -24578,12 +24622,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:.github/workflows/standby-place.yml",
       "to": "dir:.github/workflows",
       "type": "contained-in",
@@ -24610,6 +24648,12 @@
     {
       "from": "file:.gitleaks.toml",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.gitleaks.toml",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -25011,6 +25055,12 @@
     },
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -25654,12 +25704,6 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -26055,6 +26099,12 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -26409,12 +26459,6 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
-      "to": "file:docs/public-drafts/hz-25519-761/README.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
       "to": "heading:OWNER_INTENT.md#What Asymmetry Is — the owner's intent",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -26470,6 +26514,12 @@
     {
       "from": "file:README.md",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -27118,12 +27168,6 @@
     {
       "from": "file:README.md",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28581,6 +28625,12 @@
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -28766,12 +28816,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTor.podspec",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:apps/web/public/legal/dead-drop-terms.html",
       "to": "dir:apps/web/public/legal",
       "type": "contained-in",
@@ -28876,6 +28920,12 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-terms.html",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-terms.html",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29452,12 +29502,6 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-terms.html",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-terms.html",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -30075,6 +30119,12 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -30717,12 +30767,6 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "symbol:apps/web/src/PublicSite.tsx#Arrow",
       "type": "defines",
       "confidence": "parser-derived"
@@ -31240,6 +31284,12 @@
     {
       "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -31888,12 +31938,6 @@
     {
       "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -33339,6 +33383,12 @@
     },
     {
       "from": "file:docs/public-drafts/hz-25519-761/README.md",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/public-drafts/hz-25519-761/README.md",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -33981,12 +34031,6 @@
     },
     {
       "from": "file:docs/public-drafts/hz-25519-761/README.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/public-drafts/hz-25519-761/README.md",
       "to": "heading:docs/public-drafts/hz-25519-761/README.md#HZ-25519-761 (\"HoldZero\")",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -34138,6 +34182,12 @@
     {
       "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -34791,12 +34841,6 @@
     },
     {
       "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
       "to": "heading:packages/dead-drop/AGENTS.md#Asymmetry SPN (Dead Drop) Agent Operating Rules",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -34906,6 +34950,12 @@
     {
       "from": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -35829,6 +35879,12 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -36470,12 +36526,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
       "to": "dir:packages/dead-drop/deploy/caddy",
       "type": "contained-in",
@@ -36706,6 +36756,12 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37354,12 +37410,6 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37767,6 +37817,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:.github/workflows/standby-place.yml",
       "type": "references",
       "confidence": "inferred"
@@ -38062,6 +38118,12 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38710,12 +38772,6 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -39309,6 +39365,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -39946,12 +40008,6 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -40707,6 +40763,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -41344,12 +41406,6 @@
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -41511,6 +41567,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -42154,12 +42216,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -42441,6 +42497,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -43084,12 +43146,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -43179,6 +43235,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -43822,12 +43884,6 @@
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -43998,6 +44054,12 @@
       "to": "dir:packages/dead-drop/reference/harness/src",
       "type": "contained-in",
       "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
@@ -45219,6 +45281,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -45862,12 +45930,6 @@
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -45945,6 +46007,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -46588,12 +46656,6 @@
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -47878,6 +47940,12 @@
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
@@ -50055,6 +50123,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -50702,12 +50776,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
       "to": "dir:packages/dead-drop/reference/test-surface/static/assets",
       "type": "contained-in",
@@ -50778,6 +50846,12 @@
       "to": "dir:packages/dead-drop/scripts",
       "type": "contained-in",
       "confidence": "path-derived"
+    },
+    {
+      "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
     },
     {
       "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
@@ -51501,6 +51575,12 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -52144,12 +52224,6 @@
     {
       "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -53811,6 +53885,12 @@
     },
     {
       "from": "file:packages/dead-drop/tools/check_traceability.py",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/tools/check_traceability.py",
       "to": "file:.github/workflows/monitor.yml",
       "type": "references",
       "confidence": "inferred"
@@ -55329,6 +55409,12 @@
     },
     {
       "from": "file:railway-frozen/README.md",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:railway-frozen/README.md",
       "to": "file:.github/workflows/monitor.yml",
       "type": "references",
       "confidence": "inferred"
@@ -56073,6 +56159,12 @@
     },
     {
       "from": "file:scripts/check-relay.mjs",
+      "to": "file:.github/workflows/hawkscan.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
       "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
@@ -56715,12 +56807,6 @@
     },
     {
       "from": "file:scripts/check-relay.mjs",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:scripts/check-relay.mjs",
       "to": "symbol:scripts/check-relay.mjs#frame",
       "type": "defines",
       "confidence": "parser-derived"
@@ -57116,6 +57202,12 @@
       "confidence": "parser-derived"
     },
     {
+      "from": "file:stackhawk.yml",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
       "from": "system:ci",
       "to": "file:.github/dependabot.yml",
       "type": "domain-artifact",
@@ -57136,6 +57228,12 @@
     {
       "from": "system:ci",
       "to": "file:.github/workflows/dead-drop.yml",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:ci",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },

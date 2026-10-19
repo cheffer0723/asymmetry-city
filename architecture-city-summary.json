@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "1e003929ebedc671d2e08e565dd527609284598e",
-  "generatedAt": "2026-10-17T02:04:05.389Z",
+  "commit": "da5d4ead9c1155087df712bdf626a3a0efbdbee6",
+  "generatedAt": "2026-10-19T13:27:14.613Z",
   "fidelity": "city-summary",
   "stats": {
     "files": 0,
@@ -11,12 +11,12 @@
     "headings": 0,
     "nodes": 5,
     "edges": 0,
-    "fullFiles": 275,
+    "fullFiles": 277,
     "fullDirectories": 100,
     "fullSymbols": 1249,
     "fullHeadings": 151,
-    "fullNodes": 1775,
-    "fullEdges": 5893
+    "fullNodes": 1777,
+    "fullEdges": 5905
   },
   "nodes": [
     {
@@ -66,26 +66,26 @@
   "groupMetrics": {
     "root": {
       "systems": 0,
-      "files": 62,
+      "files": 63,
       "directories": 27,
       "symbols": 70,
       "headings": 92,
-      "nodes": 251,
-      "lines": 5385,
-      "bytes": 254808,
-      "weight": 17137.99371237534,
+      "nodes": 252,
+      "lines": 5417,
+      "bytes": 255941,
+      "weight": 17183.58260126423,
       "maxFileWeight": 1698.5
     },
     "ci": {
       "systems": 1,
-      "files": 8,
+      "files": 9,
       "directories": 2,
       "symbols": 0,
       "headings": 0,
-      "nodes": 11,
-      "lines": 716,
-      "bytes": 27792,
-      "weight": 1236.8,
+      "nodes": 12,
+      "lines": 841,
+      "bytes": 32623,
+      "weight": 1416.4777777777779,
       "maxFileWeight": 202.25555555555556
     },
     "product": {
