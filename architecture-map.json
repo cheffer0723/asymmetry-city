@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "3582c969d1d19e6bf7b1ac67d254a3cdb53e9966",
-  "generatedAt": "2026-11-01T22:03:37.868Z",
+  "commit": "e24ee81e1cf026ee31314e78a8c406de5fd52c7f",
+  "generatedAt": "2026-11-01T22:26:01.375Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
     "visualStatus": "never-upgrade-evidence"
   },
   "stats": {
-    "files": 277,
+    "files": 278,
     "directories": 100,
-    "symbols": 1249,
+    "symbols": 1251,
     "headings": 151,
-    "nodes": 1777,
-    "edges": 5905
+    "nodes": 1780,
+    "edges": 5917
   },
   "nodes": [
     {
@@ -1745,6 +1745,19 @@
       "headings": []
     },
     {
+      "id": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "file",
+      "label": "founder-qr.svg",
+      "path": "apps/web/public/brand/founder-qr.svg",
+      "group": "product",
+      "kind": "artifact",
+      "status": "source",
+      "size": 0,
+      "lines": 0,
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "file:apps/web/public/brand/icon-192.png",
       "type": "file",
       "label": "icon-192.png",
@@ -2655,8 +2668,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 24188,
-      "lines": 446,
+      "size": 28736,
+      "lines": 502,
       "symbols": [
         {
           "name": "Arrow",
@@ -2667,8 +2680,16 @@
           "type": "function"
         },
         {
+          "name": "FounderCode",
+          "type": "function"
+        },
+        {
           "name": "PublicSite",
           "type": "function"
+        },
+        {
+          "name": "copy",
+          "type": "const"
         },
         {
           "name": "show",
@@ -2740,11 +2761,33 @@
       "headings": []
     },
     {
+      "id": "symbol:apps/web/src/PublicSite.tsx#FounderCode",
+      "type": "symbol",
+      "label": "FounderCode",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
       "id": "symbol:apps/web/src/PublicSite.tsx#PublicSite",
       "type": "symbol",
       "label": "PublicSite",
       "path": "apps/web/src/PublicSite.tsx",
       "symbolType": "function",
+      "group": "product",
+      "parent": "file:apps/web/src/PublicSite.tsx",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "symbol:apps/web/src/PublicSite.tsx#copy",
+      "type": "symbol",
+      "label": "copy",
+      "path": "apps/web/src/PublicSite.tsx",
+      "symbolType": "const",
       "group": "product",
       "parent": "file:apps/web/src/PublicSite.tsx",
       "symbols": [],
@@ -2879,8 +2922,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 22337,
-      "lines": 401,
+      "size": 24136,
+      "lines": 432,
       "symbols": [],
       "headings": []
     },
@@ -23081,6 +23124,12 @@
     },
     {
       "from": "file:.github/workflows/build.yml",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/build.yml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -23357,6 +23406,12 @@
     },
     {
       "from": "file:.github/workflows/monitor.yml",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/monitor.yml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -23916,12 +23971,6 @@
     {
       "from": "file:.github/workflows/monitor.yml",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/monitor.yml",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -24053,6 +24102,12 @@
     },
     {
       "from": "file:.github/workflows/security.yml",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.github/workflows/security.yml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -24612,12 +24667,6 @@
     {
       "from": "file:.github/workflows/security.yml",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:.github/workflows/security.yml",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -24923,6 +24972,12 @@
     },
     {
       "from": "file:.gitleaks.toml",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:.gitleaks.toml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -25134,6 +25189,12 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:ASYMMETRY_AGENT_RULES.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -25698,12 +25759,6 @@
     {
       "from": "file:ASYMMETRY_AGENT_RULES.md",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:ASYMMETRY_AGENT_RULES.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -26177,6 +26232,12 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:OWNER_INTENT.md",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -26453,12 +26514,6 @@
     },
     {
       "from": "file:OWNER_INTENT.md",
-      "to": "file:docs/public-drafts/hz-25519-761/LICENSE-CHANGE.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:OWNER_INTENT.md",
       "to": "heading:OWNER_INTENT.md#What Asymmetry Is — the owner's intent",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -26598,6 +26653,12 @@
     {
       "from": "file:README.md",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:README.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -27167,12 +27228,6 @@
     },
     {
       "from": "file:README.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:README.md",
       "to": "heading:README.md#Asymmetry",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -27330,6 +27385,12 @@
     {
       "from": "file:SECURITY.md",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:SECURITY.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -27947,12 +28008,6 @@
     },
     {
       "from": "file:SECURITY.md",
-      "to": "file:packages/dead-drop/reference/hz-25519-761/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:SECURITY.md",
       "to": "heading:SECURITY.md#Security Policy",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -28073,6 +28128,12 @@
     },
     {
       "from": "file:apps/web/public/brand/dead-drop-icon.png",
+      "to": "dir:apps/web/public/brand",
+      "type": "contained-in",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "file:apps/web/public/brand/founder-qr.svg",
       "to": "dir:apps/web/public/brand",
       "type": "contained-in",
       "confidence": "path-derived"
@@ -28553,6 +28614,12 @@
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -28810,12 +28877,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/index.ts",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:apps/web/public/legal/dead-drop-terms.html",
       "to": "dir:apps/web/public/legal",
       "type": "contained-in",
@@ -29004,6 +29065,12 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-terms.html",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-terms.html",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -29496,12 +29563,6 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-terms.html",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-terms.html",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -30203,6 +30264,12 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -30761,12 +30828,6 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "symbol:apps/web/src/PublicSite.tsx#Arrow",
       "type": "defines",
       "confidence": "parser-derived"
@@ -30779,7 +30840,19 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#FounderCode",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "symbol:apps/web/src/PublicSite.tsx#PublicSite",
+      "type": "defines",
+      "confidence": "parser-derived"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "symbol:apps/web/src/PublicSite.tsx#copy",
       "type": "defines",
       "confidence": "parser-derived"
     },
@@ -31097,6 +31170,12 @@
     },
     {
       "from": "file:archive/tor-do-not-use/mobile/docs/known-weaknesses.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:archive/tor-do-not-use/mobile/docs/known-weaknesses.md",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -31368,6 +31447,12 @@
     {
       "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -31932,12 +32017,6 @@
     {
       "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -33467,6 +33546,12 @@
     },
     {
       "from": "file:docs/public-drafts/hz-25519-761/README.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:docs/public-drafts/hz-25519-761/README.md",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -34025,12 +34110,6 @@
     },
     {
       "from": "file:docs/public-drafts/hz-25519-761/README.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:docs/public-drafts/hz-25519-761/README.md",
       "to": "heading:docs/public-drafts/hz-25519-761/README.md#HZ-25519-761 (\"HoldZero\")",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -34266,6 +34345,12 @@
     {
       "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/AGENTS.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -34830,12 +34915,6 @@
     {
       "from": "file:packages/dead-drop/AGENTS.md",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/AGENTS.md",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -35963,6 +36042,12 @@
     },
     {
       "from": "file:packages/dead-drop/deny.toml",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/deny.toml",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -36520,12 +36605,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:packages/dead-drop/deny.toml",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
       "to": "dir:packages/dead-drop/deploy/caddy",
       "type": "contained-in",
@@ -36582,6 +36661,12 @@
     {
       "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -36840,6 +36925,12 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37404,12 +37495,6 @@
     {
       "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -37859,6 +37944,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -38202,6 +38293,12 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -38766,12 +38863,6 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -39449,6 +39540,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -40002,12 +40099,6 @@
     {
       "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/client-core/src/shelf.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -40847,6 +40938,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -41400,12 +41497,6 @@
     {
       "from": "file:packages/dead-drop/reference/courier/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/courier/src/main.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -41651,6 +41742,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -42210,12 +42307,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory-publisher/src/main.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -42581,6 +42672,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -43140,12 +43237,6 @@
     {
       "from": "file:packages/dead-drop/reference/directory/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/directory/src/main.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -43319,6 +43410,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -43878,12 +43975,6 @@
     {
       "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -44094,6 +44185,12 @@
     {
       "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/harness/src/lib.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -44550,6 +44647,12 @@
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -45185,12 +45288,6 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
-      "to": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md",
       "to": "heading:packages/dead-drop/reference/hz-25519-761/PROVENANCE.md#Provenance — HZ-25519-761 (HoldZero)",
       "type": "contains-heading",
       "confidence": "parser-derived"
@@ -45365,6 +45462,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -45924,12 +46027,6 @@
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/src/deception.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -46091,6 +46188,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -46650,12 +46753,6 @@
     {
       "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/reference/hz-25519-761/src/lib.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -48024,6 +48121,12 @@
     {
       "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/mixnode/src/state.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -50207,6 +50310,12 @@
     },
     {
       "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -50770,12 +50879,6 @@
       "confidence": "inferred"
     },
     {
-      "from": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
       "from": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
       "to": "dir:packages/dead-drop/reference/test-surface/static/assets",
       "type": "contained-in",
@@ -50886,6 +50989,12 @@
     {
       "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/scripts/install-local-domain-aliases.ps1",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "references",
       "confidence": "inferred"
     },
@@ -51659,6 +51768,12 @@
     },
     {
       "from": "file:packages/dead-drop/simulator/report.py",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -52218,12 +52333,6 @@
     {
       "from": "file:packages/dead-drop/simulator/report.py",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:packages/dead-drop/simulator/report.py",
-      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
@@ -56243,6 +56352,12 @@
     },
     {
       "from": "file:scripts/check-relay.mjs",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:scripts/check-relay.mjs",
       "to": "file:apps/web/public/brand/icon-192.png",
       "type": "references",
       "confidence": "inferred"
@@ -56801,12 +56916,6 @@
     },
     {
       "from": "file:scripts/check-relay.mjs",
-      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:scripts/check-relay.mjs",
       "to": "symbol:scripts/check-relay.mjs#frame",
       "type": "defines",
       "confidence": "parser-derived"
@@ -57318,6 +57427,12 @@
     {
       "from": "system:product",
       "to": "file:apps/web/public/brand/dead-drop-icon.png",
+      "type": "domain-artifact",
+      "confidence": "path-derived"
+    },
+    {
+      "from": "system:product",
+      "to": "file:apps/web/public/brand/founder-qr.svg",
       "type": "domain-artifact",
       "confidence": "path-derived"
     },
