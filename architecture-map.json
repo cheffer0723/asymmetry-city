@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "e24ee81e1cf026ee31314e78a8c406de5fd52c7f",
-  "generatedAt": "2026-11-01T22:26:01.375Z",
+  "commit": "2142d7dc540a0fe7828b1129cb2e3db3e5316f2b",
+  "generatedAt": "2026-11-03T19:29:56.164Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -14,7 +14,7 @@
     "symbols": 1251,
     "headings": 151,
     "nodes": 1780,
-    "edges": 5917
+    "edges": 5918
   },
   "nodes": [
     {
@@ -1872,8 +1872,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 14520,
-      "lines": 187,
+      "size": 13514,
+      "lines": 183,
       "symbols": [],
       "headings": []
     },
@@ -28200,385 +28200,91 @@
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
+      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/full-branch.patch",
+      "to": "file:.claude/settings.json",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRust.swift",
+      "to": "file:.docguard-allow.json",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.h",
+      "to": "file:.github/dependabot.yml",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.modulemap",
+      "to": "file:.github/workflows/architecture-city-sync.yml",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/mobile/scripts/generate-dead-drop-tor-bindings.sh",
+      "to": "file:.github/workflows/dead-drop.yml",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/relay/onion-service.patch",
+      "to": "file:.github/workflows/hawkscan.yml",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/relay/tor-version-bump-pr371.patch",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:archive/tor-do-not-use/relay/torrc.template",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/.gitattributes",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/conformance/validator.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/client-core/src/operation.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/gateway/Cargo.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/gateway/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/gateway/railway.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/gateway/src/main.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/mixnode/src/state.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/protocol/tests/negative_vectors.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/test-surface/src/state.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/test-surface/static/assets/darkfusion-header-mark.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/test-surface/static/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/test-surface/static/owner-beta-v2.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/test-surface/static/owner-dashboard.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/schemas/simulation-result.schema.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/simulator/__init__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/simulator/__main__.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/simulator/config.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/simulator/engine.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/simulator/metrics.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/simulator/model.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/simulator/report.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/simulator/scenarios.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/tests/protocol/test_negative_vectors.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/tools/generate_negative_vectors.py",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-cross-layer-operator-reuse.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-empty-layer.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-empty-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-insufficient-quorum.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-inverted-validity-window.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-node-missing-routing-key.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-non-contiguous-layers.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-protocol-downgrade.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-suite-downgrade.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-too-few-authorities.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-unknown-field.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-wrong-document-type.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/directory-wrong-layer-count.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/manifest.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-geometry-does-not-sum.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-geometry-zero-packet-length.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-missing-packet-geometry.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-no-references.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-status-not-experimental.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unknown-field.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unsupported-protocol-version.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-unsupported-suite-id.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-wrong-document-type.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/vectors/negative/registry-wrong-hop-count.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:railway-frozen/spn-gateway.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:scripts/generate-architecture-city-source-map.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:scripts/generate-public-architecture-city-map.mjs",
+      "to": "file:.github/workflows/release.yml",
       "type": "references",
       "confidence": "inferred"
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:.github/workflows/standby-place.yml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:.gitleaks.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:apps/web/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:apps/web/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:apps/web/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:apps/web/package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:apps/web/package.json",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28633,108 +28339,6 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:apps/web/public/brand/icon-maskable-512.png",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:apps/web/src/lander.css",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/hz-25519-761/src/handshake.rs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:railway-frozen/emergency/standby-place.mjs",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:.claude/settings.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:.docguard-allow.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:.github/dependabot.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:.github/workflows/architecture-city-sync.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:.github/workflows/dead-drop.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:.github/workflows/hawkscan.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:.github/workflows/release.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:.gitleaks.toml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:apps/web/.gitignore",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:apps/web/Dockerfile",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:apps/web/index.html",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:apps/web/package-lock.json",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
-      "to": "file:apps/web/package.json",
       "type": "references",
       "confidence": "inferred"
     },
@@ -28818,6 +28422,12 @@
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:apps/web/src/lander.css",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:apps/web/src/main.tsx",
       "type": "references",
       "confidence": "inferred"
@@ -28866,6 +28476,18 @@
     },
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/docs/research/2026-10-03-tor-attack-record.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/full-branch.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/README.md",
       "type": "references",
       "confidence": "inferred"
@@ -28873,6 +28495,390 @@
     {
       "from": "file:apps/web/public/legal/dead-drop-privacy.html",
       "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/expo-module.config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/index.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTor.podspec",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/DeadDropTorModule.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRust.swift",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.h",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/generated/DeadDropTorRustFFI.modulemap",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/ios/lib/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/bindgen/src/main.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/examples/live.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/core/uniffi.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/rust/rust-toolchain.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTor.types.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/modules/dead-drop-tor/src/DeadDropTorModule.web.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/build-dead-drop-tor-ios.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/generate-dead-drop-tor-bindings.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/scripts/test-tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/src/core/deaddrop/tor-transport.ts",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/mobile/tor-workflow.yml.disabled",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/relay/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/relay/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/relay/onion-service.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/relay/tor-version-bump-pr371.patch",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:archive/tor-do-not-use/relay/torrc.template",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:docs/audit/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:docs/public-drafts/hz-25519-761/LICENSE-CHANGE.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:docs/public-drafts/hz-25519-761/README.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:docs/public-drafts/hz-25519-761/STORY.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:package-lock.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:package.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/.dockerignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/.gitattributes",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/.gitignore",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/AGENTS.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/Dockerfile",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/apps/end-user-beta/.gitkeep",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/apps/end-user-beta/acceptance-live.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/apps/end-user-beta/assets/asymmetry-emblem-v1-2048.png",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/apps/end-user-beta/beta-disclosure.test.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/apps/end-user-beta/client-api.js",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/apps/end-user-beta/index.html",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/apps/end-user-beta/preview-server.mjs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/conformance/__init__.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/conformance/validator.py",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/deny.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/deploy/caddy/Caddyfile.private-http",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/docker-entrypoint.sh",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/docs/threat-to-test-matrix.md",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/examples/baseline-config.json",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/fuzz/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/directory_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/holdzero_hello.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/holdzero_open.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/fuzz/fuzz_targets/registry_parse.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/pyproject.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/railway.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/reference/client-core/Cargo.toml",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/reference/client-core/src/envelope.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/public/legal/dead-drop-privacy.html",
+      "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
       "type": "references",
       "confidence": "inferred"
     },
