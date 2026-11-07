@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "2925758d6dadfee889d14b20874a3cc8ee2ac0f4",
-  "generatedAt": "2026-11-06T23:30:47.413Z",
+  "commit": "b69edb192159ea150da742d6bc2c105d10a85867",
+  "generatedAt": "2026-11-07T00:09:51.712Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -2668,8 +2668,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 28783,
-      "lines": 501,
+      "size": 33698,
+      "lines": 598,
       "symbols": [
         {
           "name": "Arrow",
@@ -2922,8 +2922,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 24136,
-      "lines": 432,
+      "size": 26728,
+      "lines": 460,
       "symbols": [],
       "headings": []
     },
@@ -29472,12 +29472,6 @@
     },
     {
       "from": "file:apps/web/src/PublicSite.tsx",
-      "to": "file:packages/dead-drop/reference/observability/prometheus.example.yml",
-      "type": "references",
-      "confidence": "inferred"
-    },
-    {
-      "from": "file:apps/web/src/PublicSite.tsx",
       "to": "file:.claude/settings.json",
       "type": "references",
       "confidence": "inferred"
@@ -30151,6 +30145,12 @@
     {
       "from": "file:apps/web/src/PublicSite.tsx",
       "to": "file:packages/dead-drop/reference/client-core/src/lib.rs",
+      "type": "references",
+      "confidence": "inferred"
+    },
+    {
+      "from": "file:apps/web/src/PublicSite.tsx",
+      "to": "file:packages/dead-drop/reference/client-core/src/mobile_ffi.rs",
       "type": "references",
       "confidence": "inferred"
     },
