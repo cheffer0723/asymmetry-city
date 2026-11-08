@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "b69edb192159ea150da742d6bc2c105d10a85867",
-  "generatedAt": "2026-11-07T00:09:51.712Z",
+  "commit": "8cf2ac547dc16fc69aa75cb3b3c124ee3b4526bd",
+  "generatedAt": "2026-11-08T22:07:07.878Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -1872,8 +1872,8 @@
       "group": "product",
       "kind": "artifact",
       "status": "source",
-      "size": 13083,
-      "lines": 183,
+      "size": 12657,
+      "lines": 180,
       "symbols": [],
       "headings": []
     },
