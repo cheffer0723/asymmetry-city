@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.1.0",
   "repository": "cheffer0723/asymmetry",
-  "commit": "8cf2ac547dc16fc69aa75cb3b3c124ee3b4526bd",
-  "generatedAt": "2026-11-08T22:07:07.878Z",
+  "commit": "fa26b7935a1aa21f4ace5d75945bc116fa8565a8",
+  "generatedAt": "2026-11-25T00:13:58.067Z",
   "fidelity": {
     "principle": "repository-is-source-of-truth",
     "inferredEdges": "labelled",
@@ -2668,8 +2668,8 @@
       "group": "product",
       "kind": "application",
       "status": "source",
-      "size": 33698,
-      "lines": 598,
+      "size": 33929,
+      "lines": 600,
       "symbols": [
         {
           "name": "Arrow",
